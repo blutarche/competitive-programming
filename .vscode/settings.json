@@ -2,7 +2,8 @@
   "files.associations": {
     "*.prisma": "graphql",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp"
   },
   "code-runner.executorMap": {
     "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && cat $dirWithoutTrailingSlash/in.txt | $dirWithoutTrailingSlash/sol"
