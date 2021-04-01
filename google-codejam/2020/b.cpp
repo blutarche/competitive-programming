@@ -32,8 +32,8 @@ typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
-typedef vector<pll> vll;
-typedef vector<pii> vii;
+typedef vector<pll> vpll;
+typedef vector<pii> vpii;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -46,6 +46,7 @@ double eps = 1e-12;
 #define pb push_back
 #define fi first
 #define se second
+#define el endl;
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -54,10 +55,40 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxN 200
+
+// int g[mxN][mxN];
 
 void solve()
 {
+  string s;
+  cin >> s;
+  int l = 0;
+  for (char sc : s)
+  {
+    int c = sc - '0';
+    if (c < l)
+    {
+      while (c++ < l)
+      {
+        cout << ")";
+      }
+    }
+    else
+    {
+      while (l < c--)
+      {
+        cout << "(";
+      }
+    }
+    cout << sc - '0';
+    l = sc - '0';
+  }
+  while (l--)
+  {
+    cout << ")";
+  }
+  cout << endl;
 }
 
 int main()

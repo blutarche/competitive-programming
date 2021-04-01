@@ -32,8 +32,8 @@ typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
-typedef vector<pll> vll;
-typedef vector<pii> vii;
+typedef vector<pll> vpll;
+typedef vector<pii> vpii;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -46,6 +46,7 @@ double eps = 1e-12;
 #define pb push_back
 #define fi first
 #define se second
+#define el endl;
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -54,10 +55,53 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxN 200
+
+int g[mxN][mxN];
 
 void solve()
 {
+
+  memset(g, 0, sizeof(g));
+  int n;
+  cin >> n;
+  forn(i, n)
+  {
+    forn(j, n)
+    {
+      cin >> g[i][j];
+    }
+  }
+  int r = 0, c = 0, t = 0;
+  forn(i, n)
+  {
+    bool ur[mxN], uc[mxN];
+    memset(ur, 0, sizeof(ur));
+    memset(uc, 0, sizeof(uc));
+    bool uur = false, uuc = false;
+    forn(j, n)
+    {
+      if (i == j)
+      {
+        t += g[i][j];
+      }
+      if (ur[g[i][j]])
+      {
+        uur = true;
+      }
+      if (uc[g[j][i]])
+      {
+        uuc = true;
+      }
+      ur[g[i][j]] = true;
+      uc[g[j][i]] = true;
+    }
+    if (uur)
+      r++;
+    if (uuc)
+      c++;
+  }
+  cout << t << " " << r << " " << c << el;
 }
 
 int main()

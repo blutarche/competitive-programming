@@ -32,8 +32,8 @@ typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
-typedef vector<pll> vll;
-typedef vector<pii> vii;
+typedef vector<pll> vpll;
+typedef vector<pii> vpii;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -46,6 +46,7 @@ double eps = 1e-12;
 #define pb push_back
 #define fi first
 #define se second
+#define el endl;
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -54,10 +55,58 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxN 200
+
+vi v;
+int cost = 0;
+
+void rev(int i, int j)
+{
+  int a = i, b = j;
+  while (a < b)
+  {
+    int tmp = v[a];
+    v[a] = v[b];
+    v[b] = tmp;
+    a++;
+    b--;
+  }
+  cost += j - i + 1;
+}
 
 void solve()
 {
+  v.clear();
+  int n;
+  cin >> n;
+  forn(i, n)
+  {
+    int a;
+    cin >> a;
+    v.push_back(a);
+  }
+  cost = 0;
+  forn(i, v.size() - 1)
+  {
+    int minpos = 0;
+    int min = 99999;
+    int j = i;
+    for (j = i; j < v.size(); j++)
+    {
+      if (v[j] < min)
+      {
+        minpos = j;
+        min = v[j];
+      }
+    }
+    rev(i, minpos);
+    // for (int x : v)
+    // {
+    //   cout << x << " ";
+    // }
+    // cout << el;
+  }
+  cout << cost << el;
 }
 
 int main()

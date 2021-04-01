@@ -27,7 +27,7 @@ typedef long double ld;
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
 typedef pair<double, double> pdd;
-typedef vector<ll> vll;
+typedef vector<ll> vl;
 typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef vector<vector<ll>> vvl;
@@ -46,6 +46,7 @@ double eps = 1e-12;
 #define pb push_back
 #define fi first
 #define se second
+#define el endl;
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -54,20 +55,34 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
-
-void solve()
-{
-}
-
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
+  int T = 50;
+  int P = 86;
+  cout << T << el;
+  cout << P << el;
+  int cheater = rand() % 100;
+  forn(i, 100)
   {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
+    forn(j, 10000)
+    {
+      if (i == 0)
+      {
+        cout << "1";
+      }
+      else
+      {
+        if (j < 5000)
+        {
+          cout << "0";
+        }
+        else
+        {
+          cout << "1";
+        }
+      }
+    }
+    cout << el;
   }
 
   return 0;
