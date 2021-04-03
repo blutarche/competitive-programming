@@ -45,7 +45,8 @@ double eps = 1e-12;
 #define mp make_pair
 #define pb push_back
 #define fi first
-#define se second #define el endl
+#define se second
+#define el endl
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -56,19 +57,11 @@ double eps = 1e-12;
 
 #define mxN 100
 
-void solve()
-{
-}
-
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+  string a = "BfZBBB";
+  string b = "BbRJFB";
+  cout << a << "-" << b << el;
 
   return 0;
 }

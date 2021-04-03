@@ -18,22 +18,21 @@
 #include <ctime>
 #include <cmath>
 #include <cstdio>
-#include <cstring>
 
 using namespace std;
 
 typedef long long ll;
 typedef long double ld;
-typedef pair<int, int> pii;
-typedef pair<ll, ll> pll;
+typedef pair<int, int> p32;
+typedef pair<ll, ll> p64;
 typedef pair<double, double> pdd;
-typedef vector<ll> vl;
-typedef vector<int> vi;
-typedef vector<vector<int>> vvi;
-typedef vector<vector<ll>> vvl;
-typedef vector<vector<pll>> vvll;
-typedef vector<pll> vll;
-typedef vector<pii> vii;
+typedef vector<ll> v64;
+typedef vector<int> v32;
+typedef vector<vector<int>> vv32;
+typedef vector<vector<ll>> vv64;
+typedef vector<vector<p64>> vvp64;
+typedef vector<p64> vp64;
+typedef vector<p32> vp32;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -45,7 +44,8 @@ double eps = 1e-12;
 #define mp make_pair
 #define pb push_back
 #define fi first
-#define se second #define el endl
+#define se second
+#define el endl
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -54,20 +54,12 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
-
-void solve()
-{
-}
-
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
+  string s;
+  while (cin >> s)
   {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
+    cout << "NO" << endl;
   }
 
   return 0;

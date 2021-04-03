@@ -9,6 +9,6 @@
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
-    "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && cat $dirWithoutTrailingSlash/in.txt | $dirWithoutTrailingSlash/sol > $dirWithoutTrailingSlash/out.txt"
+    "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && cat $dirWithoutTrailingSlash/in.txt | $dirWithoutTrailingSlash/sol"
   }
 }

@@ -62,12 +62,41 @@ void solve()
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
+  string s;
+  cin >> s;
+  char p1 = s[0];
+  char p2 = s[1];
+  if (s.length() <= 2)
   {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
+    cout << "YES" << endl;
+    return 0;
+  }
+  bool cor = true;
+  forn(i, s.length() - 2)
+  {
+    int idx = i + 2;
+    char c = s[idx];
+    int n1 = p1 - 'A';
+    int n2 = p2 - 'A';
+    int n = (p1 + p2) % 26;
+    // cout << "n:" << n << endl;
+    char should = 'A' + n;
+    // cout << p1 << " " << p2 << " = " << should << " -- " << c << endl;
+    if (should != c)
+    {
+      cor = false;
+      break;
+    }
+    p1 = p2;
+    p2 = c;
+  }
+  if (cor)
+  {
+    cout << "YES" << endl;
+  }
+  else
+  {
+    cout << "NO" << endl;
   }
 
   return 0;

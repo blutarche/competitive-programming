@@ -45,7 +45,8 @@ double eps = 1e-12;
 #define mp make_pair
 #define pb push_back
 #define fi first
-#define se second #define el endl
+#define se second
+#define el endl
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
@@ -55,20 +56,73 @@ double eps = 1e-12;
 #define sz(x) ((ll)(x).size())
 
 #define mxN 100
+char g[mxN][mxN];
+int r, c;
+int ans = 0;
+
+void eat(int y, int x)
+{
+  if (y < 0 || y > r || x < 0 || x > c)
+    return;
+  if (g[y][x] == '*')
+    ans++;
+}
 
 void solve()
 {
+  memset(g, 0, sizeof(g));
+  ans = 0;
+
+  cin >> r >> c;
+  forn(i, r)
+  {
+    string s;
+    cin >> s;
+    forn(j, s.length())
+    {
+      g[i + 1][j + 1] = s[j];
+    }
+  }
+  int y = 1, x = 1;
+  eat(y, x);
+  while (y != r || x != c)
+  {
+    if (g[y][x + 1] == '*' && x < c)
+    {
+      x++;
+    }
+    else if (g[y + 1][x] == '*' && y < r)
+    {
+      y++;
+    }
+    else if (x < c)
+    {
+      x++;
+    }
+    else
+    {
+      y++;
+    }
+    // cout << y << " " << x << el;
+    eat(y, x);
+    if (y == r && x == c)
+    {
+      break;
+    }
+  }
+  cout << ans << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+  // int T;
+  // cin >> T;
+  // forn(i, T)
+  // {
+  //   cout << "Case #" << i + 1 << ": ";
+  //   solve();
+  // }
+  solve();
 
   return 0;
 }
