@@ -34,6 +34,7 @@ typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
 typedef vector<pll> vll;
 typedef vector<pii> vii;
+typedef priority_queue<int, int> pqi;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -45,6 +46,7 @@ double eps = 1e-12;
 #define mp make_pair
 #define pb push_back
 #define fi first
+#define el endl
 #define se second #define el endl
 #define INF 2e18
 #define fast_cin()                  \
