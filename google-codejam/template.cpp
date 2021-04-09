@@ -46,6 +46,7 @@ double eps = 1e-12;
 #define pb push_back
 #define fi first
 #define se second
+#define el endl
 #define INF 2e18
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
