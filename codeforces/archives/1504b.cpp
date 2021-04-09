@@ -34,7 +34,6 @@ typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
 typedef vector<pll> vll;
 typedef vector<pii> vii;
-typedef priority_queue<int, int> pqi;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -56,10 +55,75 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxN 300001
+
+bool g[mxN];
+string a, b;
+
+void flip(int idx)
+{
+  if (a[idx] == '0')
+    a[idx] = '1';
+  else
+    a[idx] = '0';
+}
 
 void solve()
 {
+  memset(g, false, sizeof(g));
+  int n;
+  cin >> n;
+  cin >> a;
+  cin >> b;
+  int c0 = 0, c1 = 0;
+  for (int i = 0; i < n; i++)
+  {
+    if (a[i] == '0')
+      c0++;
+    else
+      c1++;
+    if (i % 2 == 1)
+    {
+      if (c0 == c1)
+        g[i] = true;
+    }
+  }
+
+  bool f = false;
+
+  for (int i = n - (n % 2) - 1; i > 0; i -= 2)
+  {
+    if (f)
+    {
+      flip(i);
+      flip(i - 1);
+    }
+    if (a[i] != b[i] && g[i])
+    {
+      f = !f;
+      flip(i);
+      flip(i - 1);
+    }
+    // cout << i << " : " << a << " | " << b << el;
+  }
+
+  bool can = true;
+  for (int i = 0; i < n; i++)
+  {
+    if (a[i] != b[i])
+    {
+      can = false;
+      break;
+    }
+  }
+  if (can)
+  {
+    cout << "YES" << el;
+  }
+  else
+  {
+    cout << "NO" << el;
+  }
 }
 
 int main()
@@ -68,10 +132,9 @@ int main()
   cin >> T;
   for (int i = 0; i < T; i++)
   {
-    cout << "Case #" << i + 1 << ": ";
+    // cout << "Case #" << i + 1 << ": ";
     solve();
   }
-  // solve();
 
   return 0;
 }

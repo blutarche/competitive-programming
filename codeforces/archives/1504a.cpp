@@ -34,7 +34,6 @@ typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
 typedef vector<pll> vll;
 typedef vector<pii> vii;
-typedef priority_queue<int, int> pqi;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -58,20 +57,72 @@ double eps = 1e-12;
 
 #define mxN 100
 
+bool is_palin(string s)
+{
+  int mid = s.length() / 2;
+  forn(j, mid)
+  {
+    int k = s.length() - 1 - j;
+    if (s[j] != s[k])
+      return false;
+  }
+  return true;
+}
+
 void solve()
 {
+  int n;
+  cin >> n;
+  forn(i, n)
+  {
+    string s;
+    cin >> s;
+    int mid = s.length() / 2;
+    bool allA = true;
+    forn(j, s.length())
+    {
+      if (s[j] != 'a')
+      {
+        allA = false;
+      }
+    }
+    bool inserted = false;
+    forn(j, mid)
+    {
+      int k = s.length() - 1 - j;
+      if (s[j] == s[k] && s[j] != 'a')
+      {
+        s.insert(j, "a");
+        inserted = true;
+        break;
+      }
+    }
+    if (!inserted)
+    {
+      s.insert(mid, "a");
+    }
+    if (is_palin(s))
+    {
+      cout << "NO" << el;
+    }
+    else
+    {
+      cout << "YES" << el;
+      cout << s << el;
+    }
+  }
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+  // int T;
+  // cin >> T;
+  // for (int i = 0; i < T; i++)
+  // {
+  //   cout << "Case #" << i + 1 << ": ";
+  //   solve();
+  // }
+  solve();
 
   return 0;
 }

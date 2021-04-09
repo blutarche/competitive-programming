@@ -5,7 +5,10 @@
     "iostream": "cpp",
     "vector": "cpp",
     "functional": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "string": "cpp",
+    "queue": "cpp",
+    "utility": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"

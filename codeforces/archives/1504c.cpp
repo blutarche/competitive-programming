@@ -34,7 +34,6 @@ typedef vector<vector<ll>> vvl;
 typedef vector<vector<pll>> vvll;
 typedef vector<pll> vll;
 typedef vector<pii> vii;
-typedef priority_queue<int, int> pqi;
 ll MOD = 998244353;
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
@@ -56,10 +55,81 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxN 300001
 
 void solve()
 {
+  int n;
+  cin >> n;
+  string s;
+  cin >> s;
+
+  if (s[0] == '0' || s[n - 1] == '0')
+  {
+    cout << "NO" << el;
+    return;
+  }
+  int c0 = 0, c1 = 0;
+  string a = "", b = "";
+  forn(i, n)
+  {
+    a.push_back('.');
+    b.push_back('.');
+    if (s[i] == '1')
+      c1++;
+    else
+      c0++;
+  }
+  if (c0 % 2 != 0 || c1 % 2 != 0)
+  {
+    cout << "NO" << el;
+    return;
+  }
+  int cc1 = 0, cc0 = 0;
+  int ca = 0;
+  int cb = 0;
+  forn(i, n)
+  {
+    if (s[i] == '1')
+    {
+      if (cc1 < c1 / 2)
+      {
+        a[i] = '(';
+        b[i] = '(';
+        ca++;
+        cb++;
+      }
+      else
+      {
+        a[i] = ')';
+        b[i] = ')';
+        ca--;
+        cb--;
+      }
+      cc1++;
+    }
+    else
+    {
+      if (cc0 % 2 == 0)
+      {
+        a[i] = '(';
+        b[i] = ')';
+        ca++;
+        cb--;
+      }
+      else
+      {
+        a[i] = ')';
+        b[i] = '(';
+        ca--;
+        cb++;
+      }
+      cc0++;
+    }
+  }
+  cout << "YES" << el;
+  cout << a << el;
+  cout << b << el;
 }
 
 int main()
@@ -68,10 +138,9 @@ int main()
   cin >> T;
   for (int i = 0; i < T; i++)
   {
-    cout << "Case #" << i + 1 << ": ";
+    // cout << "Case #" << i + 1 << ": ";
     solve();
   }
-  // solve();
 
   return 0;
 }
