@@ -59,6 +59,79 @@ double eps = 1e-12;
 
 void solve()
 {
+  int n;
+  cin >> n;
+  ll prev = -1;
+  ll ans = 0;
+  forn(i, n)
+  {
+    ll tmp;
+    ll ans_round = 0;
+    cin >> tmp;
+    if (tmp > prev)
+    {
+      // cout << tmp << el;
+      prev = tmp;
+      continue;
+    }
+    string a = to_string(tmp);
+    string b = to_string(prev);
+    bool mismatched = false;
+    int mispos = 0;
+    forn(j, b.length())
+    {
+      if (j < a.length() && a[j] != b[j])
+      {
+        mismatched = true;
+        mispos = j;
+        break;
+      }
+    }
+    // cout << "a: " << a << el;
+    if (!mismatched && a.length() < b.length())
+    {
+      string strip = b.substr(a.length());
+      // cout << "Strip: " << strip << el;
+      ll st = stoll(strip) + 1;
+      string st2 = to_string(st);
+      if (st2.length() <= strip.length())
+      {
+        st2 = string(strip.length() - st2.length(), '0') + st2;
+        // cout << "st2:" << st2 << el;
+        forn(j, st2.length())
+        {
+          a.push_back(st2[j]);
+          ans_round++;
+        }
+      }
+    }
+    while (stoll(a) <= stoll(b))
+    {
+      int j = 0;
+      forn(k, 10)
+      {
+        a.push_back(j);
+        if (stoll(a) > stoll(b))
+        {
+          ans_round++;
+          break;
+        }
+        a.pop_back();
+        j++;
+      }
+      if (stoll(a) > stoll(b))
+      {
+        break;
+      }
+      ans_round++;
+      a.push_back('0');
+    }
+    // cout << tmp << " " << a << " " << ans_round << el;
+    ans += ans_round;
+    prev = stoll(a);
+    // prev = newa;
+  }
+  cout << ans << el;
 }
 
 int main()

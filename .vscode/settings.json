@@ -8,7 +8,11 @@
     "*.tcc": "cpp",
     "string": "cpp",
     "queue": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "__locale": "cpp",
+    "__string": "cpp",
+    "regex": "cpp",
+    "string_view": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
