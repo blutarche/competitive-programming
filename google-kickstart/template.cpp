@@ -1,39 +1,20 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <sstream>
-#include <queue>
-#include <deque>
-#include <bitset>
-#include <iterator>
-#include <list>
-#include <stack>
-#include <map>
-#include <set>
-#include <functional>
-#include <numeric>
-#include <utility>
-#include <limits>
-#include <ctime>
-#include <cmath>
-#include <cstdio>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 typedef long long ll;
 typedef long double ld;
-typedef pair<int, int> p32;
-typedef pair<ll, ll> p64;
-typedef pair<double, double> pdd;
-typedef vector<ll> v64;
-typedef vector<int> v32;
-typedef vector<vector<int>> vv32;
-typedef vector<vector<ll>> vv64;
-typedef vector<vector<p64>> vvp64;
-typedef vector<p64> vp64;
-typedef vector<p32> vp32;
-ll MOD = 998244353;
+typedef pair<int, int> pi;
+typedef pair<ll, ll> pl;
+typedef pair<double, double> pd;
+typedef vector<int> vi;
+typedef vector<ll> vl;
+typedef vector<vector<int>> vvi;
+typedef vector<vector<ll>> vvl;
+typedef vector<vector<pl>> vvpl;
+typedef vector<pl> vpl;
+typedef vector<pi> vpi;
+
 double eps = 1e-12;
 #define forn(i, e) for (ll i = 0; i < e; i++)
 #define forsn(i, s, e) for (ll i = s; i < e; i++)
@@ -44,8 +25,10 @@ double eps = 1e-12;
 #define mp make_pair
 #define pb push_back
 #define fi first
+#define el endl
 #define se second
 #define INF 2e18
+ll MOD = 998244353;
 #define fast_cin()                  \
   ios_base::sync_with_stdio(false); \
   cin.tie(NULL);                    \
@@ -53,12 +36,15 @@ double eps = 1e-12;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
+#define mxn 100
+
 void solve()
 {
 }
 
 int main()
 {
+  fast_cin();
   int T;
   cin >> T;
   for (int i = 0; i < T; i++)
@@ -66,6 +52,7 @@ int main()
     cout << "Case #" << i + 1 << ": ";
     solve();
   }
+  // solve();
 
   return 0;
 }

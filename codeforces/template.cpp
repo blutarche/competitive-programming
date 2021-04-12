@@ -36,7 +36,7 @@ ll MOD = 998244353;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxN 100
+#define mxn 100
 
 void solve()
 {
