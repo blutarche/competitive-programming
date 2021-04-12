@@ -13,7 +13,8 @@
     "__string": "cpp",
     "regex": "cpp",
     "string_view": "cpp",
-    "map": "cpp"
+    "map": "cpp",
+    "random": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
