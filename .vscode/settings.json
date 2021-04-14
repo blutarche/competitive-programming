@@ -14,7 +14,9 @@
     "regex": "cpp",
     "string_view": "cpp",
     "map": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "valarray": "cpp",
+    "ios": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
