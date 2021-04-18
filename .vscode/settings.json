@@ -16,7 +16,8 @@
     "map": "cpp",
     "random": "cpp",
     "valarray": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "algorithm": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
