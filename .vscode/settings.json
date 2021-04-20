@@ -33,7 +33,9 @@
     "span": "cpp",
     "unordered_map": "cpp",
     "unordered_set": "cpp",
-    "ranges": "cpp"
+    "ranges": "cpp",
+    "bitset": "cpp",
+    "stack": "cpp"
   },
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ -std=c++17 $fileName -o sol && $dirWithoutTrailingSlash/sol"
