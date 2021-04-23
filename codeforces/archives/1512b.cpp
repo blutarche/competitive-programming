@@ -49,10 +49,10 @@ double eps = 1e-12;
 #define se second
 #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -63,86 +63,86 @@ int n;
 
 void print()
 {
-  forn(i, n)
-  {
-    forn(j, n)
+    forn(i, n)
     {
-      cout << g[i][j];
+        forn(j, n)
+        {
+            cout << g[i][j];
+        }
+        cout << el;
     }
-    cout << el;
-  }
 }
 
 void solve()
 {
-  cin >> n;
-  forn(i, n)
-  {
-    scanf("%s", g[i]);
-  }
-  int c = 0;
-  forn(i, n)
-  {
-    forn(j, n)
+    cin >> n;
+    forn(i, n)
     {
-      if (g[i][j] == '*')
-      {
-        if (c == 0)
-          a = mp(i, j);
+        scanf("%s", g[i]);
+    }
+    int c = 0;
+    forn(i, n)
+    {
+        forn(j, n)
+        {
+            if (g[i][j] == '*')
+            {
+                if (c == 0)
+                    a = mp(i, j);
+                else
+                    b = mp(i, j);
+                c++;
+            }
+        }
+    }
+    // cout << a.fi << "," << a.se << " | " << b.fi << "," << b.se << el;
+    // diag
+    if (a.fi != b.fi && a.se != b.se)
+    {
+        g[a.fi][b.se] = '*';
+        g[b.fi][a.se] = '*';
+    }
+    // hori
+    else if (a.fi == b.fi)
+    {
+        if (a.fi > 0)
+        {
+            g[a.fi - 1][a.se] = '*';
+            g[b.fi - 1][b.se] = '*';
+        }
         else
-          b = mp(i, j);
-        c++;
-      }
+        {
+            g[a.fi + 1][a.se] = '*';
+            g[b.fi + 1][b.se] = '*';
+        }
     }
-  }
-  // cout << a.fi << "," << a.se << " | " << b.fi << "," << b.se << el;
-  // diag
-  if (a.fi != b.fi && a.se != b.se)
-  {
-    g[a.fi][b.se] = '*';
-    g[b.fi][a.se] = '*';
-  }
-  // hori
-  else if (a.fi == b.fi)
-  {
-    if (a.fi > 0)
+    // verti
+    else if (a.se == b.se)
     {
-      g[a.fi - 1][a.se] = '*';
-      g[b.fi - 1][b.se] = '*';
+        if (a.se > 0)
+        {
+            g[a.fi][a.se - 1] = '*';
+            g[b.fi][b.se - 1] = '*';
+        }
+        else
+        {
+            g[a.fi][a.se + 1] = '*';
+            g[b.fi][b.se + 1] = '*';
+        }
     }
-    else
-    {
-      g[a.fi + 1][a.se] = '*';
-      g[b.fi + 1][b.se] = '*';
-    }
-  }
-  // verti
-  else if (a.se == b.se)
-  {
-    if (a.se > 0)
-    {
-      g[a.fi][a.se - 1] = '*';
-      g[b.fi][b.se - 1] = '*';
-    }
-    else
-    {
-      g[a.fi][a.se + 1] = '*';
-      g[b.fi][b.se + 1] = '*';
-    }
-  }
-  print();
+    print();
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

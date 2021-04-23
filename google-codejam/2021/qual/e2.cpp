@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -68,101 +68,101 @@ map<ll, ld> pq;
 
 ld prob_to_solve(ld S, ld Q)
 {
-  return 1.0 / (1.0 + exp(-1 * (S - Q)));
+    return 1.0 / (1.0 + exp(-1 * (S - Q)));
 }
 
 ld prob_to_cheat(ld S, ld Q)
 {
-  return 0.5 + prob_to_solve(S, Q) * 0.5;
+    return 0.5 + prob_to_solve(S, Q) * 0.5;
 }
 
 ld difficulty_score(ld freq)
 {
-  return 6 * (mxP - freq) / mxP - 3;
+    return 6 * (mxP - freq) / mxP - 3;
 }
 
 ld skill_score(ld score)
 {
-  return 6 * (mxQ - score) / mxQ - 3;
+    return 6 * (mxQ - score) / mxQ - 3;
 }
 
 int find_cheater()
 {
-  vector<pli> v;
-  forn(i, mxP)
-  {
-    ld cheat = 1;
-    ld real = 0;
-    forn(j, mxQ)
+    vector<pli> v;
+    forn(i, mxP)
     {
-      ld df = difficulty_score(pq[j]);
-      if (p[i][j])
-      {
-        cheat *= prob_to_cheat(0, df);
-        // real += prob_to_solve(0, df);
-      }
-      else
-      {
-        cheat *= 0.5 * (1 - prob_to_solve(0, df));
-        // real -= 0.5
-      }
-      cheat *= 2;
+        ld cheat = 1;
+        ld real = 0;
+        forn(j, mxQ)
+        {
+            ld df = difficulty_score(pq[j]);
+            if (p[i][j])
+            {
+                cheat *= prob_to_cheat(0, df);
+                // real += prob_to_solve(0, df);
+            }
+            else
+            {
+                cheat *= 0.5 * (1 - prob_to_solve(0, df));
+                // real -= 0.5
+            }
+            cheat *= 2;
+        }
+        v.push_back(mp(cheat, i + 1));
     }
-    v.push_back(mp(cheat, i + 1));
-  }
-  sort(all(v), greater<pli>());
-  // for (pli p : v)
-  // {
-  //   cout << p.first << " | " << p.second << el;
-  // }
-  return v[0].second;
+    sort(all(v), greater<pli>());
+    // for (pli p : v)
+    // {
+    //     cout << p.first << " | " << p.second << el;
+    // }
+    return v[0].second;
 }
 
 void solve()
 {
-  memset(p, 0, sizeof(p));
-  pp.clear();
-  pq.clear();
+    memset(p, 0, sizeof(p));
+    pp.clear();
+    pq.clear();
 
-  forn(i, mxP)
-  {
-    string s;
-    cin >> s;
-    int sum = 0;
-    int j = 0;
-    for (char c : s)
+    forn(i, mxP)
     {
-      if (c == '1')
-      {
-        pq[j]++;
-        p[i][j] = true;
-        sum++;
-      }
-      else
-      {
-        p[i][j] = false;
-      }
-      j++;
+        string s;
+        cin >> s;
+        int sum = 0;
+        int j = 0;
+        for (char c : s)
+        {
+            if (c == '1')
+            {
+                pq[j]++;
+                p[i][j] = true;
+                sum++;
+            }
+            else
+            {
+                p[i][j] = false;
+            }
+            j++;
+        }
+        pp[i] = sum;
     }
-    pp[i] = sum;
-  }
 
-  int cheater = find_cheater();
-  cout << cheater << el;
+    int cheater = find_cheater();
+    cout << cheater << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
+    int T;
+    cin >> T;
 
-  double P;
-  cin >> P;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    double P;
+    cin >> P;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

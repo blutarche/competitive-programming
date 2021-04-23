@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 #define MOD 1000000007
@@ -66,48 +66,48 @@ map<int, int> m;
 
 void solve()
 {
-  memset(a, 0, sizeof(a));
-  memset(b0, 0, sizeof(b0));
-  memset(b1, 0, sizeof(b1));
-  m.clear();
-  cin >> n;
-  forn(i, n)
-  {
-    cin >> a[i];
-    m[a[i]]++;
-  }
-  int aa = a[0];
-  forn(i, n)
-  {
-    aa = aa & a[i];
-  }
-  ll sum = 1;
-  sum *= m[aa];
-  sum %= MOD;
-  m[aa]--;
-  sum *= m[aa];
-  sum %= MOD;
-  m[aa]--;
-  forn(i, n - 2)
-  {
-    sum *= (n - 2 - i);
+    memset(a, 0, sizeof(a));
+    memset(b0, 0, sizeof(b0));
+    memset(b1, 0, sizeof(b1));
+    m.clear();
+    cin >> n;
+    forn(i, n)
+    {
+        cin >> a[i];
+        m[a[i]]++;
+    }
+    int aa = a[0];
+    forn(i, n)
+    {
+        aa = aa & a[i];
+    }
+    ll sum = 1;
+    sum *= m[aa];
     sum %= MOD;
-  }
-  cout << sum << el;
+    m[aa]--;
+    sum *= m[aa];
+    sum %= MOD;
+    m[aa]--;
+    forn(i, n - 2)
+    {
+        sum *= (n - 2 - i);
+        sum %= MOD;
+    }
+    cout << sum << el;
 
-  // cout << "----" << el;
+    // cout << "----" << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

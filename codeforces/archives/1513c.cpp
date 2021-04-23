@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 #define MOD 1000000007
@@ -62,64 +62,64 @@ int d[mxN][10];
 
 void precal()
 {
-  memset(d, 0, sizeof(d));
-  forn(j, 10) d[0][j] = 1;
-  forn(i, mxN - 1)
-  {
-    int idx = i + 1;
-    forn(j, 10)
+    memset(d, 0, sizeof(d));
+    forn(j, 10) d[0][j] = 1;
+    forn(i, mxN - 1)
     {
-      if (j == 9)
-      {
-        d[idx][j] = (d[idx - 1][0] + d[idx - 1][1]);
-      }
-      else
-      {
-        d[idx][j] = d[idx - 1][j + 1];
-      }
-      d[idx][j] %= MOD;
+        int idx = i + 1;
+        forn(j, 10)
+        {
+            if (j == 9)
+            {
+                d[idx][j] = (d[idx - 1][0] + d[idx - 1][1]);
+            }
+            else
+            {
+                d[idx][j] = d[idx - 1][j + 1];
+            }
+            d[idx][j] %= MOD;
+        }
     }
-  }
 }
 
 void solve()
 {
-  int n, m;
-  scanf("%d %d", &n, &m);
-  int sum = 0;
-  while (true)
-  {
-    int digit = n % 10;
-    sum += d[m][digit];
-    sum %= MOD;
-    n /= 10;
-    if (n == 0)
-      break;
-  }
-  printf("%d\n", sum);
+    int n, m;
+    scanf("%d %d", &n, &m);
+    int sum = 0;
+    while (true)
+    {
+        int digit = n % 10;
+        sum += d[m][digit];
+        sum %= MOD;
+        n /= 10;
+        if (n == 0)
+            break;
+    }
+    printf("%d\n", sum);
 
-  // cout << "----" << el;
+    // cout << "----" << el;
 }
 
 int main()
 {
-  precal();
-  // forn(i, mxN)
-  // {
-  // forn(j, 10)
-  // {
-  //   cout << d[100][j] << " ";
-  // }
-  // cout << el;
-  // }
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    precal();
+    // forn(i, mxN)
+    // {
+    // forn(j, 10)
+    // {
+    //     cout << d[100][j] << " ";
+    // }
+    // cout << el;
+    // }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

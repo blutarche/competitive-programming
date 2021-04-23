@@ -49,10 +49,10 @@ double eps = 1e-12;
 #define se second
 #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -61,114 +61,114 @@ int n;
 
 void solve()
 {
-  int a, b;
-  int ta, tb;
-  cin >> a >> b;
-  ta = a;
-  tb = b;
-  string s;
-  cin >> s;
-  // fill in the known
-  forn(i, s.length() / 2)
-  {
-    int j = s.length() - i - 1;
-    if (s[i] != '?' && s[j] != '?' && s[i] != s[j])
+    int a, b;
+    int ta, tb;
+    cin >> a >> b;
+    ta = a;
+    tb = b;
+    string s;
+    cin >> s;
+    // fill in the known
+    forn(i, s.length() / 2)
     {
-      cout << "-1" << el;
-      return;
+        int j = s.length() - i - 1;
+        if (s[i] != '?' && s[j] != '?' && s[i] != s[j])
+        {
+            cout << "-1" << el;
+            return;
+        }
+        if (s[i] == '1' || s[j] == '1')
+        {
+            s[i] = '1';
+            s[j] = '1';
+            b -= 2;
+        }
+        else if (s[i] == '0' || s[j] == '0')
+        {
+            s[i] = '0';
+            s[j] = '0';
+            a -= 2;
+        }
     }
-    if (s[i] == '1' || s[j] == '1')
+    if (s.length() % 2 == 1)
     {
-      s[i] = '1';
-      s[j] = '1';
-      b -= 2;
+        int mid = s.length() / 2;
+        if (s[mid] == '1')
+        {
+            b--;
+        }
+        else if (s[mid] == '0')
+        {
+            a--;
+        }
     }
-    else if (s[i] == '0' || s[j] == '0')
+    // cout << a << " " << b << el;
+    // fill in the unknown
+    forn(i, s.length() / 2)
     {
-      s[i] = '0';
-      s[j] = '0';
-      a -= 2;
+        int j = s.length() - i - 1;
+        if (s[i] == '?' && s[j] == '?')
+        {
+            if (a >= 2)
+            {
+                s[i] = '0';
+                s[j] = '0';
+                a -= 2;
+            }
+            else
+            {
+                s[i] = '1';
+                s[j] = '1';
+                b -= 2;
+            }
+        }
     }
-  }
-  if (s.length() % 2 == 1)
-  {
-    int mid = s.length() / 2;
-    if (s[mid] == '1')
+    if (s.length() % 2 == 1)
     {
-      b--;
+        int mid = s.length() / 2;
+        if (s[mid] == '?')
+        {
+            if (a > 0)
+            {
+                s[mid] = '0';
+                a--;
+            }
+            else
+            {
+                s[mid] = '1';
+                b--;
+            }
+        }
     }
-    else if (s[mid] == '0')
+    // cout << "s:" << s << el;
+    forn(i, s.length())
     {
-      a--;
+        if (s[i] == '0')
+            ta--;
+        else
+            tb--;
     }
-  }
-  // cout << a << " " << b << el;
-  // fill in the unknown
-  forn(i, s.length() / 2)
-  {
-    int j = s.length() - i - 1;
-    if (s[i] == '?' && s[j] == '?')
+    if (ta != 0 || tb != 0)
     {
-      if (a >= 2)
-      {
-        s[i] = '0';
-        s[j] = '0';
-        a -= 2;
-      }
-      else
-      {
-        s[i] = '1';
-        s[j] = '1';
-        b -= 2;
-      }
+        cout << "-1" << el;
     }
-  }
-  if (s.length() % 2 == 1)
-  {
-    int mid = s.length() / 2;
-    if (s[mid] == '?')
-    {
-      if (a > 0)
-      {
-        s[mid] = '0';
-        a--;
-      }
-      else
-      {
-        s[mid] = '1';
-        b--;
-      }
-    }
-  }
-  // cout << "s:" << s << el;
-  forn(i, s.length())
-  {
-    if (s[i] == '0')
-      ta--;
     else
-      tb--;
-  }
-  if (ta != 0 || tb != 0)
-  {
-    cout << "-1" << el;
-  }
-  else
-  {
-    cout << s << el;
-  }
-  // cout << "-------" << el;
+    {
+        cout << s << el;
+    }
+    // cout << "-------" << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

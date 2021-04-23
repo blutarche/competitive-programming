@@ -48,42 +48,42 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 int main()
 {
-  int T = 50;
-  int P = 86;
-  cout << T << el;
-  cout << P << el;
-  int cheater = rand() % 100;
-  forn(i, 100)
-  {
-    forn(j, 10000)
+    int T = 50;
+    int P = 86;
+    cout << T << el;
+    cout << P << el;
+    int cheater = rand() % 100;
+    forn(i, 100)
     {
-      if (i == 0)
-      {
-        cout << "1";
-      }
-      else
-      {
-        if (j < 5000)
+        forn(j, 10000)
         {
-          cout << "0";
+            if (i == 0)
+            {
+                cout << "1";
+            }
+            else
+            {
+                if (j < 5000)
+                {
+                    cout << "0";
+                }
+                else
+                {
+                    cout << "1";
+                }
+            }
         }
-        else
-        {
-          cout << "1";
-        }
-      }
+        cout << el;
     }
-    cout << el;
-  }
 
-  return 0;
+    return 0;
 }

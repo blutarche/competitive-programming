@@ -46,10 +46,10 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -57,73 +57,73 @@ double eps = 1e-12;
 
 void solve()
 {
-  int n;
-  cin >> n;
-  int last = -1;
-  vector<int> min, max;
-  bool minu[mxN], maxu[mxN];
-  forn(i, n + 2)
-  {
-    minu[i] = false;
-    maxu[i] = false;
-  }
-  int curmin = 1, curmax = n;
-  forn(i, n)
-  {
-    int a;
-    cin >> a;
-    if (last != a)
+    int n;
+    cin >> n;
+    int last = -1;
+    vector<int> min, max;
+    bool minu[mxN], maxu[mxN];
+    forn(i, n + 2)
     {
-      min.push_back(a);
-      max.push_back(a);
-      minu[a] = true;
-      maxu[a] = true;
-      curmax = a - 1;
+        minu[i] = false;
+        maxu[i] = false;
     }
-    else
+    int curmin = 1, curmax = n;
+    forn(i, n)
     {
-      while (minu[curmin])
-      {
-        curmin++;
-      }
-      min.push_back(curmin);
-      minu[curmin] = true;
-      while (maxu[curmax])
-      {
-        curmax--;
-      }
-      max.push_back(curmax);
-      maxu[curmax] = true;
+        int a;
+        cin >> a;
+        if (last != a)
+        {
+            min.push_back(a);
+            max.push_back(a);
+            minu[a] = true;
+            maxu[a] = true;
+            curmax = a - 1;
+        }
+        else
+        {
+            while (minu[curmin])
+            {
+                curmin++;
+            }
+            min.push_back(curmin);
+            minu[curmin] = true;
+            while (maxu[curmax])
+            {
+                curmax--;
+            }
+            max.push_back(curmax);
+            maxu[curmax] = true;
+        }
+        last = a;
     }
-    last = a;
-  }
-  int i = 0;
-  for (int a : min)
-  {
-    cout << a;
-    if (i + 1 < min.size())
-      cout << " ";
-    i++;
-  }
-  cout << endl;
-  i = 0;
-  for (int a : max)
-  {
-    cout << a;
-    if (i + 1 < min.size())
-      cout << " ";
-    i++;
-  }
-  cout << endl;
+    int i = 0;
+    for (int a : min)
+    {
+        cout << a;
+        if (i + 1 < min.size())
+            cout << " ";
+        i++;
+    }
+    cout << endl;
+    i = 0;
+    for (int a : max)
+    {
+        cout << a;
+        if (i + 1 < min.size())
+            cout << " ";
+        i++;
+    }
+    cout << endl;
 }
 
 int main()
 {
-  int t;
-  cin >> t;
-  forn(i, t)
-  {
-    solve();
-  }
-  return 0;
+    int t;
+    cin >> t;
+    forn(i, t)
+    {
+        solve();
+    }
+    return 0;
 }

@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -59,88 +59,88 @@ double eps = 1e-12;
 
 void solve()
 {
-  int n;
-  cin >> n;
-  string s;
-  cin >> s;
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
 
-  if (s[0] == '0' || s[n - 1] == '0')
-  {
-    cout << "NO" << el;
-    return;
-  }
-  int c0 = 0, c1 = 0;
-  string a = "", b = "";
-  forn(i, n)
-  {
-    a.push_back('.');
-    b.push_back('.');
-    if (s[i] == '1')
-      c1++;
-    else
-      c0++;
-  }
-  if (c0 % 2 != 0 || c1 % 2 != 0)
-  {
-    cout << "NO" << el;
-    return;
-  }
-  int cc1 = 0, cc0 = 0;
-  int ca = 0;
-  int cb = 0;
-  forn(i, n)
-  {
-    if (s[i] == '1')
+    if (s[0] == '0' || s[n - 1] == '0')
     {
-      if (cc1 < c1 / 2)
-      {
-        a[i] = '(';
-        b[i] = '(';
-        ca++;
-        cb++;
-      }
-      else
-      {
-        a[i] = ')';
-        b[i] = ')';
-        ca--;
-        cb--;
-      }
-      cc1++;
+        cout << "NO" << el;
+        return;
     }
-    else
+    int c0 = 0, c1 = 0;
+    string a = "", b = "";
+    forn(i, n)
     {
-      if (cc0 % 2 == 0)
-      {
-        a[i] = '(';
-        b[i] = ')';
-        ca++;
-        cb--;
-      }
-      else
-      {
-        a[i] = ')';
-        b[i] = '(';
-        ca--;
-        cb++;
-      }
-      cc0++;
+        a.push_back('.');
+        b.push_back('.');
+        if (s[i] == '1')
+            c1++;
+        else
+            c0++;
     }
-  }
-  cout << "YES" << el;
-  cout << a << el;
-  cout << b << el;
+    if (c0 % 2 != 0 || c1 % 2 != 0)
+    {
+        cout << "NO" << el;
+        return;
+    }
+    int cc1 = 0, cc0 = 0;
+    int ca = 0;
+    int cb = 0;
+    forn(i, n)
+    {
+        if (s[i] == '1')
+        {
+            if (cc1 < c1 / 2)
+            {
+                a[i] = '(';
+                b[i] = '(';
+                ca++;
+                cb++;
+            }
+            else
+            {
+                a[i] = ')';
+                b[i] = ')';
+                ca--;
+                cb--;
+            }
+            cc1++;
+        }
+        else
+        {
+            if (cc0 % 2 == 0)
+            {
+                a[i] = '(';
+                b[i] = ')';
+                ca++;
+                cb--;
+            }
+            else
+            {
+                a[i] = ')';
+                b[i] = '(';
+                ca--;
+                cb++;
+            }
+            cc0++;
+        }
+    }
+    cout << "YES" << el;
+    cout << a << el;
+    cout << b << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

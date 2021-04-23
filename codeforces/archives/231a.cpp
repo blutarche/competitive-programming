@@ -46,25 +46,25 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 int main()
 {
-  int n;
-  cin >> n;
-  int ans = 0;
-  forn(i, n)
-  {
-    int a, b, c;
-    cin >> a >> b >> c;
-    if (a + b + c >= 2)
-      ans++;
-  }
-  cout << ans << endl;
-  return 0;
+    int n;
+    cin >> n;
+    int ans = 0;
+    forn(i, n)
+    {
+        int a, b, c;
+        cin >> a >> b >> c;
+        if (a + b + c >= 2)
+            ans++;
+    }
+    cout << ans << endl;
+    return 0;
 }

@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -42,73 +42,73 @@ ll prime[11];
 
 void solve()
 {
-  cin >> a >> b >> c;
-  ll cc = prime[c];
-  ll aa;
-  ll bb;
-  forn(i, 10)
-  {
-    ll tmpa = cc * prime[i + 1];
-    if (to_string(tmpa).length() == a)
+    cin >> a >> b >> c;
+    ll cc = prime[c];
+    ll aa;
+    ll bb;
+    forn(i, 10)
     {
-      aa = tmpa;
-      break;
+        ll tmpa = cc * prime[i + 1];
+        if (to_string(tmpa).length() == a)
+        {
+            aa = tmpa;
+            break;
+        }
     }
-  }
-  forn(i, 10)
-  {
-    ll tmpb = cc * prime[i + 1];
-    if (to_string(tmpb).length() == b)
+    forn(i, 10)
     {
-      bb = tmpb;
-      break;
+        ll tmpb = cc * prime[i + 1];
+        if (to_string(tmpb).length() == b)
+        {
+            bb = tmpb;
+            break;
+        }
     }
-  }
-  if (aa == bb)
-  {
-    aa += cc;
-  }
+    if (aa == bb)
+    {
+        aa += cc;
+    }
 
-  cout << aa << " " << bb << ln;
+    cout << aa << " " << bb << ln;
 }
 
 int main()
 {
-  forn(x, 10)
-  {
-    ll xx = -1;
-    for (ll i = pow(10, x) + 1;; i += 2)
+    forn(x, 10)
     {
-      bool none = true;
-      for (ll j = 3; j * j <= i; j += 2)
-      {
-        if (i % j == 0)
+        ll xx = -1;
+        for (ll i = pow(10, x) + 1;; i += 2)
         {
-          none = false;
-          break;
+            bool none = true;
+            for (ll j = 3; j * j <= i; j += 2)
+            {
+                if (i % j == 0)
+                {
+                    none = false;
+                    break;
+                }
+            }
+            if (none)
+            {
+                xx = i;
+                break;
+            }
         }
-      }
-      if (none)
-      {
-        xx = i;
-        break;
-      }
+        prime[x + 1] = xx;
     }
-    prime[x + 1] = xx;
-  }
-  // forn(x, 9)
-  // {
-  //   cout << prime[x] << ln;
-  // }
-  fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    // forn(x, 9)
+    // {
+    //     cout << prime[x] << ln;
+    // }
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

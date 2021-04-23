@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -44,15 +44,15 @@ void solve()
 
 int main()
 {
-  fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

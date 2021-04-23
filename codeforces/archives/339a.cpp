@@ -46,41 +46,41 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 int main()
 {
-  string s;
-  cin >> s;
-  vector<int> v;
-  int n = 0;
-  forn(i, s.length())
-  {
-    if (s[i] != '+')
+    string s;
+    cin >> s;
+    vector<int> v;
+    int n = 0;
+    forn(i, s.length())
     {
-      n = n * 10 + (s[i] - '0');
+        if (s[i] != '+')
+        {
+            n = n * 10 + (s[i] - '0');
+        }
+        else
+        {
+            v.push_back(n);
+            n = 0;
+        }
     }
-    else
+    v.push_back(n);
+    sort(v.begin(), v.end());
+    forn(i, v.size())
     {
-      v.push_back(n);
-      n = 0;
+        cout << v[i];
+        if (i + 1 < v.size())
+        {
+            cout << "+";
+        }
     }
-  }
-  v.push_back(n);
-  sort(v.begin(), v.end());
-  forn(i, v.size())
-  {
-    cout << v[i];
-    if (i + 1 < v.size())
-    {
-      cout << "+";
-    }
-  }
-  cout << endl;
-  return 0;
+    cout << endl;
+    return 0;
 }

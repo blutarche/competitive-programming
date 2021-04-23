@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 1000000000
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -49,268 +49,268 @@ int iterations = 0;
 
 void input()
 {
-  cin >> n >> m >> k;
-  forn(i, n)
-  {
-    forn(j, m - 1)
+    cin >> n >> m >> k;
+    forn(i, n)
     {
-      int tmp;
-      cin >> tmp;
-      mapp[mp(mp(i, j), mp(i, j + 1))] = tmp;
-      mapp[mp(mp(i, j + 1), mp(i, j))] = tmp;
+        forn(j, m - 1)
+        {
+            int tmp;
+            cin >> tmp;
+            mapp[mp(mp(i, j), mp(i, j + 1))] = tmp;
+            mapp[mp(mp(i, j + 1), mp(i, j))] = tmp;
+        }
     }
-  }
-  forn(i, n - 1)
-  {
-    forn(j, m)
+    forn(i, n - 1)
     {
-      int tmp;
-      cin >> tmp;
-      mapp[mp(mp(i, j), mp(i + 1, j))] = tmp;
-      mapp[mp(mp(i + 1, j), mp(i, j))] = tmp;
+        forn(j, m)
+        {
+            int tmp;
+            cin >> tmp;
+            mapp[mp(mp(i, j), mp(i + 1, j))] = tmp;
+            mapp[mp(mp(i + 1, j), mp(i, j))] = tmp;
+        }
     }
-  }
 }
 
 int get_map_val(int y, int x, int y2, int x2)
 {
-  pair<pi, pi> key = mp(mp(y, x), mp(y2, x2));
-  if (mapp.find(key) != mapp.end())
-    return mapp[key];
-  return -1;
+    pair<pi, pi> key = mp(mp(y, x), mp(y2, x2));
+    if (mapp.find(key) != mapp.end())
+        return mapp[key];
+    return -1;
 }
 
 int find_min_next(int y, int x)
 {
-  int up = INF, down = INF, left = INF, right = INF;
+    int up = INF, down = INF, left = INF, right = INF;
 
-  if (y > 0)
-  {
-    up = get_map_val(y, x, y - 1, x);
-  }
+    if (y > 0)
+    {
+        up = get_map_val(y, x, y - 1, x);
+    }
 
-  // down
-  if (y < n - 1)
-  {
-    down = get_map_val(y, x, y + 1, x);
-  }
+    // down
+    if (y < n - 1)
+    {
+        down = get_map_val(y, x, y + 1, x);
+    }
 
-  // left
-  if (x > 0)
-  {
-    left = get_map_val(y, x, y, x - 1);
-  }
+    // left
+    if (x > 0)
+    {
+        left = get_map_val(y, x, y, x - 1);
+    }
 
-  // right
-  if (x < m - 1)
-  {
-    right = get_map_val(y, x, y, x + 1);
-  }
+    // right
+    if (x < m - 1)
+    {
+        right = get_map_val(y, x, y, x + 1);
+    }
 
-  return min(min(min(up, down), left), right);
+    return min(min(min(up, down), left), right);
 }
 
 int solve_pt(int sty, int stx)
 {
-  memset(dp, 0, sizeof(dp));
-  bool used[mxn][mxn];
-  memset(used, false, sizeof(used));
-  if (k % 2 != 0)
-    return -1;
+    memset(dp, 0, sizeof(dp));
+    bool used[mxn][mxn];
+    memset(used, false, sizeof(used));
+    if (k % 2 != 0)
+        return -1;
 
-  if (__DEBUG__)
-  {
-    printf("start: (%d,%d) \n", sty, stx);
-  }
+    if (__DEBUG__)
+    {
+        printf("start: (%d,%d) \n", sty, stx);
+    }
 
-  map<pi, bool> s;
-  s[mp(sty, stx)] = true;
-  used[sty][stx] = true;
+    map<pi, bool> s;
+    s[mp(sty, stx)] = true;
+    used[sty][stx] = true;
 
-  // repeat same place
-  int minans = k * find_min_next(sty, stx);
+    // repeat same place
+    int minans = k * find_min_next(sty, stx);
 
-  forn(kk, k / 2)
-  {
-    int move = kk + 1;
-    map<pi, bool> s2;
+    forn(kk, k / 2)
+    {
+        int move = kk + 1;
+        map<pi, bool> s2;
+        for (auto p : s)
+        {
+            iterations++;
+            int y = p.fi.fi, x = p.fi.se;
+            int dist = abs(sty - y) + abs(stx - x);
+            if (dist != 0 && dp[y][x] != 0)
+            {
+                int value = dp[y][x] * 2;
+                int repeat_times = k - 2 * dist;
+                value += repeat_times * find_min_next(y, x);
+                if (value != 0)
+                {
+                    if (value < minans || minans == -1)
+                        minans = value;
+                }
+            }
+            // up
+            if (y > 0)
+            {
+                int val = get_map_val(y, x, y - 1, x);
+                if (dp[y - 1][x] != 0)
+                {
+                    dp[y - 1][x] = min(dp[y - 1][x], dp[y][x] + val);
+                }
+                else
+                {
+                    dp[y - 1][x] = dp[y][x] + val;
+                }
+                if (!used[y - 1][x])
+                {
+                    used[y - 1][x] = true;
+                    s2[mp(y - 1, x)] = true;
+                }
+            }
+
+            // down
+            if (y < n - 1)
+            {
+                int val = get_map_val(y, x, y + 1, x);
+                if (dp[y + 1][x] != 0)
+                {
+                    dp[y + 1][x] = min(dp[y + 1][x], dp[y][x] + val);
+                }
+                else
+                {
+                    dp[y + 1][x] = dp[y][x] + val;
+                }
+                if (!used[y + 1][x])
+                {
+                    used[y + 1][x] = true;
+                    s2[mp(y + 1, x)] = true;
+                }
+            }
+
+            // left
+            if (x > 0)
+            {
+                int val = get_map_val(y, x, y, x - 1);
+                if (dp[y][x - 1] != 0)
+                {
+                    dp[y][x - 1] = min(dp[y][x - 1], dp[y][x] + val);
+                }
+                else
+                {
+                    dp[y][x - 1] = dp[y][x] + val;
+                }
+                if (!used[y][x - 1])
+                {
+                    used[y][x - 1] = true;
+                    s2[mp(y, x - 1)] = true;
+                }
+            }
+
+            // right
+            if (x < m - 1)
+            {
+                int val = get_map_val(y, x, y, x + 1);
+                if (dp[y][x + 1] != 0)
+                {
+                    dp[y][x + 1] = min(dp[y][x + 1], dp[y][x] + val);
+                }
+                else
+                {
+                    dp[y][x + 1] = dp[y][x] + val;
+                }
+                if (!used[y][x + 1])
+                {
+                    used[y][x + 1] = true;
+                    s2[mp(y, x + 1)] = true;
+                }
+            }
+        }
+
+        s = s2;
+    }
+
     for (auto p : s)
     {
-      iterations++;
-      int y = p.fi.fi, x = p.fi.se;
-      int dist = abs(sty - y) + abs(stx - x);
-      if (dist != 0 && dp[y][x] != 0)
-      {
-        int value = dp[y][x] * 2;
-        int repeat_times = k - 2 * dist;
-        value += repeat_times * find_min_next(y, x);
-        if (value != 0)
+        iterations++;
+        int y = p.fi.fi, x = p.fi.se;
+        int dist = abs(sty - y) + abs(stx - x);
+        if (dist != 0 && dp[y][x] != 0)
         {
-          if (value < minans || minans == -1)
-            minans = value;
+            int value = dp[y][x] * 2;
+            int repeat_times = k - 2 * dist;
+            value += repeat_times * find_min_next(y, x);
+            if (value != 0)
+            {
+                if (value < minans || minans == -1)
+                    minans = value;
+            }
         }
-      }
-      // up
-      if (y > 0)
-      {
-        int val = get_map_val(y, x, y - 1, x);
-        if (dp[y - 1][x] != 0)
-        {
-          dp[y - 1][x] = min(dp[y - 1][x], dp[y][x] + val);
-        }
-        else
-        {
-          dp[y - 1][x] = dp[y][x] + val;
-        }
-        if (!used[y - 1][x])
-        {
-          used[y - 1][x] = true;
-          s2[mp(y - 1, x)] = true;
-        }
-      }
-
-      // down
-      if (y < n - 1)
-      {
-        int val = get_map_val(y, x, y + 1, x);
-        if (dp[y + 1][x] != 0)
-        {
-          dp[y + 1][x] = min(dp[y + 1][x], dp[y][x] + val);
-        }
-        else
-        {
-          dp[y + 1][x] = dp[y][x] + val;
-        }
-        if (!used[y + 1][x])
-        {
-          used[y + 1][x] = true;
-          s2[mp(y + 1, x)] = true;
-        }
-      }
-
-      // left
-      if (x > 0)
-      {
-        int val = get_map_val(y, x, y, x - 1);
-        if (dp[y][x - 1] != 0)
-        {
-          dp[y][x - 1] = min(dp[y][x - 1], dp[y][x] + val);
-        }
-        else
-        {
-          dp[y][x - 1] = dp[y][x] + val;
-        }
-        if (!used[y][x - 1])
-        {
-          used[y][x - 1] = true;
-          s2[mp(y, x - 1)] = true;
-        }
-      }
-
-      // right
-      if (x < m - 1)
-      {
-        int val = get_map_val(y, x, y, x + 1);
-        if (dp[y][x + 1] != 0)
-        {
-          dp[y][x + 1] = min(dp[y][x + 1], dp[y][x] + val);
-        }
-        else
-        {
-          dp[y][x + 1] = dp[y][x] + val;
-        }
-        if (!used[y][x + 1])
-        {
-          used[y][x + 1] = true;
-          s2[mp(y, x + 1)] = true;
-        }
-      }
     }
 
-    s = s2;
-  }
-
-  for (auto p : s)
-  {
-    iterations++;
-    int y = p.fi.fi, x = p.fi.se;
-    int dist = abs(sty - y) + abs(stx - x);
-    if (dist != 0 && dp[y][x] != 0)
+    if (__DEBUG__)
     {
-      int value = dp[y][x] * 2;
-      int repeat_times = k - 2 * dist;
-      value += repeat_times * find_min_next(y, x);
-      if (value != 0)
-      {
-        if (value < minans || minans == -1)
-          minans = value;
-      }
+        forn(i, n)
+        {
+            forn(j, m)
+            {
+                cout << dp[i][j] << " ";
+            }
+            cout << ln;
+        }
+        cout << "-----" << ln;
     }
-  }
-
-  if (__DEBUG__)
-  {
-    forn(i, n)
-    {
-      forn(j, m)
-      {
-        cout << dp[i][j] << " ";
-      }
-      cout << ln;
-    }
-    cout << "-----" << ln;
-  }
-  return minans;
+    return minans;
 }
 
 void solve()
 {
-  mapp.clear();
-  memset(dp, 0, sizeof(dp));
-  memset(g, 0, sizeof(g));
-  input();
-  forn(i, n)
-  {
-    forn(j, m)
+    mapp.clear();
+    memset(dp, 0, sizeof(dp));
+    memset(g, 0, sizeof(g));
+    input();
+    forn(i, n)
     {
-      g[i][j] = solve_pt(i, j);
-      if (__DEBUG__)
-      {
-        cout << g[i][j] << " ";
-      }
+        forn(j, m)
+        {
+            g[i][j] = solve_pt(i, j);
+            if (__DEBUG__)
+            {
+                cout << g[i][j] << " ";
+            }
+        }
+        if (__DEBUG__)
+        {
+            cout << ln;
+        }
+        // cout << "it:" << iterations << ln;
     }
-    if (__DEBUG__)
-    {
-      cout << ln;
-    }
-    // cout << "it:" << iterations << ln;
-  }
 
-  forn(i, n)
-  {
-    forn(j, m)
+    forn(i, n)
     {
-      cout << g[i][j] << " ";
+        forn(j, m)
+        {
+            cout << g[i][j] << " ";
+        }
+        cout << ln;
     }
-    cout << ln;
-  }
 }
 
 int main()
 {
-  fast_cin();
-  // int T;
-  // cin >> T;
-  // for (int i = 0; i < T; i++)
-  // {
-  //   // cout << "Case #" << i + 1 << ": ";
-  //   solve();
-  //   if (__DEBUG__)
-  //   {
-  //     cout << "=======" << ln;
-  //   }
-  // }
-  solve();
+    fast_cin();
+    // int T;
+    // cin >> T;
+    // for (int i = 0; i < T; i++)
+    // {
+    //     // cout << "Case #" << i + 1 << ": ";
+    //     solve();
+    //     if (__DEBUG__)
+    //     {
+    //         cout << "=======" << ln;
+    //     }
+    // }
+    solve();
 
-  return 0;
+    return 0;
 }

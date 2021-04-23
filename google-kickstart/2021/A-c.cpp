@@ -46,10 +46,10 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -62,85 +62,85 @@ priority_queue<pp> pq;
 
 void ripple(int y, int x, ll h)
 {
-  if (y < 0 || y >= R || x < 0 || x >= C)
-    return;
-  if (g[y][x] > h)
-    return;
-  if (m[y][x] > h)
-    return;
-  m[y][x] = h;
-  pq.push(make_pair(h - 1, make_pair(y - 1, x)));
-  pq.push(make_pair(h - 1, make_pair(y + 1, x)));
-  pq.push(make_pair(h - 1, make_pair(y, x - 1)));
-  pq.push(make_pair(h - 1, make_pair(y, x + 1)));
-  // ripple(y - 1, x, h - 1);
-  // ripple(y + 1, x, h - 1);
-  // ripple(y, x - 1, h - 1);
-  // ripple(y, x + 1, h - 1);
+    if (y < 0 || y >= R || x < 0 || x >= C)
+        return;
+    if (g[y][x] > h)
+        return;
+    if (m[y][x] > h)
+        return;
+    m[y][x] = h;
+    pq.push(make_pair(h - 1, make_pair(y - 1, x)));
+    pq.push(make_pair(h - 1, make_pair(y + 1, x)));
+    pq.push(make_pair(h - 1, make_pair(y, x - 1)));
+    pq.push(make_pair(h - 1, make_pair(y, x + 1)));
+    // ripple(y - 1, x, h - 1);
+    // ripple(y + 1, x, h - 1);
+    // ripple(y, x - 1, h - 1);
+    // ripple(y, x + 1, h - 1);
 }
 
 void solve()
 {
-  // clear
-  for (int i = 0; i < R; i++)
-  {
-    for (int j = 0; j < C; j++)
+    // clear
+    for (int i = 0; i < R; i++)
     {
-      m[i][j] = 0;
+        for (int j = 0; j < C; j++)
+        {
+            m[i][j] = 0;
+        }
     }
-  }
-  pq = priority_queue<pp>();
-  h.clear();
+    pq = priority_queue<pp>();
+    h.clear();
 
-  cin >> R >> C;
-  for (int i = 0; i < R; i++)
-  {
-    for (int j = 0; j < C; j++)
+    cin >> R >> C;
+    for (int i = 0; i < R; i++)
     {
-      cin >> g[i][j];
-      pp ppp = make_pair(g[i][j], make_pair(i, j));
-      // h.push_back(ppp);
-      pq.push(ppp);
+        for (int j = 0; j < C; j++)
+        {
+            cin >> g[i][j];
+            pp ppp = make_pair(g[i][j], make_pair(i, j));
+            // h.push_back(ppp);
+            pq.push(ppp);
+        }
     }
-  }
-  // sort(h.begin(), h.end(), greater<>());
-  while (!pq.empty())
-  {
-    pp p = pq.top();
-    pq.pop();
-    pair<int, int> coor = p.second;
-    // cout << coor.first << " " << coor.second << endl;
-    if (p.first > m[coor.first][coor.second])
+    // sort(h.begin(), h.end(), greater<>());
+    while (!pq.empty())
     {
-      ripple(coor.first, coor.second, p.first);
+        pp p = pq.top();
+        pq.pop();
+        pair<int, int> coor = p.second;
+        // cout << coor.first << " " << coor.second << endl;
+        if (p.first > m[coor.first][coor.second])
+        {
+            ripple(coor.first, coor.second, p.first);
+        }
     }
-  }
 
-  ll cnt = 0;
-  for (int i = 0; i < R; i++)
-  {
-    for (int j = 0; j < C; j++)
+    ll cnt = 0;
+    for (int i = 0; i < R; i++)
     {
-      if (m[i][j] > g[i][j])
-      {
-        cnt += m[i][j] - g[i][j];
-      }
-      // cout << m[i][j] << " ";
+        for (int j = 0; j < C; j++)
+        {
+            if (m[i][j] > g[i][j])
+            {
+                cnt += m[i][j] - g[i][j];
+            }
+            // cout << m[i][j] << " ";
+        }
+        // cout << endl;
     }
-    // cout << endl;
-  }
-  cout << cnt << endl;
+    cout << cnt << endl;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

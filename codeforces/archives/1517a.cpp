@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -41,43 +41,43 @@ ll n;
 
 void solve()
 {
-  cin >> n;
-  ll x = 2050;
-  while (x < n)
-  {
-    x *= 10;
-  }
-  int ans = 0;
-  while (n > 0)
-  {
-    while (x > n)
-      x /= 10;
-    if (x < 2050)
-      break;
-    n -= x;
-    ans++;
-  }
-  if (n != 0)
-  {
-    cout << -1 << ln;
-  }
-  else
-  {
-    cout << ans << ln;
-  }
+    cin >> n;
+    ll x = 2050;
+    while (x < n)
+    {
+        x *= 10;
+    }
+    int ans = 0;
+    while (n > 0)
+    {
+        while (x > n)
+            x /= 10;
+        if (x < 2050)
+            break;
+        n -= x;
+        ans++;
+    }
+    if (n != 0)
+    {
+        cout << -1 << ln;
+    }
+    else
+    {
+        cout << ans << ln;
+    }
 }
 
 int main()
 {
-  fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

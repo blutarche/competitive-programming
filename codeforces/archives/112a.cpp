@@ -46,33 +46,33 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 int main()
 {
-  string a, b;
-  cin >> a;
-  cin >> b;
+    string a, b;
+    cin >> a;
+    cin >> b;
 
-  forn(i, a.length())
-  {
-    // cout << tolower(a[i]) << tolower(b[i]) << endl;
-    if (tolower(a[i]) > tolower(b[i]))
+    forn(i, a.length())
     {
-      cout << "1" << endl;
-      return 0;
+        // cout << tolower(a[i]) << tolower(b[i]) << endl;
+        if (tolower(a[i]) > tolower(b[i]))
+        {
+            cout << "1" << endl;
+            return 0;
+        }
+        else if (tolower(a[i]) < tolower(b[i]))
+        {
+            cout << "-1" << endl;
+            return 0;
+        }
     }
-    else if (tolower(a[i]) < tolower(b[i]))
-    {
-      cout << "-1" << endl;
-      return 0;
-    }
-  }
-  cout << "0" << endl;
-  return 0;
+    cout << "0" << endl;
+    return 0;
 }

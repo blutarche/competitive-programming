@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -61,37 +61,37 @@ map<int, int> m;
 
 void solve()
 {
-  m.clear();
-  int n;
-  cin >> n;
-  forn(i, n)
-  {
-    cin >> a[i];
-    m[a[i]]++;
-  }
-  int ans;
-  for (auto p : m)
-  {
-    if (p.second == 1)
-      ans = p.first;
-  }
-  int i = 0;
-  for (; a[i] != ans; i++)
-  {
-  }
-  cout << i + 1 << el;
+    m.clear();
+    int n;
+    cin >> n;
+    forn(i, n)
+    {
+        cin >> a[i];
+        m[a[i]]++;
+    }
+    int ans;
+    for (auto p : m)
+    {
+        if (p.second == 1)
+            ans = p.first;
+    }
+    int i = 0;
+    for (; a[i] != ans; i++)
+    {
+    }
+    cout << i + 1 << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

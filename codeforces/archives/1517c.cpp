@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -48,179 +48,179 @@ int dp[mxn][mxn][mxk];
 
 void input()
 {
-  cin >> n >> m >> k;
-  forn(i, n)
-  {
-    forn(j, m - 1)
+    cin >> n >> m >> k;
+    forn(i, n)
     {
-      int tmp;
-      cin >> tmp;
-      mapp[mp(mp(i, j), mp(i, j + 1))] = tmp;
-      mapp[mp(mp(i, j + 1), mp(i, j))] = tmp;
+        forn(j, m - 1)
+        {
+            int tmp;
+            cin >> tmp;
+            mapp[mp(mp(i, j), mp(i, j + 1))] = tmp;
+            mapp[mp(mp(i, j + 1), mp(i, j))] = tmp;
+        }
     }
-  }
-  forn(i, n - 1)
-  {
-    forn(j, m)
+    forn(i, n - 1)
     {
-      int tmp;
-      cin >> tmp;
-      mapp[mp(mp(i, j), mp(i + 1, j))] = tmp;
-      mapp[mp(mp(i + 1, j), mp(i, j))] = tmp;
+        forn(j, m)
+        {
+            int tmp;
+            cin >> tmp;
+            mapp[mp(mp(i, j), mp(i + 1, j))] = tmp;
+            mapp[mp(mp(i + 1, j), mp(i, j))] = tmp;
+        }
     }
-  }
 }
 
 int get_map_val(int y, int x, int y2, int x2)
 {
-  pair<pi, pi> key = mp(mp(y, x), mp(y2, x2));
-  if (mapp.find(key) != mapp.end())
-    return mapp[key];
-  return -1;
+    pair<pi, pi> key = mp(mp(y, x), mp(y2, x2));
+    if (mapp.find(key) != mapp.end())
+        return mapp[key];
+    return -1;
 }
 
 int solve_pt(int sty, int stx)
 {
-  memset(dp, 0, sizeof(dp));
-
-  if (DEBUG)
-  {
-    printf("start: (%d,%d) \n", sty, stx);
-  }
-
-  map<pi, bool> s;
-  s[mp(sty, stx)] = true;
-  forn(kk, k)
-  {
-    int move = kk + 1;
-    map<pi, bool> s2;
-    for (auto p : s)
-    {
-      int y = p.fi.fi, x = p.fi.se;
-      // up
-      if (y > 0)
-      {
-        int val = get_map_val(y, x, y - 1, x);
-        if (dp[y - 1][x][move] != 0)
-        {
-          dp[y - 1][x][move] = min(dp[y - 1][x][move], dp[y][x][move - 1] + val);
-        }
-        else
-        {
-          dp[y - 1][x][move] = dp[y][x][move - 1] + val;
-        }
-        s2[mp(y - 1, x)] = true;
-      }
-
-      // down
-      if (y < n - 1)
-      {
-        int val = get_map_val(y, x, y + 1, x);
-        if (dp[y + 1][x][move] != 0)
-        {
-          dp[y + 1][x][move] = min(dp[y + 1][x][move], dp[y][x][move - 1] + val);
-        }
-        else
-        {
-          dp[y + 1][x][move] = dp[y][x][move - 1] + val;
-        }
-        s2[mp(y + 1, x)] = true;
-      }
-
-      // left
-      if (x > 0)
-      {
-        int val = get_map_val(y, x, y, x - 1);
-        if (dp[y][x - 1][move] != 0)
-        {
-          dp[y][x - 1][move] = min(dp[y][x - 1][move], dp[y][x][move - 1] + val);
-        }
-        else
-        {
-          dp[y][x - 1][move] = dp[y][x][move - 1] + val;
-        }
-        s2[mp(y, x - 1)] = true;
-      }
-
-      // right
-      if (x < m - 1)
-      {
-        int val = get_map_val(y, x, y, x + 1);
-        if (dp[y][x + 1][move] != 0)
-        {
-          dp[y][x + 1][move] = min(dp[y][x + 1][move], dp[y][x][move - 1] + val);
-        }
-        else
-        {
-          dp[y][x + 1][move] = dp[y][x][move - 1] + val;
-        }
-        s2[mp(y, x + 1)] = true;
-      }
-    }
-
-    s = s2;
+    memset(dp, 0, sizeof(dp));
 
     if (DEBUG)
     {
-      cout << "move: " << move << ln;
-      forn(i, n)
-      {
-        forn(j, m)
-        {
-          cout << dp[i][j][kk] << " ";
-        }
-        cout << ln;
-      }
+        printf("start: (%d,%d) \n", sty, stx);
     }
-  }
-  if (DEBUG)
-  {
-    cout << "-----" << ln;
-  }
-  return dp[sty][stx][k];
+
+    map<pi, bool> s;
+    s[mp(sty, stx)] = true;
+    forn(kk, k)
+    {
+        int move = kk + 1;
+        map<pi, bool> s2;
+        for (auto p : s)
+        {
+            int y = p.fi.fi, x = p.fi.se;
+            // up
+            if (y > 0)
+            {
+                int val = get_map_val(y, x, y - 1, x);
+                if (dp[y - 1][x][move] != 0)
+                {
+                    dp[y - 1][x][move] = min(dp[y - 1][x][move], dp[y][x][move - 1] + val);
+                }
+                else
+                {
+                    dp[y - 1][x][move] = dp[y][x][move - 1] + val;
+                }
+                s2[mp(y - 1, x)] = true;
+            }
+
+            // down
+            if (y < n - 1)
+            {
+                int val = get_map_val(y, x, y + 1, x);
+                if (dp[y + 1][x][move] != 0)
+                {
+                    dp[y + 1][x][move] = min(dp[y + 1][x][move], dp[y][x][move - 1] + val);
+                }
+                else
+                {
+                    dp[y + 1][x][move] = dp[y][x][move - 1] + val;
+                }
+                s2[mp(y + 1, x)] = true;
+            }
+
+            // left
+            if (x > 0)
+            {
+                int val = get_map_val(y, x, y, x - 1);
+                if (dp[y][x - 1][move] != 0)
+                {
+                    dp[y][x - 1][move] = min(dp[y][x - 1][move], dp[y][x][move - 1] + val);
+                }
+                else
+                {
+                    dp[y][x - 1][move] = dp[y][x][move - 1] + val;
+                }
+                s2[mp(y, x - 1)] = true;
+            }
+
+            // right
+            if (x < m - 1)
+            {
+                int val = get_map_val(y, x, y, x + 1);
+                if (dp[y][x + 1][move] != 0)
+                {
+                    dp[y][x + 1][move] = min(dp[y][x + 1][move], dp[y][x][move - 1] + val);
+                }
+                else
+                {
+                    dp[y][x + 1][move] = dp[y][x][move - 1] + val;
+                }
+                s2[mp(y, x + 1)] = true;
+            }
+        }
+
+        s = s2;
+
+        if (DEBUG)
+        {
+            cout << "move: " << move << ln;
+            forn(i, n)
+            {
+                forn(j, m)
+                {
+                    cout << dp[i][j][kk] << " ";
+                }
+                cout << ln;
+            }
+        }
+    }
+    if (DEBUG)
+    {
+        cout << "-----" << ln;
+    }
+    return dp[sty][stx][k];
 }
 
 void solve()
 {
-  mapp.clear();
-  memset(dp, 0, sizeof(dp));
-  memset(g, 0, sizeof(g));
-  input();
-  forn(i, n)
-  {
-    forn(j, m)
+    mapp.clear();
+    memset(dp, 0, sizeof(dp));
+    memset(g, 0, sizeof(g));
+    input();
+    forn(i, n)
     {
-      g[i][j] = solve_pt(i, j);
-      if (g[i][j] == 0)
-        g[i][j] = -1;
+        forn(j, m)
+        {
+            g[i][j] = solve_pt(i, j);
+            if (g[i][j] == 0)
+                g[i][j] = -1;
+        }
     }
-  }
 
-  forn(i, n)
-  {
-    forn(j, m)
+    forn(i, n)
     {
-      cout << g[i][j] << " ";
+        forn(j, m)
+        {
+            cout << g[i][j] << " ";
+        }
+        cout << ln;
     }
-    cout << ln;
-  }
 }
 
 int main()
 {
-  fast_cin();
-  // int T;
-  // cin >> T;
-  // for (int i = 0; i < T; i++)
-  // {
-  //   // cout << "Case #" << i + 1 << ": ";
-  //   solve();
-  //   if (DEBUG)
-  //   {
-  //     cout << "=======" << ln;
-  //   }
-  // }
-  solve();
+    fast_cin();
+    // int T;
+    // cin >> T;
+    // for (int i = 0; i < T; i++)
+    // {
+    //     // cout << "Case #" << i + 1 << ": ";
+    //     solve();
+    //     if (DEBUG)
+    //     {
+    //         cout << "=======" << ln;
+    //     }
+    // }
+    solve();
 
-  return 0;
+    return 0;
 }

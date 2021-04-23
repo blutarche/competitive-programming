@@ -47,10 +47,10 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -70,122 +70,122 @@ int dp[MXN][MXN][MXK];
 
 void input()
 {
-  cin >> N;
-  // a
-  for (int i = 0; i < N; i++)
-  {
-    for (int j = 0; j < N; j++)
+    cin >> N;
+    // a
+    for (int i = 0; i < N; i++)
     {
-      cin >> a[i][j];
+        for (int j = 0; j < N; j++)
+        {
+            cin >> a[i][j];
+        }
     }
-  }
-  // b
-  for (int i = 0; i < N; i++)
-  {
-    for (int j = 0; j < N; j++)
+    // b
+    for (int i = 0; i < N; i++)
     {
-      cin >> b[i][j];
+        for (int j = 0; j < N; j++)
+        {
+            cin >> b[i][j];
+        }
     }
-  }
-  // r
-  for (int i = 0; i < N; i++)
-  {
-    cin >> r[i];
-  }
-  // c
-  for (int i = 0; i < N; i++)
-  {
-    cin >> c[i];
-  }
+    // r
+    for (int i = 0; i < N; i++)
+    {
+        cin >> r[i];
+    }
+    // c
+    for (int i = 0; i < N; i++)
+    {
+        cin >> c[i];
+    }
 }
 
 void reset()
 {
-  memset(a, 0, sizeof(a));
-  memset(b, 0, sizeof(b));
-  memset(r, 0, sizeof(r));
-  memset(c, 0, sizeof(c));
-  memset(dp, 0, sizeof(dp));
+    memset(a, 0, sizeof(a));
+    memset(b, 0, sizeof(b));
+    memset(r, 0, sizeof(r));
+    memset(c, 0, sizeof(c));
+    memset(dp, 0, sizeof(dp));
 }
 
 void solve()
 {
-  reset();
-  input();
-  for (int i = 0; i < N; i++)
-  {
-    for (int j = 0; j < N; j++)
+    reset();
+    input();
+    for (int i = 0; i < N; i++)
     {
-      for (int k = 0; k < N * N; k++)
-      {
-        int nextdpy = -1;
-        if (i - 1 >= 0)
+        for (int j = 0; j < N; j++)
         {
-          nextdpy = dp[i - 1][j][k];
+            for (int k = 0; k < N * N; k++)
+            {
+                int nextdpy = -1;
+                if (i - 1 >= 0)
+                {
+                    nextdpy = dp[i - 1][j][k];
+                }
+                int nextdpx = -1;
+                if (j - 1 >= 0)
+                {
+                    nextdpx = dp[i][j - 1][k];
+                }
+                int nextdp;
+                if (nextdpy == -1)
+                {
+                    nextdp = nextdpx;
+                }
+                if (nextdpx == -1)
+                {
+                    nextdp = nextdpy;
+                }
+                if (nextdpx >= 0 && nextdpy >= 0)
+                {
+                    nextdp = min(nextdpx, nextdpy);
+                }
+                if (a[i][j] == -1)
+                {
+                    if (nextdp >= 0)
+                    {
+                        dp[i][j][k + 1] = nextdp + b[i][j];
+                    }
+                    else
+                    {
+                        dp[i][j][k + 1] = b[i][j];
+                    }
+                }
+                if (nextdp >= 0)
+                {
+                    dp[i][j][k + 1] = nextdp;
+                }
+                else
+                {
+                    dp[i][j][k] = 0;
+                }
+            }
         }
-        int nextdpx = -1;
-        if (j - 1 >= 0)
-        {
-          nextdpx = dp[i][j - 1][k];
-        }
-        int nextdp;
-        if (nextdpy == -1)
-        {
-          nextdp = nextdpx;
-        }
-        if (nextdpx == -1)
-        {
-          nextdp = nextdpy;
-        }
-        if (nextdpx >= 0 && nextdpy >= 0)
-        {
-          nextdp = min(nextdpx, nextdpy);
-        }
-        if (a[i][j] == -1)
-        {
-          if (nextdp >= 0)
-          {
-            dp[i][j][k + 1] = nextdp + b[i][j];
-          }
-          else
-          {
-            dp[i][j][k + 1] = b[i][j];
-          }
-        }
-        if (nextdp >= 0)
-        {
-          dp[i][j][k + 1] = nextdp;
-        }
-        else
-        {
-          dp[i][j][k] = 0;
-        }
-      }
     }
-  }
-  for (int i = 0; i < N; i++)
-  {
-    for (int j = 0; j < N; j++)
+    for (int i = 0; i < N; i++)
     {
-      for (int k = 0; k < N * N; k++)
-      {
-        cout << dp[i][j][k] << "|";
-      }
-      cout << "\t";
+        for (int j = 0; j < N; j++)
+        {
+            for (int k = 0; k < N * N; k++)
+            {
+                cout << dp[i][j][k] << "|";
+            }
+            cout << "\t";
+        }
+        cout << endl;
     }
-    cout << endl;
-  }
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

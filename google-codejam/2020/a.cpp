@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -62,57 +62,57 @@ int g[mxN][mxN];
 void solve()
 {
 
-  memset(g, 0, sizeof(g));
-  int n;
-  cin >> n;
-  forn(i, n)
-  {
-    forn(j, n)
+    memset(g, 0, sizeof(g));
+    int n;
+    cin >> n;
+    forn(i, n)
     {
-      cin >> g[i][j];
+        forn(j, n)
+        {
+            cin >> g[i][j];
+        }
     }
-  }
-  int r = 0, c = 0, t = 0;
-  forn(i, n)
-  {
-    bool ur[mxN], uc[mxN];
-    memset(ur, 0, sizeof(ur));
-    memset(uc, 0, sizeof(uc));
-    bool uur = false, uuc = false;
-    forn(j, n)
+    int r = 0, c = 0, t = 0;
+    forn(i, n)
     {
-      if (i == j)
-      {
-        t += g[i][j];
-      }
-      if (ur[g[i][j]])
-      {
-        uur = true;
-      }
-      if (uc[g[j][i]])
-      {
-        uuc = true;
-      }
-      ur[g[i][j]] = true;
-      uc[g[j][i]] = true;
+        bool ur[mxN], uc[mxN];
+        memset(ur, 0, sizeof(ur));
+        memset(uc, 0, sizeof(uc));
+        bool uur = false, uuc = false;
+        forn(j, n)
+        {
+            if (i == j)
+            {
+                t += g[i][j];
+            }
+            if (ur[g[i][j]])
+            {
+                uur = true;
+            }
+            if (uc[g[j][i]])
+            {
+                uuc = true;
+            }
+            ur[g[i][j]] = true;
+            uc[g[j][i]] = true;
+        }
+        if (uur)
+            r++;
+        if (uuc)
+            c++;
     }
-    if (uur)
-      r++;
-    if (uuc)
-      c++;
-  }
-  cout << t << " " << r << " " << c << el;
+    cout << t << " " << r << " " << c << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

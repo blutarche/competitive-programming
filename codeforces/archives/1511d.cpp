@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 1000000007;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -44,69 +44,69 @@ string ans;
 
 void debug()
 {
-  forn(i, k)
-  {
-    forn(j, k)
+    forn(i, k)
     {
-      cout << g[i][j] << " ";
+        forn(j, k)
+        {
+            cout << g[i][j] << " ";
+        }
+        cout << " : " << sum[i];
+        cout << ln;
     }
-    cout << " : " << sum[i];
-    cout << ln;
-  }
-  cout << "----------------" << ln;
+    cout << "----------------" << ln;
 }
 
 void solve()
 {
-  memset(sum, 0, sizeof(sum));
-  memset(g, 0, sizeof(g));
-  cin >> n >> k;
-  ans.push_back('a');
-  char prev = 'a';
-  forn(i, n - 1)
-  {
-    int min = MOD;
-    int minsum = MOD;
-    char minchar = '0';
-    forn(x, k)
+    memset(sum, 0, sizeof(sum));
+    memset(g, 0, sizeof(g));
+    cin >> n >> k;
+    ans.push_back('a');
+    char prev = 'a';
+    forn(i, n - 1)
     {
-      if ((g[prev - 'a'][x] < min) || (g[prev - 'a'][x] == min && minsum >= sum[x]))
-      {
-        min = g[prev - 'a'][x];
-        minsum = sum[x];
-        minchar = 'a' + x;
-        // cout << "x:" << char('a' + x) << " , minchar:" << minchar << " , min:" << min << " , minsum:" << minsum << ln;
-      }
+        int min = MOD;
+        int minsum = MOD;
+        char minchar = '0';
+        forn(x, k)
+        {
+            if ((g[prev - 'a'][x] < min) || (g[prev - 'a'][x] == min && minsum >= sum[x]))
+            {
+                min = g[prev - 'a'][x];
+                minsum = sum[x];
+                minchar = 'a' + x;
+                // cout << "x:" << char('a' + x) << " , minchar:" << minchar << " , min:" << min << " , minsum:" << minsum << ln;
+            }
+        }
+        // cout << "minchar:" << minchar << ln;
+        g[prev - 'a'][minchar - 'a']++;
+        sum[minchar - 'a'] = g[prev - 'a'][minchar - 'a'];
+        forn(i, k)
+        {
+            if (g[i][minchar - 'a'] < sum[minchar - 'a'])
+            {
+                sum[minchar - 'a'] = g[i][minchar - 'a'];
+            }
+        }
+        ans.push_back(minchar);
+        prev = minchar;
+        // debug();
     }
-    // cout << "minchar:" << minchar << ln;
-    g[prev - 'a'][minchar - 'a']++;
-    sum[minchar - 'a'] = g[prev - 'a'][minchar - 'a'];
-    forn(i, k)
-    {
-      if (g[i][minchar - 'a'] < sum[minchar - 'a'])
-      {
-        sum[minchar - 'a'] = g[i][minchar - 'a'];
-      }
-    }
-    ans.push_back(minchar);
-    prev = minchar;
     // debug();
-  }
-  // debug();
-  cout << ans << ln;
+    cout << ans << ln;
 }
 
 int main()
 {
-  fast_cin();
-  // int T;
-  // cin >> T;
-  // for (int i = 0; i < T; i++)
-  // {
-  //   cout << "Case #" << i + 1 << ": ";
-  //   solve();
-  // }
-  solve();
+    fast_cin();
+    // int T;
+    // cin >> T;
+    // for (int i = 0; i < T; i++)
+    // {
+    //     cout << "Case #" << i + 1 << ": ";
+    //     solve();
+    // }
+    solve();
 
-  return 0;
+    return 0;
 }

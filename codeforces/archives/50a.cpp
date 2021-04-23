@@ -46,17 +46,17 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 int main()
 {
-  int n, m;
-  cin >> n >> m;
-  cout << ((n - n % 2) / 2) * (m - m % 2) + (n % 2) * (m / 2) + (m % 2) * (n / 2) << endl;
-  return 0;
+    int n, m;
+    cin >> n >> m;
+    cout << ((n - n % 2) / 2) * (m - m % 2) + (n % 2) * (m / 2) + (m % 2) * (n / 2) << endl;
+    return 0;
 }

@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -59,9 +59,9 @@ double eps = 1e-12;
 
 int main()
 {
-  string a = "BfZBBB";
-  string b = "BbRJFB";
-  cout << a << "-" << b << el;
+    string a = "BfZBBB";
+    string b = "BbRJFB";
+    cout << a << "-" << b << el;
 
-  return 0;
+    return 0;
 }

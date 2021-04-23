@@ -46,74 +46,74 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 void solve()
 {
-  int n;
-  cin >> n;
-  map<int, int> m;
-  forn(i, n)
-  {
-    int a;
-    cin >> a;
-    m[a]++;
-  }
-  vector<p32> v;
-  for (auto it : m)
-  {
-    v.push_back(make_pair(-it.second, it.first));
-  }
-  sort(v.begin(), v.end());
-  // for (p32 p : v)
-  // {
-  //   cout << p.first << "\t" << p.second << endl;
-  // }
-  int a = 0, b = 0;
-  for (p32 p : v)
-  {
-    int diff = abs(a - b);
-    int x = abs(p.first);
-    // cout << "x: " << x << " diff: " << diff << endl;
-    if (diff <= x)
+    int n;
+    cin >> n;
+    map<int, int> m;
+    forn(i, n)
     {
-      if (a < b)
-        a = b;
-      else
-        b = a;
-      x -= diff;
-      int fora = min(a / 2, x / 2);
-      a += fora;
-      b += x - fora;
+        int a;
+        cin >> a;
+        m[a]++;
     }
-    else
+    vector<p32> v;
+    for (auto it : m)
     {
-      if (a < b)
-      {
-        a += x;
-      }
-      else
-      {
-        b += x;
-      }
+        v.push_back(make_pair(-it.second, it.first));
     }
-    // cout << a << " " << b << endl;
-  }
-  cout << abs(a - b) << endl;
+    sort(v.begin(), v.end());
+    // for (p32 p : v)
+    // {
+    //     cout << p.first << "\t" << p.second << endl;
+    // }
+    int a = 0, b = 0;
+    for (p32 p : v)
+    {
+        int diff = abs(a - b);
+        int x = abs(p.first);
+        // cout << "x: " << x << " diff: " << diff << endl;
+        if (diff <= x)
+        {
+            if (a < b)
+                a = b;
+            else
+                b = a;
+            x -= diff;
+            int fora = min(a / 2, x / 2);
+            a += fora;
+            b += x - fora;
+        }
+        else
+        {
+            if (a < b)
+            {
+                a += x;
+            }
+            else
+            {
+                b += x;
+            }
+        }
+        // cout << a << " " << b << endl;
+    }
+    cout << abs(a - b) << endl;
 }
 
 int main()
 {
-  int t;
-  cin >> t;
-  forn(i, t)
-  {
-    solve();
-  }
-  return 0;
+    int t;
+    cin >> t;
+    forn(i, t)
+    {
+        solve();
+    }
+    return 0;
 }

@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -61,52 +61,52 @@ double eps = 1e-12;
 
 void solve()
 {
-  int n;
-  cin >> n;
-  vpii v;
-  forn(i, n)
-  {
-    int in, out;
-    cin >> in;
-    cin >> out;
-    v.push_back(mp(in, 1));
-    v.push_back(mp(out, -1));
-  }
-  sort(all(v));
-  int cur = 0;
-  string s;
-  for (pii p : v)
-  {
-    cur += p.second;
-    if (cur > 2)
-      break;
-    if (p.second == 1)
+    int n;
+    cin >> n;
+    vpii v;
+    forn(i, n)
     {
-      if (cur == 1)
-        s.push_back('C');
-      else if (cur == 2)
-        s.push_back('J');
+        int in, out;
+        cin >> in;
+        cin >> out;
+        v.push_back(mp(in, 1));
+        v.push_back(mp(out, -1));
     }
-  }
-  if (cur != 0)
-  {
-    cout << "IMPOSSIBLE" << el;
-  }
-  else
-  {
-    cout << s << el;
-  }
+    sort(all(v));
+    int cur = 0;
+    string s;
+    for (pii p : v)
+    {
+        cur += p.second;
+        if (cur > 2)
+            break;
+        if (p.second == 1)
+        {
+            if (cur == 1)
+                s.push_back('C');
+            else if (cur == 2)
+                s.push_back('J');
+        }
+    }
+    if (cur != 0)
+    {
+        cout << "IMPOSSIBLE" << el;
+    }
+    else
+    {
+        cout << s << el;
+    }
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

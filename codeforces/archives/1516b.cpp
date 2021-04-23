@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -42,60 +42,60 @@ vi v;
 
 void solve()
 {
-  v.clear();
-  cin >> n;
-  forn(i, n)
-  {
-    int tmp;
-    cin >> tmp;
-    v.push_back(tmp);
-  }
-  bool some = false;
-  forn(k, n - 1)
-  {
-    int goal = 0;
-    forn(i, k + 1)
+    v.clear();
+    cin >> n;
+    forn(i, n)
     {
-      goal = goal ^ v[i];
+        int tmp;
+        cin >> tmp;
+        v.push_back(tmp);
     }
-    // cout << goal << ln;
-    int cur = goal;
-    for (int i = k + 1; i < n; i++)
+    bool some = false;
+    forn(k, n - 1)
     {
-      if (cur == goal)
-        cur = v[i];
-      else
-        cur = cur ^ v[i];
-      // cout << cur << ln;
+        int goal = 0;
+        forn(i, k + 1)
+        {
+            goal = goal ^ v[i];
+        }
+        // cout << goal << ln;
+        int cur = goal;
+        for (int i = k + 1; i < n; i++)
+        {
+            if (cur == goal)
+                cur = v[i];
+            else
+                cur = cur ^ v[i];
+            // cout << cur << ln;
+        }
+        // cout << cur << ln;
+        if (cur == goal)
+        {
+            some = true;
+        }
     }
     // cout << cur << ln;
-    if (cur == goal)
+    if (some)
     {
-      some = true;
+        cout << "YES" << ln;
     }
-  }
-  // cout << cur << ln;
-  if (some)
-  {
-    cout << "YES" << ln;
-  }
-  else
-  {
-    cout << "NO" << ln;
-  }
+    else
+    {
+        cout << "NO" << ln;
+    }
 }
 
 int main()
 {
-  fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

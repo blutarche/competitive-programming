@@ -29,10 +29,10 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -42,58 +42,58 @@ vi v0, v1;
 
 void solve()
 {
-  v0.clear();
-  v1.clear();
-  cin >> n;
-  forn(i, n)
-  {
-    int tmp;
-    cin >> tmp;
-    if (tmp % 2 == 0)
+    v0.clear();
+    v1.clear();
+    cin >> n;
+    forn(i, n)
     {
-      v0.push_back(tmp);
+        int tmp;
+        cin >> tmp;
+        if (tmp % 2 == 0)
+        {
+            v0.push_back(tmp);
+        }
+        else
+        {
+            v1.push_back(tmp);
+        }
+    }
+    if (v0.size() > v1.size())
+    {
+        for (int x : v0)
+        {
+            cout << x << " ";
+        }
+        for (int x : v1)
+        {
+            cout << x << " ";
+        }
     }
     else
     {
-      v1.push_back(tmp);
+        for (int x : v1)
+        {
+            cout << x << " ";
+        }
+        for (int x : v0)
+        {
+            cout << x << " ";
+        }
     }
-  }
-  if (v0.size() > v1.size())
-  {
-    for (int x : v0)
-    {
-      cout << x << " ";
-    }
-    for (int x : v1)
-    {
-      cout << x << " ";
-    }
-  }
-  else
-  {
-    for (int x : v1)
-    {
-      cout << x << " ";
-    }
-    for (int x : v0)
-    {
-      cout << x << " ";
-    }
-  }
-  cout << ln;
+    cout << ln;
 }
 
 int main()
 {
-  fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

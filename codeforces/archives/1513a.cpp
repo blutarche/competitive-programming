@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -60,44 +60,44 @@ int n, k;
 int a[mxN];
 void solve()
 {
-  memset(a, 0, sizeof(a));
-  cin >> n >> k;
-  if ((n - 1) / 2 < k)
-  {
-    cout << "-1" << el;
-    return;
-  }
-  int cur = n;
-  for (int i = 1; i < n - 1 && k > 0; i += 2, k -= 1)
-  {
-    a[i] = cur;
-    cur--;
-  }
-  forn(i, n)
-  {
-    if (a[i] == 0)
+    memset(a, 0, sizeof(a));
+    cin >> n >> k;
+    if ((n - 1) / 2 < k)
     {
-      a[i] = cur;
-      cur--;
+        cout << "-1" << el;
+        return;
     }
-  }
-  forn(i, n)
-  {
-    cout << a[i] << " ";
-  }
-  cout << el;
+    int cur = n;
+    for (int i = 1; i < n - 1 && k > 0; i += 2, k -= 1)
+    {
+        a[i] = cur;
+        cur--;
+    }
+    forn(i, n)
+    {
+        if (a[i] == 0)
+        {
+            a[i] = cur;
+            cur--;
+        }
+    }
+    forn(i, n)
+    {
+        cout << a[i] << " ";
+    }
+    cout << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

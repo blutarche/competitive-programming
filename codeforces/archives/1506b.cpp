@@ -46,60 +46,60 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 void solve()
 {
-  int n, k;
-  cin >> n >> k;
-  string s;
-  cin >> s;
-  vector<int> v;
-  forn(i, s.length())
-  {
-    if (s[i] == '*')
-      v.push_back(i);
-  }
-  int ans = 0;
-  int last = -1;
-  forn(i, v.size())
-  {
-    if (i == 0)
+    int n, k;
+    cin >> n >> k;
+    string s;
+    cin >> s;
+    vector<int> v;
+    forn(i, s.length())
     {
-      ans++;
-      last = v[i];
+        if (s[i] == '*')
+            v.push_back(i);
     }
-    else if (i + 1 == v.size())
+    int ans = 0;
+    int last = -1;
+    forn(i, v.size())
     {
-      ans++;
-      last = v[i];
+        if (i == 0)
+        {
+            ans++;
+            last = v[i];
+        }
+        else if (i + 1 == v.size())
+        {
+            ans++;
+            last = v[i];
+        }
+        else
+        {
+            if (last + k < v[i + 1])
+            {
+                ans++;
+                last = v[i];
+            }
+        }
+        // cout << last << " ";
     }
-    else
-    {
-      if (last + k < v[i + 1])
-      {
-        ans++;
-        last = v[i];
-      }
-    }
-    // cout << last << " ";
-  }
-  // cout << endl;
-  cout << ans << endl;
+    // cout << endl;
+    cout << ans << endl;
 }
 
 int main()
 {
-  int t;
-  cin >> t;
-  forn(i, t)
-  {
-    solve();
-  }
-  return 0;
+    int t;
+    cin >> t;
+    forn(i, t)
+    {
+        solve();
+    }
+    return 0;
 }

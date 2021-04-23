@@ -46,51 +46,51 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 void solve()
 {
-  string s;
-  cin >> s;
-  priority_queue<p32> pq;
-  for (int i = 0; i < s.length(); i++)
-  {
-    char c = s[i];
-    pq.push(make_pair(s[i], i));
-  }
-  vector<char> v;
-  int last = -1;
-  bool used[26];
-  while (!pq.empty())
-  {
-    p32 p = pq.top();
-    pq.pop();
-    if (p.second > last && !used[p.first - 'a'])
+    string s;
+    cin >> s;
+    priority_queue<p32> pq;
+    for (int i = 0; i < s.length(); i++)
     {
-      used[p.first - 'a'] = true;
-      last = p.second;
-      v.push_back(p.first);
+        char c = s[i];
+        pq.push(make_pair(s[i], i));
     }
-  }
-  for (char c : v)
-  {
-    cout << c;
-  }
-  cout << endl;
+    vector<char> v;
+    int last = -1;
+    bool used[26];
+    while (!pq.empty())
+    {
+        p32 p = pq.top();
+        pq.pop();
+        if (p.second > last && !used[p.first - 'a'])
+        {
+            used[p.first - 'a'] = true;
+            last = p.second;
+            v.push_back(p.first);
+        }
+    }
+    for (char c : v)
+    {
+        cout << c;
+    }
+    cout << endl;
 }
 
 int main()
 {
-  int t;
-  cin >> t;
-  forn(i, t)
-  {
-    solve();
-  }
-  return 0;
+    int t;
+    cin >> t;
+    forn(i, t)
+    {
+        solve();
+    }
+    return 0;
 }

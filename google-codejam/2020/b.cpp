@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -61,45 +61,45 @@ double eps = 1e-12;
 
 void solve()
 {
-  string s;
-  cin >> s;
-  int l = 0;
-  for (char sc : s)
-  {
-    int c = sc - '0';
-    if (c < l)
+    string s;
+    cin >> s;
+    int l = 0;
+    for (char sc : s)
     {
-      while (c++ < l)
-      {
+        int c = sc - '0';
+        if (c < l)
+        {
+            while (c++ < l)
+            {
+                cout << ")";
+            }
+        }
+        else
+        {
+            while (l < c--)
+            {
+                cout << "(";
+            }
+        }
+        cout << sc - '0';
+        l = sc - '0';
+    }
+    while (l--)
+    {
         cout << ")";
-      }
     }
-    else
-    {
-      while (l < c--)
-      {
-        cout << "(";
-      }
-    }
-    cout << sc - '0';
-    l = sc - '0';
-  }
-  while (l--)
-  {
-    cout << ")";
-  }
-  cout << endl;
+    cout << endl;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

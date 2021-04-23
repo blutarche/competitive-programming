@@ -29,35 +29,35 @@ double eps = 1e-12;
 #define se second
 #define INF 2e18
 ll MOD = 998244353;
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 #define mxn 100
 
 void gen_case() {
-  int n = rand() % 100 + 1;
-  cout << n << ln;
-  forn (i, n) {
-    cout << rand() % 1000000 << " ";
-  }
-  cout << ln;
+    int n = rand() % 100 + 1;
+    cout << n << ln;
+    forn (i, n) {
+        cout << rand() % 1000000 << " ";
+    }
+    cout << ln;
 }
 
 int main()
 {
-  fast_cin();
-  int seed;
-  cin >> seed;
-  srand(seed);
-  // int t = rand() % 100 + 1;
-  cout << 1 << ln;
-  forn(i, 1) {
-    gen_case();
-  }
+    fast_cin();
+    int seed;
+    cin >> seed;
+    srand(seed);
+    // int t = rand() % 100 + 1;
+    cout << 1 << ln;
+    forn(i, 1) {
+        gen_case();
+    }
 
-  return 0;
+    return 0;
 }

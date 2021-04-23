@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -62,62 +62,62 @@ int cost = 0;
 
 void rev(int i, int j)
 {
-  int a = i, b = j;
-  while (a < b)
-  {
-    int tmp = v[a];
-    v[a] = v[b];
-    v[b] = tmp;
-    a++;
-    b--;
-  }
-  cost += j - i + 1;
+    int a = i, b = j;
+    while (a < b)
+    {
+        int tmp = v[a];
+        v[a] = v[b];
+        v[b] = tmp;
+        a++;
+        b--;
+    }
+    cost += j - i + 1;
 }
 
 void solve()
 {
-  v.clear();
-  int n;
-  cin >> n;
-  forn(i, n)
-  {
-    int a;
-    cin >> a;
-    v.push_back(a);
-  }
-  cost = 0;
-  forn(i, v.size() - 1)
-  {
-    int minpos = 0;
-    int min = 99999;
-    int j = i;
-    for (j = i; j < v.size(); j++)
+    v.clear();
+    int n;
+    cin >> n;
+    forn(i, n)
     {
-      if (v[j] < min)
-      {
-        minpos = j;
-        min = v[j];
-      }
+        int a;
+        cin >> a;
+        v.push_back(a);
     }
-    rev(i, minpos);
-    // for (int x : v)
-    // {
-    //   cout << x << " ";
-    // }
-    // cout << el;
-  }
-  cout << cost << el;
+    cost = 0;
+    forn(i, v.size() - 1)
+    {
+        int minpos = 0;
+        int min = 99999;
+        int j = i;
+        for (j = i; j < v.size(); j++)
+        {
+            if (v[j] < min)
+            {
+                minpos = j;
+                min = v[j];
+            }
+        }
+        rev(i, minpos);
+        // for (int x : v)
+        // {
+        //     cout << x << " ";
+        // }
+        // cout << el;
+    }
+    cout << cost << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 #define MOD 1000000007
@@ -66,75 +66,75 @@ bool ver[mxN];
 
 void solve()
 {
-  // reset
-  v.clear();
-  memset(u, false, sizeof(u));
-  memset(ver, false, sizeof(u));
-  // input
-  scanf("%d %d", &n, &p);
-  forn(i, n)
-  {
-    scanf("%d", &a[i]);
-    v.push_back(mp(a[i], i));
-  }
-  ll ans = 0;
-  ll vcnt = 0;
-  // sort
-  sort(v.begin(), v.end());
-  forn(k, n)
-  {
-    pii x = v[k];
-    int y = x.first;
-    u[x.second] = true;
-    if (y > p)
+    // reset
+    v.clear();
+    memset(u, false, sizeof(u));
+    memset(ver, false, sizeof(u));
+    // input
+    scanf("%d %d", &n, &p);
+    forn(i, n)
     {
-      continue;
+        scanf("%d", &a[i]);
+        v.push_back(mp(a[i], i));
     }
-    // left
-    for (int i = x.second - 1; i >= 0; i--)
+    ll ans = 0;
+    ll vcnt = 0;
+    // sort
+    sort(v.begin(), v.end());
+    forn(k, n)
     {
-      if (a[i] % y != 0)
-        break;
-      if (ver[i])
-        break;
-      ver[i] = true;
-      ans += y;
-      vcnt++;
-      if (u[i])
-        break;
-      u[i] = true;
+        pii x = v[k];
+        int y = x.first;
+        u[x.second] = true;
+        if (y > p)
+        {
+            continue;
+        }
+        // left
+        for (int i = x.second - 1; i >= 0; i--)
+        {
+            if (a[i] % y != 0)
+                break;
+            if (ver[i])
+                break;
+            ver[i] = true;
+            ans += y;
+            vcnt++;
+            if (u[i])
+                break;
+            u[i] = true;
+        }
+        // right
+        for (int i = x.second + 1; i < n; i++)
+        {
+            if (a[i] % y != 0)
+                break;
+            if (ver[i - 1])
+                break;
+            ver[i - 1] = true;
+            ans += y;
+            vcnt++;
+            if (u[i])
+                break;
+            u[i] = true;
+        }
     }
-    // right
-    for (int i = x.second + 1; i < n; i++)
-    {
-      if (a[i] % y != 0)
-        break;
-      if (ver[i - 1])
-        break;
-      ver[i - 1] = true;
-      ans += y;
-      vcnt++;
-      if (u[i])
-        break;
-      u[i] = true;
-    }
-  }
-  // cout << ans << " " << vcnt << el;
-  ans += (n - 1 - vcnt) * p;
-  cout << ans << el;
-  // cout << "--" << el;
+    // cout << ans << " " << vcnt << el;
+    ans += (n - 1 - vcnt) * p;
+    cout << ans << el;
+    // cout << "--" << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

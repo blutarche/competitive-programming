@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define el endl
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -62,79 +62,79 @@ string a, b;
 
 void flip(int idx)
 {
-  if (a[idx] == '0')
-    a[idx] = '1';
-  else
-    a[idx] = '0';
+    if (a[idx] == '0')
+        a[idx] = '1';
+    else
+        a[idx] = '0';
 }
 
 void solve()
 {
-  memset(g, false, sizeof(g));
-  int n;
-  cin >> n;
-  cin >> a;
-  cin >> b;
-  int c0 = 0, c1 = 0;
-  for (int i = 0; i < n; i++)
-  {
-    if (a[i] == '0')
-      c0++;
+    memset(g, false, sizeof(g));
+    int n;
+    cin >> n;
+    cin >> a;
+    cin >> b;
+    int c0 = 0, c1 = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] == '0')
+            c0++;
+        else
+            c1++;
+        if (i % 2 == 1)
+        {
+            if (c0 == c1)
+                g[i] = true;
+        }
+    }
+
+    bool f = false;
+
+    for (int i = n - (n % 2) - 1; i > 0; i -= 2)
+    {
+        if (f)
+        {
+            flip(i);
+            flip(i - 1);
+        }
+        if (a[i] != b[i] && g[i])
+        {
+            f = !f;
+            flip(i);
+            flip(i - 1);
+        }
+        // cout << i << " : " << a << " | " << b << el;
+    }
+
+    bool can = true;
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] != b[i])
+        {
+            can = false;
+            break;
+        }
+    }
+    if (can)
+    {
+        cout << "YES" << el;
+    }
     else
-      c1++;
-    if (i % 2 == 1)
     {
-      if (c0 == c1)
-        g[i] = true;
+        cout << "NO" << el;
     }
-  }
-
-  bool f = false;
-
-  for (int i = n - (n % 2) - 1; i > 0; i -= 2)
-  {
-    if (f)
-    {
-      flip(i);
-      flip(i - 1);
-    }
-    if (a[i] != b[i] && g[i])
-    {
-      f = !f;
-      flip(i);
-      flip(i - 1);
-    }
-    // cout << i << " : " << a << " | " << b << el;
-  }
-
-  bool can = true;
-  for (int i = 0; i < n; i++)
-  {
-    if (a[i] != b[i])
-    {
-      can = false;
-      break;
-    }
-  }
-  if (can)
-  {
-    cout << "YES" << el;
-  }
-  else
-  {
-    cout << "NO" << el;
-  }
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

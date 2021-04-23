@@ -46,29 +46,29 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
 void solve()
 {
-  ll n, m, x;
-  cin >> n >> m >> x;
-  ll nn = (x - 1) % n + 1, mm = (x - 1) / n + 1;
-  // cout << nn << " " << mm << endl;
-  cout << (nn - 1) * m + mm << endl;
+    ll n, m, x;
+    cin >> n >> m >> x;
+    ll nn = (x - 1) % n + 1, mm = (x - 1) / n + 1;
+    // cout << nn << " " << mm << endl;
+    cout << (nn - 1) * m + mm << endl;
 }
 
 int main()
 {
-  int t;
-  cin >> t;
-  forn(i, t)
-  {
-    solve();
-  }
-  return 0;
+    int t;
+    cin >> t;
+    forn(i, t)
+    {
+        solve();
+    }
+    return 0;
 }

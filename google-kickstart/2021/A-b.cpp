@@ -46,10 +46,10 @@ double eps = 1e-12;
 #define fi first
 #define se second
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -58,150 +58,150 @@ bool g[1002][1002];
 
 int calc(int y, int x)
 {
-  int cnt = 0;
-  for (int i = 2, j = 4; i <= y && j <= x; i += 1, j += 2)
-  {
-    cnt++;
-  }
+    int cnt = 0;
+    for (int i = 2, j = 4; i <= y && j <= x; i += 1, j += 2)
+    {
+        cnt++;
+    }
 
-  for (int i = 4, j = 2; i <= y && j <= x; i += 2, j += 1)
-  {
-    cnt++;
-  }
+    for (int i = 4, j = 2; i <= y && j <= x; i += 2, j += 1)
+    {
+        cnt++;
+    }
 
-  return cnt;
+    return cnt;
 }
 
 int downRight(int y, int x)
 {
-  int i = y + 1;
-  while (i <= R && g[i][x])
-  {
-    ++i;
-  }
-  int yy = i - y;
+    int i = y + 1;
+    while (i <= R && g[i][x])
+    {
+        ++i;
+    }
+    int yy = i - y;
 
-  int j = x + 1;
-  while (j <= C && g[y][j])
-  {
-    ++j;
-  }
-  int xx = j - x;
+    int j = x + 1;
+    while (j <= C && g[y][j])
+    {
+        ++j;
+    }
+    int xx = j - x;
 
-  return calc(yy, xx);
+    return calc(yy, xx);
 }
 
 int upRight(int y, int x)
 {
-  int i = y - 1;
-  while (i >= 1 && g[i][x])
-  {
-    --i;
-  }
-  int yy = y - i;
+    int i = y - 1;
+    while (i >= 1 && g[i][x])
+    {
+        --i;
+    }
+    int yy = y - i;
 
-  int j = x + 1;
-  while (j <= C && g[y][j])
-  {
-    ++j;
-  }
-  int xx = j - x;
+    int j = x + 1;
+    while (j <= C && g[y][j])
+    {
+        ++j;
+    }
+    int xx = j - x;
 
-  return calc(yy, xx);
+    return calc(yy, xx);
 }
 
 int upLeft(int y, int x)
 {
-  int i = y - 1;
-  while (i >= 1 && g[i][x])
-  {
-    --i;
-  }
-  int yy = y - i;
+    int i = y - 1;
+    while (i >= 1 && g[i][x])
+    {
+        --i;
+    }
+    int yy = y - i;
 
-  int j = x - 1;
-  while (j >= 1 && g[y][j])
-  {
-    --j;
-  }
-  int xx = x - j;
+    int j = x - 1;
+    while (j >= 1 && g[y][j])
+    {
+        --j;
+    }
+    int xx = x - j;
 
-  return calc(yy, xx);
+    return calc(yy, xx);
 }
 
 int downLeft(int y, int x)
 {
-  int i = y + 1;
-  while (i <= R && g[i][x])
-  {
-    ++i;
-  }
-  int yy = i - y;
+    int i = y + 1;
+    while (i <= R && g[i][x])
+    {
+        ++i;
+    }
+    int yy = i - y;
 
-  int j = x - 1;
-  while (j >= 1 && g[y][j])
-  {
-    --j;
-  }
-  int xx = x - j;
+    int j = x - 1;
+    while (j >= 1 && g[y][j])
+    {
+        --j;
+    }
+    int xx = x - j;
 
-  return calc(yy, xx);
+    return calc(yy, xx);
 }
 
 void solve()
 {
-  cin >> R >> C;
-  for (int i = 0; i <= R + 1; i++)
-  {
-    for (int j = 0; j <= C + 1; j++)
+    cin >> R >> C;
+    for (int i = 0; i <= R + 1; i++)
     {
-      g[i][j] = false;
+        for (int j = 0; j <= C + 1; j++)
+        {
+            g[i][j] = false;
+        }
     }
-  }
-  for (int i = 1; i <= R; i++)
-  {
-    for (int j = 1; j <= C; j++)
+    for (int i = 1; i <= R; i++)
     {
-      int tmp;
-      cin >> tmp;
-      if (tmp == 1)
-      {
-        g[i][j] = true;
-      }
-      else
-      {
-        g[i][j] = false;
-      }
+        for (int j = 1; j <= C; j++)
+        {
+            int tmp;
+            cin >> tmp;
+            if (tmp == 1)
+            {
+                g[i][j] = true;
+            }
+            else
+            {
+                g[i][j] = false;
+            }
+        }
     }
-  }
 
-  int cnt = 0;
-  for (int i = 1; i <= R; i++)
-  {
-    for (int j = 1; j <= C; j++)
+    int cnt = 0;
+    for (int i = 1; i <= R; i++)
     {
-      if (!g[i][j])
-        continue;
-      int dr = downRight(i, j);
-      int dl = downLeft(i, j);
-      int ul = upLeft(i, j);
-      int ur = upRight(i, j);
-      cnt += dr + dl + ul + ur;
-      // cout << i << " " << j << " | " << dr << " " << dl << " " << ul << " " << ur << endl;
+        for (int j = 1; j <= C; j++)
+        {
+            if (!g[i][j])
+                continue;
+            int dr = downRight(i, j);
+            int dl = downLeft(i, j);
+            int ul = upLeft(i, j);
+            int ur = upRight(i, j);
+            cnt += dr + dl + ul + ur;
+            // cout << i << " " << j << " | " << dr << " " << dl << " " << ul << " " << ur << endl;
+        }
     }
-  }
-  cout << cnt << endl;
+    cout << cnt << endl;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

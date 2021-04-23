@@ -49,10 +49,10 @@ double eps = 1e-12;
 #define se second
 #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -65,87 +65,87 @@ ll sum = 0;
 
 int try_pos_as_sum(int pos)
 {
-  ll s = sum - b[pos];
-  forn(i, n + 2)
-  {
-    if (i != pos)
+    ll s = sum - b[pos];
+    forn(i, n + 2)
     {
-      if (s - b[i] == b[pos])
-      {
-        return i;
-      }
+        if (i != pos)
+        {
+            if (s - b[i] == b[pos])
+            {
+                return i;
+            }
+        }
     }
-  }
-  return -1;
+    return -1;
 }
 
 void print_ans(int pos1, int pos2)
 {
-  forn(i, n + 2)
-  {
-    if (i != pos1 && i != pos2)
+    forn(i, n + 2)
     {
-      cout << b[i] << " ";
+        if (i != pos1 && i != pos2)
+        {
+            cout << b[i] << " ";
+        }
     }
-  }
-  cout << el;
-  // cout << b[pos1] << " " << b[pos2] << el;
+    cout << el;
+    // cout << b[pos1] << " " << b[pos2] << el;
 }
 
 void solve()
 {
-  b.clear();
-  cin >> n;
-  mx1 = 0, mx2 = 0;
-  mxpos1 = -1, mxpos2 = -1;
-  sum = 0;
-  forn(i, n + 2)
-  {
-    int tmp;
-    cin >> tmp;
-    b.push_back(tmp);
-    sum += tmp;
-    if (mx1 < tmp)
+    b.clear();
+    cin >> n;
+    mx1 = 0, mx2 = 0;
+    mxpos1 = -1, mxpos2 = -1;
+    sum = 0;
+    forn(i, n + 2)
     {
-      mx2 = mx1;
-      mxpos2 = mxpos1;
-      mx1 = tmp;
-      mxpos1 = i;
+        int tmp;
+        cin >> tmp;
+        b.push_back(tmp);
+        sum += tmp;
+        if (mx1 < tmp)
+        {
+            mx2 = mx1;
+            mxpos2 = mxpos1;
+            mx1 = tmp;
+            mxpos1 = i;
+        }
+        else if (mx2 < tmp)
+        {
+            mx2 = tmp;
+            mxpos2 = i;
+        }
     }
-    else if (mx2 < tmp)
+    // cout << mx1 << " " << mx2 << el;
+    int pos2;
+    pos2 = try_pos_as_sum(mxpos1);
+    if (pos2 != -1)
     {
-      mx2 = tmp;
-      mxpos2 = i;
+        print_ans(mxpos1, pos2);
+        return;
     }
-  }
-  // cout << mx1 << " " << mx2 << el;
-  int pos2;
-  pos2 = try_pos_as_sum(mxpos1);
-  if (pos2 != -1)
-  {
-    print_ans(mxpos1, pos2);
-    return;
-  }
-  pos2 = try_pos_as_sum(mxpos2);
-  if (pos2 != -1)
-  {
-    print_ans(mxpos2, pos2);
-    return;
-  }
-  cout << "-1" << el;
-  // cout << "---" << el;
+    pos2 = try_pos_as_sum(mxpos2);
+    if (pos2 != -1)
+    {
+        print_ans(mxpos2, pos2);
+        return;
+    }
+    cout << "-1" << el;
+    // cout << "---" << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
-  // solve();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-  return 0;
+    return 0;
 }

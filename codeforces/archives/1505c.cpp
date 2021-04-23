@@ -47,10 +47,10 @@ double eps = 1e-12;
 #define fi first
 #define se second #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -62,42 +62,42 @@ void solve()
 
 int main()
 {
-  string s;
-  cin >> s;
-  char p1 = s[0];
-  char p2 = s[1];
-  if (s.length() <= 2)
-  {
-    cout << "YES" << endl;
-    return 0;
-  }
-  bool cor = true;
-  forn(i, s.length() - 2)
-  {
-    int idx = i + 2;
-    char c = s[idx];
-    int n1 = p1 - 'A';
-    int n2 = p2 - 'A';
-    int n = (p1 + p2) % 26;
-    // cout << "n:" << n << endl;
-    char should = 'A' + n;
-    // cout << p1 << " " << p2 << " = " << should << " -- " << c << endl;
-    if (should != c)
+    string s;
+    cin >> s;
+    char p1 = s[0];
+    char p2 = s[1];
+    if (s.length() <= 2)
     {
-      cor = false;
-      break;
+        cout << "YES" << endl;
+        return 0;
     }
-    p1 = p2;
-    p2 = c;
-  }
-  if (cor)
-  {
-    cout << "YES" << endl;
-  }
-  else
-  {
-    cout << "NO" << endl;
-  }
+    bool cor = true;
+    forn(i, s.length() - 2)
+    {
+        int idx = i + 2;
+        char c = s[idx];
+        int n1 = p1 - 'A';
+        int n2 = p2 - 'A';
+        int n = (p1 + p2) % 26;
+        // cout << "n:" << n << endl;
+        char should = 'A' + n;
+        // cout << p1 << " " << p2 << " = " << should << " -- " << c << endl;
+        if (should != c)
+        {
+            cor = false;
+            break;
+        }
+        p1 = p2;
+        p2 = c;
+    }
+    if (cor)
+    {
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
+    }
 
-  return 0;
+    return 0;
 }

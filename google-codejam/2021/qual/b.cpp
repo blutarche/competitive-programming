@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -64,74 +64,74 @@ ll dpj[mxN];
 
 void solve()
 {
-  memset(dpc, 0, sizeof(dpc));
-  memset(dpj, 0, sizeof(dpj));
-  int x, y;
-  string s;
-  cin >> x >> y;
-  cin >> s;
-  for (int i = 0; i < s.length(); i++)
-  {
-    if (s[i] == 'C')
+    memset(dpc, 0, sizeof(dpc));
+    memset(dpj, 0, sizeof(dpj));
+    int x, y;
+    string s;
+    cin >> x >> y;
+    cin >> s;
+    for (int i = 0; i < s.length(); i++)
     {
-      dpj[i] = INF;
-      if (i > 0)
-      {
-        dpc[i] = min(dpc[i - 1], dpj[i - 1] + y);
-      }
-      else
-      {
-        dpc[i] = 0;
-      }
+        if (s[i] == 'C')
+        {
+            dpj[i] = INF;
+            if (i > 0)
+            {
+                dpc[i] = min(dpc[i - 1], dpj[i - 1] + y);
+            }
+            else
+            {
+                dpc[i] = 0;
+            }
+        }
+        else if (s[i] == 'J')
+        {
+            dpc[i] = INF;
+            if (i > 0)
+            {
+                dpj[i] = min(dpj[i - 1], dpc[i - 1] + x);
+            }
+            else
+            {
+                dpj[i] = 0;
+            }
+        }
+        else
+        {
+            if (i > 0)
+            {
+                dpc[i] = min(dpc[i - 1], dpj[i - 1] + y);
+                dpj[i] = min(dpj[i - 1], dpc[i - 1] + x);
+            }
+            else
+            {
+                dpj[i] = 0;
+                dpc[i] = 0;
+            }
+        }
     }
-    else if (s[i] == 'J')
-    {
-      dpc[i] = INF;
-      if (i > 0)
-      {
-        dpj[i] = min(dpj[i - 1], dpc[i - 1] + x);
-      }
-      else
-      {
-        dpj[i] = 0;
-      }
-    }
-    else
-    {
-      if (i > 0)
-      {
-        dpc[i] = min(dpc[i - 1], dpj[i - 1] + y);
-        dpj[i] = min(dpj[i - 1], dpc[i - 1] + x);
-      }
-      else
-      {
-        dpj[i] = 0;
-        dpc[i] = 0;
-      }
-    }
-  }
-  // for (int i = 0; i < s.length(); i++)
-  // {
-  //   cout << dpc[i] << " ";
-  // }
-  // cout << el;
-  // for (int i = 0; i < s.length(); i++)
-  // {
-  //   cout << dpj[i] << " ";
-  // }
-  // cout << el;
-  cout << min(dpc[s.length() - 1], dpj[s.length() - 1]) << el;
+    // for (int i = 0; i < s.length(); i++)
+    // {
+    //     cout << dpc[i] << " ";
+    // }
+    // cout << el;
+    // for (int i = 0; i < s.length(); i++)
+    // {
+    //     cout << dpj[i] << " ";
+    // }
+    // cout << el;
+    cout << min(dpc[s.length() - 1], dpj[s.length() - 1]) << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }

@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -59,18 +59,18 @@ double eps = 1e-12;
 
 int main()
 {
-  double a;
-  cin >> a;
-  double sq = sqrt(a);
-  printf("%.0lf\n", sq);
-  // if (int(sq) != sq)
-  // {
-  //   printf("%.0lf\n", a * a);
-  // }
-  // else
-  // {
-  //   cout << sq << el;
-  // }
+    double a;
+    cin >> a;
+    double sq = sqrt(a);
+    printf("%.0lf\n", sq);
+    // if (int(sq) != sq)
+    // {
+    //     printf("%.0lf\n", a * a);
+    // }
+    // else
+    // {
+    //     cout << sq << el;
+    // }
 
-  return 0;
+    return 0;
 }

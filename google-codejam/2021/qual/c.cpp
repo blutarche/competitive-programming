@@ -48,10 +48,10 @@ double eps = 1e-12;
 #define se second
 #define el endl;
 #define INF 2e18
-#define fast_cin()                  \
-  ios_base::sync_with_stdio(false); \
-  cin.tie(NULL);                    \
-  cout.tie(NULL)
+#define fast_cin()                                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                                        \
+    cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
@@ -63,94 +63,94 @@ int g[mxN];
 
 void rev(int i, int j)
 {
-  int a = i, b = j;
-  while (a < b)
-  {
-    int tmp = g[a];
-    g[a] = g[b];
-    g[b] = tmp;
-    a++;
-    b--;
-  }
+    int a = i, b = j;
+    while (a < b)
+    {
+        int tmp = g[a];
+        g[a] = g[b];
+        g[b] = tmp;
+        a++;
+        b--;
+    }
 }
 
 void solve()
 {
-  v.clear();
-  int n, c;
-  cin >> n;
-  cin >> c;
-  if (c < n - 1)
-  {
-    cout << "IMPOSSIBLE" << el;
-    return;
-  }
+    v.clear();
+    int n, c;
+    cin >> n;
+    cin >> c;
+    if (c < n - 1)
+    {
+        cout << "IMPOSSIBLE" << el;
+        return;
+    }
 
-  forn(i, n) g[i] = i + 1;
+    forn(i, n) g[i] = i + 1;
 
-  c -= n - 1;
-  vii v;
-  int i = 0;
-  forn(i, n - 1)
-  {
+    c -= n - 1;
+    vii v;
+    int i = 0;
+    forn(i, n - 1)
+    {
+        if (c > 0)
+        {
+            int j;
+            if (n - 1 - i < c)
+            {
+                j = n - 1;
+            }
+            else
+            {
+                j = i + c;
+            }
+            c -= j - i;
+            v.push_back(mp(i, j));
+        }
+        else
+        {
+            break;
+        }
+    }
     if (c > 0)
     {
-      int j;
-      if (n - 1 - i < c)
-      {
-        j = n - 1;
-      }
-      else
-      {
-        j = i + c;
-      }
-      c -= j - i;
-      v.push_back(mp(i, j));
+        cout << "IMPOSSIBLE" << el;
+        return;
     }
-    else
+    sort(v.begin(), v.end(), greater<pii>());
+    bool r = false;
+    for (pii p : v)
     {
-      break;
+        // cout << p.first << " " << p.second << el;
+        // forn(i, n)
+        // {
+        //     cout << g[i];
+        //     if (i < n - 1)
+        //         cout << " ";
+        // }
+        // cout << el;
+        rev(p.first, p.second);
     }
-  }
-  if (c > 0)
-  {
-    cout << "IMPOSSIBLE" << el;
-    return;
-  }
-  sort(v.begin(), v.end(), greater<pii>());
-  bool r = false;
-  for (pii p : v)
-  {
-    // cout << p.first << " " << p.second << el;
-    // forn(i, n)
-    // {
-    //   cout << g[i];
-    //   if (i < n - 1)
-    //     cout << " ";
-    // }
-    // cout << el;
-    rev(p.first, p.second);
-  }
 
-  forn(i, n)
-  {
-    cout << g[i];
-    if (i < n - 1)
-      cout << " ";
-  }
-  cout << el;
-  // cout << "-----" << el;
+    forn(i, n)
+    {
+        cout << g[i];
+        if (i < n - 1)
+            cout << " ";
+    }
+    cout << el;
+    // cout << "-----" << el;
 }
 
 int main()
 {
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    cout << "Case #" << i + 1 << ": ";
-    solve();
-  }
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
 
-  return 0;
+    return 0;
 }
