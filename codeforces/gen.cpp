@@ -60,11 +60,23 @@ double eps = 1e-12;
 
 int main()
 {
-  int n = 200000;
+  int n = 100;
+  printf("%d %d 20\n", n, n);
   forn(i, n)
   {
-    cout << "1000000000 "
-         << "200000" << el;
+    forn(j, n - 1)
+    {
+      cout << 1 << " ";
+    }
+    cout << ln;
+  }
+  forn(i, n - 1)
+  {
+    forn(j, n)
+    {
+      cout << 1 << " ";
+    }
+    cout << ln;
   }
   // solve();
 

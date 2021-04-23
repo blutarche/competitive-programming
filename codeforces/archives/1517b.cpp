@@ -36,34 +36,21 @@ ll MOD = 998244353;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
 
-#define mxn 100
-ll n;
+#define mxn 502
+
+int n;
+vi v;
+int g[mxn][mxn];
 
 void solve()
 {
+  memset(g, 0, sizeof(g));
   cin >> n;
-  ll x = 2050;
-  while (x < n)
+  forn(i, n)
   {
-    x *= 10;
-  }
-  int ans = 0;
-  while (n > 0)
-  {
-    while (x > n)
-      x /= 10;
-    if (x < 2050)
-      break;
-    n -= x;
-    ans++;
-  }
-  if (n != 0)
-  {
-    cout << -1 << ln;
-  }
-  else
-  {
-    cout << ans << ln;
+    int tmp;
+    cin >> tmp;
+    v[i] = tmp;
   }
 }
 
