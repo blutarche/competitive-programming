@@ -38,21 +38,26 @@ ll MOD = 998244353;
 
 #define mxn 100
 
-void solve()
-{
+void gen_case() {
+  int n = rand() % 100 + 1;
+  cout << n << ln;
+  forn (i, n) {
+    cout << rand() % 1000000 << " ";
+  }
+  cout << ln;
 }
 
 int main()
 {
   fast_cin();
-  int T;
-  cin >> T;
-  for (int i = 0; i < T; i++)
-  {
-    // cout << "Case #" << i + 1 << ": ";
-    solve();
+  int seed;
+  cin >> seed;
+  srand(seed);
+  // int t = rand() % 100 + 1;
+  cout << 1 << ln;
+  forn(i, 1) {
+    gen_case();
   }
-  // solve();
 
   return 0;
 }

@@ -40,6 +40,15 @@ ll MOD = 998244353;
 
 void solve()
 {
+  int n;
+  cin >> n;
+  int max = -1;
+  forn (i, n) {
+    int tmp;
+    cin >> tmp;
+    if (max < tmp) max = tmp;
+  }
+  cout << max << ln;
 }
 
 int main()
