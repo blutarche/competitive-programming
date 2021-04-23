@@ -44,15 +44,15 @@ void solve()
 
 int main()
 {
-        fast_cin();
-        int T;
-        cin >> T;
-        for (int i = 0; i < T; i++)
-        {
-                // cout << "Case #" << i + 1 << ": ";
-                solve();
-        }
-        // solve();
+    fast_cin();
+    int T;
+    cin >> T;
+    for (int i = 0; i < T; i++)
+    {
+        // cout << "Case #" << i + 1 << ": ";
+        solve();
+    }
+    // solve();
 
-        return 0;
+    return 0;
 }
