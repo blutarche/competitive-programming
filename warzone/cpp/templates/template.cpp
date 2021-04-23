@@ -27,14 +27,15 @@ double eps = 1e-12;
 #define fi first
 #define el endl
 #define se second
-#define INF 2e18
-ll MOD = 998244353;
 #define fast_cin()                                    \
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                                        \
     cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
+
+#define INF 2e18
+ll MOD = 998244353;
 
 #define mxn 100
 
