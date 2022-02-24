@@ -1,91 +1,113 @@
 import { readInput } from './utils'
-import _ from 'lodash'
+import _, { split } from 'lodash'
 import { promises as fs } from 'fs'
 
-type Like = {
-  [id: number]: {
-    [ing: string]: boolean
+type People = {
+  [name: string]: {
+    [skill: string]: number
   }
 }
 
-type Hate = {
-  [id: number]: {
-    [ing: string]: boolean
+type Projects = {
+  [name: string]: {
+    days: number
+    score: number
+    bestBefore: number
+    roles: Array<{
+      name: string
+      level: number
+    }>
   }
 }
 
-type HateIndex = {
-  [ing: string]: number
-}
-
-type IngredientIndex = {
-  [ing: string]: boolean
-}
-
-let total: number = 0
-let like: Like = {}
-let hate: Hate = {}
-let hateIndex: HateIndex = {}
-let ingIndex: IngredientIndex = {}
+let projectNames: Array<string> = []
+let people: People = {}
+let projects: Projects = {}
+let totalPeople: number = 0
+let totalProject: number = 0
 let isFirstLine: boolean = true
-let currentId: number = 0
-let isLike: boolean = true
+let peopleLeft: number = 0
+let skillsLeft: number = 0
+let rolesLeft: number = 0
+let projectsLeft: number = 0
+let currentPerson: string = ''
+let currentProject: string = ''
 
 const processLine = (line: string, last?: boolean) => {
+  const splitted = line.split(' ')
   if (isFirstLine) {
-    total = parseInt(line)
+    totalPeople = parseInt(splitted[0])
+    totalProject = parseInt(splitted[1])
+    peopleLeft = totalPeople
+    projectsLeft = totalProject
     isFirstLine = false
     return
   }
-  const splitted = line.split(' ')
-  if (isLike) {
-    like[currentId] = {}
-    for (let i = 1; i < splitted.length; i++) {
-      const ing = splitted[i]
-      like[currentId][ing] = true
-      ingIndex[ing] = true
+  if (peopleLeft > 0 || skillsLeft > 0) {
+    if (skillsLeft === 0) {
+      --peopleLeft
+      currentPerson = splitted[0]
+      skillsLeft = parseInt(splitted[1])
+      people[currentPerson] = {}
+      return
     }
-    isLike = false
-  } else {
-    hate[currentId] = {}
-    for (let i = 1; i < splitted.length; i++) {
-      const ing = splitted[i]
-      hate[currentId][ing] = true
-      if (!hateIndex[ing]) hateIndex[ing] = 0
-      hateIndex[ing]++
-      ingIndex[ing] = true
-    }
-    isLike = true
-    currentId++
+    --skillsLeft
+    const skillName = splitted[0]
+    const skillLevel = parseInt(splitted[1])
+    people[currentPerson][skillName] = skillLevel
+    return
   }
+  if (rolesLeft === 0) {
+    --projectsLeft
+    currentProject = splitted[0]
+    projectNames.push(currentProject)
+    const days = parseInt(splitted[1])
+    const score = parseInt(splitted[2])
+    const bestBefore = parseInt(splitted[3])
+    rolesLeft = parseInt(splitted[4])
+    projects[currentProject] = {
+      days,
+      score,
+      bestBefore,
+      roles: [],
+    }
+    return
+  }
+  --rolesLeft
+  const skillName = splitted[0]
+  const skillLevel = parseInt(splitted[1])
+  projects[currentProject].roles.push({
+    name: skillName,
+    level: skillLevel,
+  })
+  return
 }
 
 const reset = () => {
-  like = {}
-  hate = {}
-  hateIndex = {}
-  ingIndex = {}
-  total = 0
+  projectNames = []
+  people = {}
+  projects = {}
+  totalPeople = 0
+  totalProject = 0
   isFirstLine = true
-  currentId = 0
-  isLike = true
+  peopleLeft = 0
+  currentPerson = ''
+  currentProject = ''
+  skillsLeft = 0
+  rolesLeft = 0
+  projectsLeft = 0
 }
 
 const processCase = async (inputDir: string, fileName: string) => {
   reset()
   await readInput(`${inputDir}/${fileName}`, processLine)
-  if (fileName === 'a_an_example.in.txt') {
-    console.log(like)
-    console.log(hate)
-    // console.log(hateIndex)
-    // console.log(ingIndex)
-  }
+
+  console.log('people', people)
+  console.log('projects', JSON.stringify(projects, null, 2))
+  console.log('projectNames', projectNames)
+
   let ans = []
-  _.forEach(ingIndex, (val, ing) => {
-    if (!hateIndex[ing]) {
-      ans.push(ing)
-    }
-  })
+
   const outFileName = fileName.replace('.in.', '.out.')
   let ansString = `${ans.length} ${ans.join(' ')}`
   console.log(`${inputDir}/${fileName}`)
