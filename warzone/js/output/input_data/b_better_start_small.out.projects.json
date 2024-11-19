@@ -1,0 +1,2926 @@
+{
+  "StadiaNextv9": {
+    "name": "StadiaNextv9",
+    "days": 20,
+    "score": 16813,
+    "bestBefore": 763,
+    "roles": [
+      {
+        "name": "MySQL",
+        "level": 3
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 6
+      },
+      {
+        "name": "Go-NET",
+        "level": 9
+      },
+      {
+        "name": "Blockchain",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 3
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 10
+      },
+      {
+        "name": "Blockchain",
+        "level": 9
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 6
+      },
+      {
+        "name": "Haskell",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 4
+      }
+    ]
+  },
+  "SlidesNextv2": {
+    "name": "SlidesNextv2",
+    "days": 20,
+    "score": 7950,
+    "bestBefore": 259,
+    "roles": [
+      {
+        "name": "HTML++",
+        "level": 2
+      },
+      {
+        "name": "MySQL",
+        "level": 2
+      }
+    ]
+  },
+  "WearOSProv2": {
+    "name": "WearOSProv2",
+    "days": 19,
+    "score": 22883,
+    "bestBefore": 683,
+    "roles": [
+      {
+        "name": "COBOL-lib",
+        "level": 5
+      },
+      {
+        "name": "UXDesign",
+        "level": 4
+      },
+      {
+        "name": "PHP-py",
+        "level": 8
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 4
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 8
+      },
+      {
+        "name": "Assembly-py",
+        "level": 7
+      },
+      {
+        "name": "HTML-js",
+        "level": 3
+      },
+      {
+        "name": "MySQL",
+        "level": 3
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 4
+      }
+    ]
+  },
+  "CollectionsNextv1": {
+    "name": "CollectionsNextv1",
+    "days": 11,
+    "score": 8246,
+    "bestBefore": 826,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 2
+      },
+      {
+        "name": "Go-NET",
+        "level": 5
+      },
+      {
+        "name": "HTML-js",
+        "level": 7
+      },
+      {
+        "name": "Go-NET",
+        "level": 1
+      }
+    ]
+  },
+  "GlassOSSv3": {
+    "name": "GlassOSSv3",
+    "days": 16,
+    "score": 6354,
+    "bestBefore": 984,
+    "roles": [
+      {
+        "name": "HTML-js",
+        "level": 7
+      },
+      {
+        "name": "HTML++",
+        "level": 3
+      }
+    ]
+  },
+  "StreamXv9": {
+    "name": "StreamXv9",
+    "days": 18,
+    "score": 1518,
+    "bestBefore": 283,
+    "roles": [
+      {
+        "name": "Communication-lib",
+        "level": 2
+      }
+    ]
+  },
+  "MoonMaxv4": {
+    "name": "MoonMaxv4",
+    "days": 12,
+    "score": 11001,
+    "bestBefore": 690,
+    "roles": [
+      {
+        "name": "Blockchain",
+        "level": 10
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 1
+      },
+      {
+        "name": "SQL-js",
+        "level": 7
+      },
+      {
+        "name": "Blockchain++",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 1
+      },
+      {
+        "name": "Assembly-py",
+        "level": 3
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 5
+      },
+      {
+        "name": "MATLAB",
+        "level": 4
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 6
+      }
+    ]
+  },
+  "CastOSProv6": {
+    "name": "CastOSProv6",
+    "days": 10,
+    "score": 1817,
+    "bestBefore": 882,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 3
+      }
+    ]
+  },
+  "ShoppingProv8": {
+    "name": "ShoppingProv8",
+    "days": 20,
+    "score": 3110,
+    "bestBefore": 295,
+    "roles": [
+      {
+        "name": "COBOL-lib",
+        "level": 1
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 3
+      }
+    ]
+  },
+  "AndroidTVNextv1": {
+    "name": "AndroidTVNextv1",
+    "days": 13,
+    "score": 12497,
+    "bestBefore": 337,
+    "roles": [
+      {
+        "name": "PublicSpeaking-py",
+        "level": 6
+      },
+      {
+        "name": "Dart-lib",
+        "level": 5
+      },
+      {
+        "name": "PHP-py",
+        "level": 8
+      },
+      {
+        "name": "Communication-lib",
+        "level": 4
+      },
+      {
+        "name": "Angular-NET",
+        "level": 2
+      },
+      {
+        "name": "Assembly-py",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "PHP-py",
+        "level": 4
+      }
+    ]
+  },
+  "MapsUltrav3": {
+    "name": "MapsUltrav3",
+    "days": 11,
+    "score": 5673,
+    "bestBefore": 823,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 5
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 3
+      },
+      {
+        "name": "Angular-NET",
+        "level": 8
+      }
+    ]
+  },
+  "ExploreUltrav8": {
+    "name": "ExploreUltrav8",
+    "days": 13,
+    "score": 16882,
+    "bestBefore": 492,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 4
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 5
+      },
+      {
+        "name": "PHP-py",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 5
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 5
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 2
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 6
+      }
+    ]
+  },
+  "ChromeNextv7": {
+    "name": "ChromeNextv7",
+    "days": 14,
+    "score": 8381,
+    "bestBefore": 459,
+    "roles": [
+      {
+        "name": "PHP-py",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 7
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 1
+      }
+    ]
+  },
+  "ClassroomMaxv2": {
+    "name": "ClassroomMaxv2",
+    "days": 12,
+    "score": 3836,
+    "bestBefore": 863,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 3
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 7
+      }
+    ]
+  },
+  "StreamXv6": {
+    "name": "StreamXv6",
+    "days": 12,
+    "score": 12240,
+    "bestBefore": 711,
+    "roles": [
+      {
+        "name": "CloudComputing-2+0",
+        "level": 1
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 2
+      },
+      {
+        "name": "Go-NET",
+        "level": 1
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 1
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 2
+      }
+    ]
+  },
+  "DocsNextv2": {
+    "name": "DocsNextv2",
+    "days": 14,
+    "score": 4373,
+    "bestBefore": 626,
+    "roles": [
+      {
+        "name": "Delphi",
+        "level": 6
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 1
+      }
+    ]
+  },
+  "BuildMaxv1": {
+    "name": "BuildMaxv1",
+    "days": 12,
+    "score": 6712,
+    "bestBefore": 707,
+    "roles": [
+      {
+        "name": "MachineLearning-2+0",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 1
+      },
+      {
+        "name": "UXDesign",
+        "level": 1
+      },
+      {
+        "name": "Security-js",
+        "level": 8
+      },
+      {
+        "name": "PHP-py",
+        "level": 9
+      }
+    ]
+  },
+  "DrawingsXv6": {
+    "name": "DrawingsXv6",
+    "days": 16,
+    "score": 14686,
+    "bestBefore": 515,
+    "roles": [
+      {
+        "name": "HTML++",
+        "level": 4
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 8
+      },
+      {
+        "name": "COBOL-lib",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 4
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 8
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 5
+      }
+    ]
+  },
+  "GameProv3": {
+    "name": "GameProv3",
+    "days": 15,
+    "score": 1732,
+    "bestBefore": 400,
+    "roles": [
+      {
+        "name": "TypeScript-lib",
+        "level": 5
+      }
+    ]
+  },
+  "ShortsNextv7": {
+    "name": "ShortsNextv7",
+    "days": 11,
+    "score": 2957,
+    "bestBefore": 582,
+    "roles": [
+      {
+        "name": "SQL-js",
+        "level": 7
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 5
+      }
+    ]
+  },
+  "DuoLitev3": {
+    "name": "DuoLitev3",
+    "days": 19,
+    "score": 17561,
+    "bestBefore": 304,
+    "roles": [
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 3
+      },
+      {
+        "name": "Go-NET",
+        "level": 4
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 4
+      },
+      {
+        "name": "Angular-NET",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 1
+      },
+      {
+        "name": "MATLAB",
+        "level": 6
+      }
+    ]
+  },
+  "GmailSv4": {
+    "name": "GmailSv4",
+    "days": 18,
+    "score": 5166,
+    "bestBefore": 352,
+    "roles": [
+      {
+        "name": "Security-js",
+        "level": 10
+      },
+      {
+        "name": "UXDesign",
+        "level": 4
+      }
+    ]
+  },
+  "SearchNextv1": {
+    "name": "SearchNextv1",
+    "days": 20,
+    "score": 8768,
+    "bestBefore": 906,
+    "roles": [
+      {
+        "name": "PHP-py",
+        "level": 10
+      },
+      {
+        "name": "Assembly-py",
+        "level": 4
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 2
+      },
+      {
+        "name": "Delphi",
+        "level": 7
+      },
+      {
+        "name": "MATLAB",
+        "level": 4
+      }
+    ]
+  },
+  "WearOSLitev5": {
+    "name": "WearOSLitev5",
+    "days": 15,
+    "score": 16854,
+    "bestBefore": 296,
+    "roles": [
+      {
+        "name": "UXDesign",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 5
+      },
+      {
+        "name": "Dart",
+        "level": 4
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 3
+      }
+    ]
+  },
+  "LoggingLitev6": {
+    "name": "LoggingLitev6",
+    "days": 14,
+    "score": 11633,
+    "bestBefore": 528,
+    "roles": [
+      {
+        "name": "Communication-3+0",
+        "level": 4
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 3
+      },
+      {
+        "name": "Delphi",
+        "level": 1
+      },
+      {
+        "name": "Communication-lib",
+        "level": 4
+      },
+      {
+        "name": "Go-NET",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 5
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 1
+      },
+      {
+        "name": "Delphi",
+        "level": 4
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 6
+      }
+    ]
+  },
+  "DaydreamLitev7": {
+    "name": "DaydreamLitev7",
+    "days": 12,
+    "score": 2202,
+    "bestBefore": 535,
+    "roles": [
+      {
+        "name": "CloudComputing-2+0",
+        "level": 5
+      }
+    ]
+  },
+  "BloggerNextv8": {
+    "name": "BloggerNextv8",
+    "days": 19,
+    "score": 14306,
+    "bestBefore": 467,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 6
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 7
+      },
+      {
+        "name": "HTML-js",
+        "level": 8
+      },
+      {
+        "name": "PHP-py",
+        "level": 6
+      }
+    ]
+  },
+  "MapsProv8": {
+    "name": "MapsProv8",
+    "days": 18,
+    "score": 9450,
+    "bestBefore": 831,
+    "roles": [
+      {
+        "name": "Parallelization-NET",
+        "level": 1
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 9
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 3
+      }
+    ]
+  },
+  "ChatProv6": {
+    "name": "ChatProv6",
+    "days": 18,
+    "score": 29023,
+    "bestBefore": 377,
+    "roles": [
+      {
+        "name": "Go-NET",
+        "level": 5
+      },
+      {
+        "name": "HTML++",
+        "level": 1
+      },
+      {
+        "name": "Go-NET",
+        "level": 8
+      },
+      {
+        "name": "Security-js",
+        "level": 2
+      },
+      {
+        "name": "Blockchain++",
+        "level": 1
+      },
+      {
+        "name": "Security-js",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 4
+      },
+      {
+        "name": "Delphi",
+        "level": 8
+      }
+    ]
+  },
+  "FeedBurnerNextv3": {
+    "name": "FeedBurnerNextv3",
+    "days": 16,
+    "score": 22221,
+    "bestBefore": 302,
+    "roles": [
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 9
+      },
+      {
+        "name": "Dart",
+        "level": 2
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 3
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 7
+      },
+      {
+        "name": "Go-NET",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 3
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 5
+      }
+    ]
+  },
+  "ConnectLitev9": {
+    "name": "ConnectLitev9",
+    "days": 12,
+    "score": 1191,
+    "bestBefore": 448,
+    "roles": [
+      {
+        "name": "Blockchain++",
+        "level": 3
+      }
+    ]
+  },
+  "AndroidTVXv9": {
+    "name": "AndroidTVXv9",
+    "days": 10,
+    "score": 4199,
+    "bestBefore": 542,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 2
+      },
+      {
+        "name": "HTML-js",
+        "level": 2
+      },
+      {
+        "name": "PHP-py",
+        "level": 6
+      },
+      {
+        "name": "HTML-js",
+        "level": 2
+      }
+    ]
+  },
+  "CollectionsZv7": {
+    "name": "CollectionsZv7",
+    "days": 16,
+    "score": 14477,
+    "bestBefore": 282,
+    "roles": [
+      {
+        "name": "Parallelization-NET",
+        "level": 2
+      },
+      {
+        "name": "PHP-py",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 6
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 1
+      },
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "Go-NET",
+        "level": 7
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 6
+      }
+    ]
+  },
+  "StadiaZv2": {
+    "name": "StadiaZv2",
+    "days": 17,
+    "score": 18257,
+    "bestBefore": 991,
+    "roles": [
+      {
+        "name": "Security-js",
+        "level": 7
+      },
+      {
+        "name": "HTML++",
+        "level": 3
+      },
+      {
+        "name": "Blockchain",
+        "level": 11
+      },
+      {
+        "name": "SQL-js",
+        "level": 10
+      },
+      {
+        "name": "MATLAB",
+        "level": 1
+      },
+      {
+        "name": "Blockchain",
+        "level": 2
+      }
+    ]
+  },
+  "KeepXv5": {
+    "name": "KeepXv5",
+    "days": 17,
+    "score": 7932,
+    "bestBefore": 977,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 4
+      },
+      {
+        "name": "Blockchain",
+        "level": 9
+      }
+    ]
+  },
+  "GameProv6": {
+    "name": "GameProv6",
+    "days": 13,
+    "score": 7306,
+    "bestBefore": 936,
+    "roles": [
+      {
+        "name": "Communication-lib",
+        "level": 2
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 7
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 8
+      }
+    ]
+  },
+  "ChromeOSLitev3": {
+    "name": "ChromeOSLitev3",
+    "days": 14,
+    "score": 4455,
+    "bestBefore": 810,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 2
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 1
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 6
+      }
+    ]
+  },
+  "SitesUltrav5": {
+    "name": "SitesUltrav5",
+    "days": 18,
+    "score": 29943,
+    "bestBefore": 837,
+    "roles": [
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 6
+      },
+      {
+        "name": "HTML-js",
+        "level": 2
+      },
+      {
+        "name": "Dart",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 1
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 10
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 1
+      },
+      {
+        "name": "Delphi",
+        "level": 5
+      }
+    ]
+  },
+  "MarsXv1": {
+    "name": "MarsXv1",
+    "days": 10,
+    "score": 3676,
+    "bestBefore": 549,
+    "roles": [
+      {
+        "name": "CloudComputing-NET",
+        "level": 4
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 3
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 4
+      },
+      {
+        "name": "Blockchain",
+        "level": 3
+      }
+    ]
+  },
+  "StreetViewProv9": {
+    "name": "StreetViewProv9",
+    "days": 12,
+    "score": 13693,
+    "bestBefore": 328,
+    "roles": [
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 5
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 1
+      },
+      {
+        "name": "HTML-js",
+        "level": 5
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 2
+      },
+      {
+        "name": "HTML-py",
+        "level": 2
+      },
+      {
+        "name": "UXDesign",
+        "level": 3
+      },
+      {
+        "name": "Communication-lib",
+        "level": 1
+      }
+    ]
+  },
+  "GlassOSProv9": {
+    "name": "GlassOSProv9",
+    "days": 19,
+    "score": 14751,
+    "bestBefore": 811,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 7
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 4
+      },
+      {
+        "name": "MATLAB",
+        "level": 5
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 2
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 4
+      }
+    ]
+  },
+  "FeedBurnerMaxv3": {
+    "name": "FeedBurnerMaxv3",
+    "days": 12,
+    "score": 4572,
+    "bestBefore": 547,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 3
+      },
+      {
+        "name": "Communication-lib",
+        "level": 3
+      }
+    ]
+  },
+  "AndroidTVMaxv5": {
+    "name": "AndroidTVMaxv5",
+    "days": 14,
+    "score": 5055,
+    "bestBefore": 909,
+    "roles": [
+      {
+        "name": "CloudComputing-NET",
+        "level": 4
+      },
+      {
+        "name": "Delphi",
+        "level": 3
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      }
+    ]
+  },
+  "DuoZv2": {
+    "name": "DuoZv2",
+    "days": 18,
+    "score": 10817,
+    "bestBefore": 832,
+    "roles": [
+      {
+        "name": "TypeScript-lib",
+        "level": 2
+      },
+      {
+        "name": "Delphi",
+        "level": 4
+      },
+      {
+        "name": "SQL-js",
+        "level": 6
+      }
+    ]
+  },
+  "CalendarProv3": {
+    "name": "CalendarProv3",
+    "days": 19,
+    "score": 19634,
+    "bestBefore": 846,
+    "roles": [
+      {
+        "name": "UXDesign",
+        "level": 5
+      },
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 7
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 3
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 5
+      },
+      {
+        "name": "Go-NET",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 4
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 8
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 7
+      }
+    ]
+  },
+  "StadiaZv1": {
+    "name": "StadiaZv1",
+    "days": 14,
+    "score": 11728,
+    "bestBefore": 754,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 5
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 1
+      },
+      {
+        "name": "Haskell",
+        "level": 1
+      },
+      {
+        "name": "Angular-NET",
+        "level": 8
+      }
+    ]
+  },
+  "CastOSNextv8": {
+    "name": "CastOSNextv8",
+    "days": 19,
+    "score": 31519,
+    "bestBefore": 372,
+    "roles": [
+      {
+        "name": "Communication-lib",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 3
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 4
+      },
+      {
+        "name": "Security-js",
+        "level": 1
+      },
+      {
+        "name": "Assembly-py",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 4
+      },
+      {
+        "name": "UXDesign",
+        "level": 5
+      },
+      {
+        "name": "Dart",
+        "level": 4
+      }
+    ]
+  },
+  "ResearchUltrav8": {
+    "name": "ResearchUltrav8",
+    "days": 20,
+    "score": 29968,
+    "bestBefore": 307,
+    "roles": [
+      {
+        "name": "CloudComputing-NET",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 3
+      },
+      {
+        "name": "PHP-py",
+        "level": 2
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 8
+      },
+      {
+        "name": "UXDesign",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 8
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 8
+      }
+    ]
+  },
+  "CalendarNextv8": {
+    "name": "CalendarNextv8",
+    "days": 16,
+    "score": 6002,
+    "bestBefore": 892,
+    "roles": [
+      {
+        "name": "Security-js",
+        "level": 1
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 6
+      }
+    ]
+  },
+  "WebserverProv4": {
+    "name": "WebserverProv4",
+    "days": 12,
+    "score": 21563,
+    "bestBefore": 307,
+    "roles": [
+      {
+        "name": "CloudComputing-NET",
+        "level": 3
+      },
+      {
+        "name": "Dart-lib",
+        "level": 2
+      },
+      {
+        "name": "Angular-NET",
+        "level": 6
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 6
+      },
+      {
+        "name": "MySQL",
+        "level": 5
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 5
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "HTML-js",
+        "level": 5
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 5
+      }
+    ]
+  },
+  "YouTubeZv2": {
+    "name": "YouTubeZv2",
+    "days": 17,
+    "score": 15521,
+    "bestBefore": 769,
+    "roles": [
+      {
+        "name": "MATLAB",
+        "level": 6
+      },
+      {
+        "name": "Angular-NET",
+        "level": 3
+      },
+      {
+        "name": "Communication-lib",
+        "level": 2
+      },
+      {
+        "name": "Angular-NET",
+        "level": 3
+      },
+      {
+        "name": "Assembly-py",
+        "level": 7
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 8
+      },
+      {
+        "name": "HTML-py",
+        "level": 3
+      }
+    ]
+  },
+  "SkySv8": {
+    "name": "SkySv8",
+    "days": 17,
+    "score": 18244,
+    "bestBefore": 715,
+    "roles": [
+      {
+        "name": "PublicSpeaking-py",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 6
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 4
+      },
+      {
+        "name": "PHP-py",
+        "level": 8
+      },
+      {
+        "name": "Angular-NET",
+        "level": 7
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 7
+      },
+      {
+        "name": "HTML++",
+        "level": 7
+      }
+    ]
+  },
+  "ResearchXv8": {
+    "name": "ResearchXv8",
+    "days": 14,
+    "score": 12213,
+    "bestBefore": 394,
+    "roles": [
+      {
+        "name": "Delphi",
+        "level": 6
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 5
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 5
+      }
+    ]
+  },
+  "ReleaseUltrav1": {
+    "name": "ReleaseUltrav1",
+    "days": 15,
+    "score": 3808,
+    "bestBefore": 865,
+    "roles": [
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 8
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 7
+      }
+    ]
+  },
+  "MapsSv7": {
+    "name": "MapsSv7",
+    "days": 12,
+    "score": 21465,
+    "bestBefore": 836,
+    "roles": [
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      },
+      {
+        "name": "SQL-js",
+        "level": 7
+      },
+      {
+        "name": "Communication-lib",
+        "level": 1
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 2
+      },
+      {
+        "name": "HTML-js",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 2
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 3
+      }
+    ]
+  },
+  "ChromecastXv8": {
+    "name": "ChromecastXv8",
+    "days": 19,
+    "score": 5584,
+    "bestBefore": 708,
+    "roles": [
+      {
+        "name": "Haskell",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 7
+      }
+    ]
+  },
+  "DreamSv2": {
+    "name": "DreamSv2",
+    "days": 18,
+    "score": 12473,
+    "bestBefore": 698,
+    "roles": [
+      {
+        "name": "TechWriting-js",
+        "level": 3
+      },
+      {
+        "name": "Angular-NET",
+        "level": 6
+      },
+      {
+        "name": "Go-NET",
+        "level": 1
+      },
+      {
+        "name": "Communication-lib",
+        "level": 1
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 5
+      },
+      {
+        "name": "HTML-js",
+        "level": 4
+      }
+    ]
+  },
+  "SlidesUltrav7": {
+    "name": "SlidesUltrav7",
+    "days": 13,
+    "score": 8118,
+    "bestBefore": 509,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 2
+      },
+      {
+        "name": "SQL-js",
+        "level": 11
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 7
+      },
+      {
+        "name": "Blockchain",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 3
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 8
+      }
+    ]
+  },
+  "PhoneUltrav1": {
+    "name": "PhoneUltrav1",
+    "days": 20,
+    "score": 12964,
+    "bestBefore": 583,
+    "roles": [
+      {
+        "name": "CloudComputing-2+0",
+        "level": 2
+      },
+      {
+        "name": "Communication-lib",
+        "level": 4
+      },
+      {
+        "name": "Assembly-py",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 2
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 6
+      }
+    ]
+  },
+  "SitesSv1": {
+    "name": "SitesSv1",
+    "days": 14,
+    "score": 4734,
+    "bestBefore": 394,
+    "roles": [
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 4
+      }
+    ]
+  },
+  "SmartSv2": {
+    "name": "SmartSv2",
+    "days": 16,
+    "score": 13742,
+    "bestBefore": 774,
+    "roles": [
+      {
+        "name": "SQL-js",
+        "level": 10
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 8
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      },
+      {
+        "name": "Haskell",
+        "level": 2
+      },
+      {
+        "name": "COBOL-lib",
+        "level": 1
+      }
+    ]
+  },
+  "VideoUltrav1": {
+    "name": "VideoUltrav1",
+    "days": 12,
+    "score": 11830,
+    "bestBefore": 353,
+    "roles": [
+      {
+        "name": "Blockchain++",
+        "level": 1
+      },
+      {
+        "name": "Angular-NET",
+        "level": 4
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 1
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 5
+      },
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 5
+      },
+      {
+        "name": "Security-js",
+        "level": 9
+      }
+    ]
+  },
+  "AndroidAutoZv2": {
+    "name": "AndroidAutoZv2",
+    "days": 18,
+    "score": 10769,
+    "bestBefore": 345,
+    "roles": [
+      {
+        "name": "MySQL",
+        "level": 2
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 2
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 1
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      }
+    ]
+  },
+  "StreetViewXv1": {
+    "name": "StreetViewXv1",
+    "days": 15,
+    "score": 9960,
+    "bestBefore": 486,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 2
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "SQL-js",
+        "level": 8
+      }
+    ]
+  },
+  "PhoneXv6": {
+    "name": "PhoneXv6",
+    "days": 15,
+    "score": 11003,
+    "bestBefore": 300,
+    "roles": [
+      {
+        "name": "MachineLearning-2+0",
+        "level": 5
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 5
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 9
+      },
+      {
+        "name": "Blockchain",
+        "level": 6
+      },
+      {
+        "name": "Shell-py",
+        "level": 6
+      },
+      {
+        "name": "Dart",
+        "level": 5
+      },
+      {
+        "name": "Assembly-py",
+        "level": 3
+      }
+    ]
+  },
+  "AlertsLitev7": {
+    "name": "AlertsLitev7",
+    "days": 19,
+    "score": 11882,
+    "bestBefore": 727,
+    "roles": [
+      {
+        "name": "Go-NET",
+        "level": 4
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 5
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 11
+      },
+      {
+        "name": "Haskell",
+        "level": 3
+      }
+    ]
+  },
+  "SnapshotZv3": {
+    "name": "SnapshotZv3",
+    "days": 12,
+    "score": 11622,
+    "bestBefore": 504,
+    "roles": [
+      {
+        "name": "Dart-lib",
+        "level": 2
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 4
+      },
+      {
+        "name": "Angular-NET",
+        "level": 5
+      },
+      {
+        "name": "Delphi",
+        "level": 1
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 6
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 4
+      }
+    ]
+  },
+  "ChromeOSUltrav5": {
+    "name": "ChromeOSUltrav5",
+    "days": 13,
+    "score": 7065,
+    "bestBefore": 743,
+    "roles": [
+      {
+        "name": "PublicSpeaking-py",
+        "level": 1
+      },
+      {
+        "name": "MySQL",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 1
+      },
+      {
+        "name": "HTML-py",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 4
+      }
+    ]
+  },
+  "SmartLitev9": {
+    "name": "SmartLitev9",
+    "days": 16,
+    "score": 5493,
+    "bestBefore": 691,
+    "roles": [
+      {
+        "name": "HTML++",
+        "level": 1
+      },
+      {
+        "name": "MATLAB",
+        "level": 3
+      },
+      {
+        "name": "Angular-NET",
+        "level": 5
+      }
+    ]
+  },
+  "GameLitev8": {
+    "name": "GameLitev8",
+    "days": 19,
+    "score": 12336,
+    "bestBefore": 865,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 7
+      },
+      {
+        "name": "HTML-py",
+        "level": 2
+      },
+      {
+        "name": "HTML-js",
+        "level": 1
+      },
+      {
+        "name": "Go-NET",
+        "level": 4
+      }
+    ]
+  },
+  "DatasetSearchNextv1": {
+    "name": "DatasetSearchNextv1",
+    "days": 13,
+    "score": 17493,
+    "bestBefore": 928,
+    "roles": [
+      {
+        "name": "JavaScript-NET",
+        "level": 4
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 4
+      },
+      {
+        "name": "SQL-js",
+        "level": 6
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 7
+      },
+      {
+        "name": "Security-js",
+        "level": 9
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 2
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 2
+      }
+    ]
+  },
+  "DriveZv9": {
+    "name": "DriveZv9",
+    "days": 13,
+    "score": 8585,
+    "bestBefore": 325,
+    "roles": [
+      {
+        "name": "UXDesign",
+        "level": 1
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 3
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 2
+      }
+    ]
+  },
+  "PhotoProv3": {
+    "name": "PhotoProv3",
+    "days": 18,
+    "score": 15916,
+    "bestBefore": 358,
+    "roles": [
+      {
+        "name": "Ajax-3+0",
+        "level": 10
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 6
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 8
+      },
+      {
+        "name": "Blockchain",
+        "level": 8
+      },
+      {
+        "name": "PHP-py",
+        "level": 11
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      }
+    ]
+  },
+  "VoiceProv8": {
+    "name": "VoiceProv8",
+    "days": 18,
+    "score": 11801,
+    "bestBefore": 839,
+    "roles": [
+      {
+        "name": "HTML-js",
+        "level": 8
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 3
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 5
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 6
+      },
+      {
+        "name": "Dart",
+        "level": 6
+      }
+    ]
+  },
+  "DataZv2": {
+    "name": "DataZv2",
+    "days": 19,
+    "score": 22091,
+    "bestBefore": 522,
+    "roles": [
+      {
+        "name": "TechWriting-js",
+        "level": 4
+      },
+      {
+        "name": "Assembly-py",
+        "level": 5
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 2
+      },
+      {
+        "name": "SQL-js",
+        "level": 9
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 2
+      },
+      {
+        "name": "MySQL",
+        "level": 1
+      },
+      {
+        "name": "Go-NET",
+        "level": 1
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 6
+      }
+    ]
+  },
+  "SkyLitev6": {
+    "name": "SkyLitev6",
+    "days": 11,
+    "score": 5120,
+    "bestBefore": 565,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 3
+      },
+      {
+        "name": "Assembly-py",
+        "level": 4
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 1
+      }
+    ]
+  },
+  "AssistantUltrav2": {
+    "name": "AssistantUltrav2",
+    "days": 13,
+    "score": 9128,
+    "bestBefore": 573,
+    "roles": [
+      {
+        "name": "PublicSpeaking-py",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 3
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 8
+      },
+      {
+        "name": "Blockchain",
+        "level": 8
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 6
+      },
+      {
+        "name": "Angular-NET",
+        "level": 8
+      }
+    ]
+  },
+  "DuoZv4": {
+    "name": "DuoZv4",
+    "days": 19,
+    "score": 14968,
+    "bestBefore": 682,
+    "roles": [
+      {
+        "name": "MATLAB",
+        "level": 3
+      },
+      {
+        "name": "Delphi",
+        "level": 4
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 2
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 9
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 5
+      },
+      {
+        "name": "Assembly-py",
+        "level": 2
+      }
+    ]
+  },
+  "GmailLitev9": {
+    "name": "GmailLitev9",
+    "days": 13,
+    "score": 27535,
+    "bestBefore": 924,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 3
+      },
+      {
+        "name": "Security-js",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 1
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 5
+      },
+      {
+        "name": "Security-js",
+        "level": 9
+      },
+      {
+        "name": "HTML-js",
+        "level": 7
+      },
+      {
+        "name": "CloudComputing++",
+        "level": 2
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 2
+      },
+      {
+        "name": "Security-js",
+        "level": 1
+      },
+      {
+        "name": "Go-NET",
+        "level": 3
+      }
+    ]
+  },
+  "ChatSv4": {
+    "name": "ChatSv4",
+    "days": 12,
+    "score": 5887,
+    "bestBefore": 771,
+    "roles": [
+      {
+        "name": "Dart",
+        "level": 7
+      },
+      {
+        "name": "Security-js",
+        "level": 4
+      },
+      {
+        "name": "Angular-NET",
+        "level": 8
+      },
+      {
+        "name": "HTML++",
+        "level": 5
+      }
+    ]
+  },
+  "MarsLitev5": {
+    "name": "MarsLitev5",
+    "days": 11,
+    "score": 4829,
+    "bestBefore": 698,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 8
+      },
+      {
+        "name": "Dart",
+        "level": 3
+      }
+    ]
+  },
+  "SantaTrackerXv4": {
+    "name": "SantaTrackerXv4",
+    "days": 20,
+    "score": 29038,
+    "bestBefore": 341,
+    "roles": [
+      {
+        "name": "Parallelization-NET",
+        "level": 4
+      },
+      {
+        "name": "Assembly-py",
+        "level": 2
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 6
+      },
+      {
+        "name": "Security-js",
+        "level": 4
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 4
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 4
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "MySQL",
+        "level": 4
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 1
+      },
+      {
+        "name": "Blockchain",
+        "level": 8
+      }
+    ]
+  },
+  "ChatXv5": {
+    "name": "ChatXv5",
+    "days": 14,
+    "score": 27039,
+    "bestBefore": 999,
+    "roles": [
+      {
+        "name": "Delphi",
+        "level": 1
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 1
+      },
+      {
+        "name": "Communication-lib",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 3
+      },
+      {
+        "name": "Delphi",
+        "level": 7
+      },
+      {
+        "name": "Haskell",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 8
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 4
+      }
+    ]
+  },
+  "MarsUltrav8": {
+    "name": "MarsUltrav8",
+    "days": 15,
+    "score": 28250,
+    "bestBefore": 657,
+    "roles": [
+      {
+        "name": "Objective-C-lib",
+        "level": 4
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 4
+      },
+      {
+        "name": "Angular-NET",
+        "level": 2
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 1
+      },
+      {
+        "name": "Haskell",
+        "level": 1
+      },
+      {
+        "name": "Shell-py",
+        "level": 3
+      },
+      {
+        "name": "Security-js",
+        "level": 3
+      },
+      {
+        "name": "HTML-js",
+        "level": 5
+      }
+    ]
+  },
+  "CastOSXv6": {
+    "name": "CastOSXv6",
+    "days": 18,
+    "score": 16203,
+    "bestBefore": 262,
+    "roles": [
+      {
+        "name": "Communication-lib",
+        "level": 4
+      },
+      {
+        "name": "Delphi",
+        "level": 2
+      },
+      {
+        "name": "Communication-lib",
+        "level": 1
+      },
+      {
+        "name": "Security-js",
+        "level": 4
+      },
+      {
+        "name": "Ajax-3+0",
+        "level": 9
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 3
+      },
+      {
+        "name": "Blockchain++",
+        "level": 1
+      }
+    ]
+  },
+  "CultureProv7": {
+    "name": "CultureProv7",
+    "days": 19,
+    "score": 17371,
+    "bestBefore": 458,
+    "roles": [
+      {
+        "name": "HTML-js",
+        "level": 3
+      },
+      {
+        "name": "Dart",
+        "level": 1
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 6
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 9
+      },
+      {
+        "name": "Assembly-py",
+        "level": 4
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 5
+      },
+      {
+        "name": "Accessibility-js",
+        "level": 3
+      }
+    ]
+  },
+  "PhoneLitev3": {
+    "name": "PhoneLitev3",
+    "days": 16,
+    "score": 2655,
+    "bestBefore": 329,
+    "roles": [
+      {
+        "name": "PublicSpeaking-py",
+        "level": 8
+      },
+      {
+        "name": "MySQL",
+        "level": 4
+      }
+    ]
+  },
+  "CastOSLitev5": {
+    "name": "CastOSLitev5",
+    "days": 19,
+    "score": 6915,
+    "bestBefore": 302,
+    "roles": [
+      {
+        "name": "CloudComputing++",
+        "level": 8
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 1
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 5
+      },
+      {
+        "name": "Security-js",
+        "level": 8
+      }
+    ]
+  },
+  "ChartsProv9": {
+    "name": "ChartsProv9",
+    "days": 16,
+    "score": 34449,
+    "bestBefore": 661,
+    "roles": [
+      {
+        "name": "Shell-py",
+        "level": 1
+      },
+      {
+        "name": "Blockchain++",
+        "level": 2
+      },
+      {
+        "name": "PHP-py",
+        "level": 11
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 7
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 1
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 2
+      },
+      {
+        "name": "TechWriting-js",
+        "level": 8
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 8
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 2
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 3
+      }
+    ]
+  },
+  "StreetViewUltrav4": {
+    "name": "StreetViewUltrav4",
+    "days": 10,
+    "score": 4931,
+    "bestBefore": 271,
+    "roles": [
+      {
+        "name": "Parallelization-NET",
+        "level": 1
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "HTML++",
+        "level": 6
+      }
+    ]
+  },
+  "BuildLitev6": {
+    "name": "BuildLitev6",
+    "days": 17,
+    "score": 36807,
+    "bestBefore": 933,
+    "roles": [
+      {
+        "name": "Security-js",
+        "level": 4
+      },
+      {
+        "name": "Dart",
+        "level": 6
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 4
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 5
+      },
+      {
+        "name": "MachineLearning-2+0",
+        "level": 6
+      },
+      {
+        "name": "UXDesign",
+        "level": 2
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 2
+      },
+      {
+        "name": "COBOL-lib",
+        "level": 8
+      },
+      {
+        "name": "HTML-py",
+        "level": 3
+      },
+      {
+        "name": "MySQL",
+        "level": 1
+      }
+    ]
+  },
+  "DuoMaxv1": {
+    "name": "DuoMaxv1",
+    "days": 17,
+    "score": 18203,
+    "bestBefore": 314,
+    "roles": [
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 10
+      },
+      {
+        "name": "UXDesign",
+        "level": 4
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 5
+      },
+      {
+        "name": "Angular-NET",
+        "level": 3
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 2
+      }
+    ]
+  },
+  "GlassOSLitev9": {
+    "name": "GlassOSLitev9",
+    "days": 15,
+    "score": 10858,
+    "bestBefore": 840,
+    "roles": [
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 9
+      },
+      {
+        "name": "Security-js",
+        "level": 7
+      },
+      {
+        "name": "Blockchain++",
+        "level": 3
+      },
+      {
+        "name": "HTML-py",
+        "level": 1
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 1
+      },
+      {
+        "name": "MySQL",
+        "level": 1
+      }
+    ]
+  },
+  "StreetViewNextv3": {
+    "name": "StreetViewNextv3",
+    "days": 17,
+    "score": 7999,
+    "bestBefore": 899,
+    "roles": [
+      {
+        "name": "TechWriting-js",
+        "level": 1
+      },
+      {
+        "name": "MySQL",
+        "level": 3
+      },
+      {
+        "name": "HTML++",
+        "level": 4
+      }
+    ]
+  },
+  "FuchsiaLitev6": {
+    "name": "FuchsiaLitev6",
+    "days": 15,
+    "score": 20428,
+    "bestBefore": 582,
+    "roles": [
+      {
+        "name": "TypeScript-lib",
+        "level": 3
+      },
+      {
+        "name": "Haskell",
+        "level": 3
+      },
+      {
+        "name": "MATLAB",
+        "level": 3
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 5
+      },
+      {
+        "name": "CloudComputing-2+0",
+        "level": 7
+      },
+      {
+        "name": "Objective-C-lib",
+        "level": 3
+      },
+      {
+        "name": "PHP-py",
+        "level": 10
+      }
+    ]
+  },
+  "FuchsiaXv6": {
+    "name": "FuchsiaXv6",
+    "days": 18,
+    "score": 4156,
+    "bestBefore": 938,
+    "roles": [
+      {
+        "name": "PHP-py",
+        "level": 4
+      },
+      {
+        "name": "Blockchain++",
+        "level": 1
+      }
+    ]
+  },
+  "ExploreMaxv4": {
+    "name": "ExploreMaxv4",
+    "days": 16,
+    "score": 11385,
+    "bestBefore": 852,
+    "roles": [
+      {
+        "name": "Haskell",
+        "level": 2
+      },
+      {
+        "name": "Dart",
+        "level": 1
+      },
+      {
+        "name": "HTML-py",
+        "level": 2
+      },
+      {
+        "name": "Haskell",
+        "level": 3
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 5
+      },
+      {
+        "name": "TypeScript-lib",
+        "level": 7
+      },
+      {
+        "name": "Go-NET",
+        "level": 3
+      },
+      {
+        "name": "Delphi",
+        "level": 1
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 5
+      }
+    ]
+  },
+  "WebserverProv6": {
+    "name": "WebserverProv6",
+    "days": 13,
+    "score": 2316,
+    "bestBefore": 826,
+    "roles": [
+      {
+        "name": "Angular-NET",
+        "level": 7
+      }
+    ]
+  },
+  "FeedBurnerMaxv1": {
+    "name": "FeedBurnerMaxv1",
+    "days": 10,
+    "score": 3967,
+    "bestBefore": 658,
+    "roles": [
+      {
+        "name": "MachineLearning-2+0",
+        "level": 1
+      },
+      {
+        "name": "MATLAB",
+        "level": 4
+      },
+      {
+        "name": "JavaScript-2+0",
+        "level": 3
+      },
+      {
+        "name": "CloudComputing-NET",
+        "level": 1
+      }
+    ]
+  },
+  "AlertsUltrav2": {
+    "name": "AlertsUltrav2",
+    "days": 13,
+    "score": 24941,
+    "bestBefore": 649,
+    "roles": [
+      {
+        "name": "COBOL-lib",
+        "level": 7
+      },
+      {
+        "name": "HTML++",
+        "level": 3
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 5
+      },
+      {
+        "name": "Parallelization-NET",
+        "level": 5
+      },
+      {
+        "name": "BusinessAnalysis-lib",
+        "level": 11
+      },
+      {
+        "name": "JavaScript-NET",
+        "level": 1
+      },
+      {
+        "name": "Communication-3+0",
+        "level": 4
+      },
+      {
+        "name": "PublicSpeaking-py",
+        "level": 3
+      },
+      {
+        "name": "Security-js",
+        "level": 4
+      }
+    ]
+  }
+}

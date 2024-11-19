@@ -1,0 +1,352 @@
+{
+  "MatasH": {
+    "name": "MatasH",
+    "skills": {
+      "Blockchain": 4
+    },
+    "freeAt": 0
+  },
+  "SergeyU": {
+    "name": "SergeyU",
+    "skills": {
+      "JavaScript-NET": 5
+    },
+    "freeAt": 0
+  },
+  "SergeyV": {
+    "name": "SergeyV",
+    "skills": {
+      "PHP-py": 10
+    },
+    "freeAt": 0
+  },
+  "BakhodirW": {
+    "name": "BakhodirW",
+    "skills": {
+      "CloudComputing-2+0": 8
+    },
+    "freeAt": 0
+  },
+  "LarryX": {
+    "name": "LarryX",
+    "skills": {
+      "CloudComputing++": 2
+    },
+    "freeAt": 0
+  },
+  "ClementE": {
+    "name": "ClementE",
+    "skills": {
+      "Accessibility-js": 6
+    },
+    "freeAt": 0
+  },
+  "PhilippP": {
+    "name": "PhilippP",
+    "skills": {
+      "Angular-NET": 7
+    },
+    "freeAt": 0
+  },
+  "StefanQ": {
+    "name": "StefanQ",
+    "skills": {
+      "Ajax-3+0": 8
+    },
+    "freeAt": 0
+  },
+  "RuthX": {
+    "name": "RuthX",
+    "skills": {
+      "Shell-py": 5
+    },
+    "freeAt": 0
+  },
+  "JenK": {
+    "name": "JenK",
+    "skills": {
+      "PublicSpeaking-py": 4
+    },
+    "freeAt": 0
+  },
+  "SergeyN": {
+    "name": "SergeyN",
+    "skills": {
+      "Go-NET": 8
+    },
+    "freeAt": 0
+  },
+  "FionaJ": {
+    "name": "FionaJ",
+    "skills": {
+      "BusinessAnalysis-lib": 10
+    },
+    "freeAt": 0
+  },
+  "HiroshiB": {
+    "name": "HiroshiB",
+    "skills": {
+      "PublicSpeaking-py": 1
+    },
+    "freeAt": 0
+  },
+  "LarryO": {
+    "name": "LarryO",
+    "skills": {
+      "Communication-lib": 3
+    },
+    "freeAt": 0
+  },
+  "BakhodirG": {
+    "name": "BakhodirG",
+    "skills": {
+      "Security-js": 9
+    },
+    "freeAt": 0
+  },
+  "SundarA": {
+    "name": "SundarA",
+    "skills": {
+      "Blockchain++": 4
+    },
+    "freeAt": 0
+  },
+  "NellyX": {
+    "name": "NellyX",
+    "skills": {
+      "Dart-lib": 6
+    },
+    "freeAt": 0
+  },
+  "TatiyanaC": {
+    "name": "TatiyanaC",
+    "skills": {
+      "Dart": 4
+    },
+    "freeAt": 0
+  },
+  "SergeyT": {
+    "name": "SergeyT",
+    "skills": {
+      "Ajax-3+0": 9
+    },
+    "freeAt": 0
+  },
+  "SundarH": {
+    "name": "SundarH",
+    "skills": {
+      "CloudComputing-2+0": 10
+    },
+    "freeAt": 0
+  },
+  "MatasC": {
+    "name": "MatasC",
+    "skills": {
+      "PublicSpeaking-py": 7
+    },
+    "freeAt": 0
+  },
+  "HiroshiW": {
+    "name": "HiroshiW",
+    "skills": {
+      "Parallelization-NET": 1
+    },
+    "freeAt": 0
+  },
+  "FionaF": {
+    "name": "FionaF",
+    "skills": {
+      "SQL-js": 10
+    },
+    "freeAt": 0
+  },
+  "MichalB": {
+    "name": "MichalB",
+    "skills": {
+      "MachineLearning-2+0": 4
+    },
+    "freeAt": 0
+  },
+  "SundarL": {
+    "name": "SundarL",
+    "skills": {
+      "PHP-py": 7
+    },
+    "freeAt": 0
+  },
+  "SusanQ": {
+    "name": "SusanQ",
+    "skills": {
+      "TechWriting-js": 8
+    },
+    "freeAt": 0
+  },
+  "MichalZ": {
+    "name": "MichalZ",
+    "skills": {
+      "Dart-lib": 9
+    },
+    "freeAt": 0
+  },
+  "SundarP": {
+    "name": "SundarP",
+    "skills": {
+      "Delphi": 7
+    },
+    "freeAt": 0
+  },
+  "BenjaminO": {
+    "name": "BenjaminO",
+    "skills": {
+      "CloudComputing-2+0": 6
+    },
+    "freeAt": 0
+  },
+  "PhilippK": {
+    "name": "PhilippK",
+    "skills": {
+      "HTML-py": 2
+    },
+    "freeAt": 0
+  },
+  "BakhodirD": {
+    "name": "BakhodirD",
+    "skills": {
+      "CloudComputing++": 9
+    },
+    "freeAt": 0
+  },
+  "ClementL": {
+    "name": "ClementL",
+    "skills": {
+      "JavaScript-2+0": 5
+    },
+    "freeAt": 0
+  },
+  "HiroshiF": {
+    "name": "HiroshiF",
+    "skills": {
+      "CloudComputing-NET": 5
+    },
+    "freeAt": 0
+  },
+  "BenjaminT": {
+    "name": "BenjaminT",
+    "skills": {
+      "Haskell": 2
+    },
+    "freeAt": 0
+  },
+  "ThomasK": {
+    "name": "ThomasK",
+    "skills": {
+      "MATLAB": 3
+    },
+    "freeAt": 0
+  },
+  "ClementT": {
+    "name": "ClementT",
+    "skills": {
+      "BusinessAnalysis-lib": 9
+    },
+    "freeAt": 0
+  },
+  "PetarF": {
+    "name": "PetarF",
+    "skills": {
+      "Security-js": 9
+    },
+    "freeAt": 0
+  },
+  "PhilippH": {
+    "name": "PhilippH",
+    "skills": {
+      "MySQL": 3
+    },
+    "freeAt": 0
+  },
+  "JenG": {
+    "name": "JenG",
+    "skills": {
+      "PHP-py": 1
+    },
+    "freeAt": 0
+  },
+  "BakhodirA": {
+    "name": "BakhodirA",
+    "skills": {
+      "PHP-py": 1
+    },
+    "freeAt": 0
+  },
+  "PrabhakarR": {
+    "name": "PrabhakarR",
+    "skills": {
+      "CloudComputing-NET": 5
+    },
+    "freeAt": 0
+  },
+  "ClementM": {
+    "name": "ClementM",
+    "skills": {
+      "Communication-3+0": 5
+    },
+    "freeAt": 0
+  },
+  "ThomasM": {
+    "name": "ThomasM",
+    "skills": {
+      "Assembly-py": 3
+    },
+    "freeAt": 0
+  },
+  "JenZ": {
+    "name": "JenZ",
+    "skills": {
+      "HTML++": 2
+    },
+    "freeAt": 0
+  },
+  "PhilippY": {
+    "name": "PhilippY",
+    "skills": {
+      "TypeScript-lib": 7
+    },
+    "freeAt": 0
+  },
+  "NellyY": {
+    "name": "NellyY",
+    "skills": {
+      "UXDesign": 3
+    },
+    "freeAt": 0
+  },
+  "MatasW": {
+    "name": "MatasW",
+    "skills": {
+      "HTML-js": 8
+    },
+    "freeAt": 0
+  },
+  "MichalP": {
+    "name": "MichalP",
+    "skills": {
+      "Blockchain": 8
+    },
+    "freeAt": 0
+  },
+  "PhilippI": {
+    "name": "PhilippI",
+    "skills": {
+      "Objective-C-lib": 4
+    },
+    "freeAt": 0
+  },
+  "FionaN": {
+    "name": "FionaN",
+    "skills": {
+      "COBOL-lib": 9
+    },
+    "freeAt": 0
+  }
+}

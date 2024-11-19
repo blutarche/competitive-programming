@@ -1,0 +1,24 @@
+{
+  "Anna": {
+    "name": "Anna",
+    "skills": {
+      "C++": 2
+    },
+    "freeAt": 0
+  },
+  "Bob": {
+    "name": "Bob",
+    "skills": {
+      "HTML": 5,
+      "CSS": 5
+    },
+    "freeAt": 0
+  },
+  "Maria": {
+    "name": "Maria",
+    "skills": {
+      "Python": 3
+    },
+    "freeAt": 0
+  }
+}

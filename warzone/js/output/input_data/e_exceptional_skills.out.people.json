@@ -1,0 +1,5602 @@
+{
+  "c574": {
+    "name": "c574",
+    "skills": {
+      "s132": 10
+    },
+    "freeAt": 0
+  },
+  "c376": {
+    "name": "c376",
+    "skills": {
+      "s100": 10
+    },
+    "freeAt": 0
+  },
+  "c312": {
+    "name": "c312",
+    "skills": {
+      "s652": 10
+    },
+    "freeAt": 0
+  },
+  "c752": {
+    "name": "c752",
+    "skills": {
+      "s740": 10
+    },
+    "freeAt": 0
+  },
+  "c620": {
+    "name": "c620",
+    "skills": {
+      "s668": 10
+    },
+    "freeAt": 0
+  },
+  "c317": {
+    "name": "c317",
+    "skills": {
+      "s91": 10
+    },
+    "freeAt": 0
+  },
+  "c636": {
+    "name": "c636",
+    "skills": {
+      "s411": 10
+    },
+    "freeAt": 0
+  },
+  "c105": {
+    "name": "c105",
+    "skills": {
+      "s44": 10
+    },
+    "freeAt": 0
+  },
+  "c526": {
+    "name": "c526",
+    "skills": {
+      "s358": 10
+    },
+    "freeAt": 0
+  },
+  "c321": {
+    "name": "c321",
+    "skills": {
+      "s350": 10
+    },
+    "freeAt": 0
+  },
+  "c485": {
+    "name": "c485",
+    "skills": {
+      "s606": 10
+    },
+    "freeAt": 0
+  },
+  "c33": {
+    "name": "c33",
+    "skills": {
+      "s191": 10
+    },
+    "freeAt": 0
+  },
+  "c290": {
+    "name": "c290",
+    "skills": {
+      "s586": 10
+    },
+    "freeAt": 0
+  },
+  "c736": {
+    "name": "c736",
+    "skills": {
+      "s422": 10
+    },
+    "freeAt": 0
+  },
+  "c194": {
+    "name": "c194",
+    "skills": {
+      "s661": 10
+    },
+    "freeAt": 0
+  },
+  "c467": {
+    "name": "c467",
+    "skills": {
+      "s754": 10
+    },
+    "freeAt": 0
+  },
+  "c432": {
+    "name": "c432",
+    "skills": {
+      "s378": 10
+    },
+    "freeAt": 0
+  },
+  "c56": {
+    "name": "c56",
+    "skills": {
+      "s295": 10
+    },
+    "freeAt": 0
+  },
+  "c94": {
+    "name": "c94",
+    "skills": {
+      "s130": 10
+    },
+    "freeAt": 0
+  },
+  "c370": {
+    "name": "c370",
+    "skills": {
+      "s12": 10
+    },
+    "freeAt": 0
+  },
+  "c57": {
+    "name": "c57",
+    "skills": {
+      "s183": 10
+    },
+    "freeAt": 0
+  },
+  "c275": {
+    "name": "c275",
+    "skills": {
+      "s203": 10
+    },
+    "freeAt": 0
+  },
+  "c95": {
+    "name": "c95",
+    "skills": {
+      "s385": 10
+    },
+    "freeAt": 0
+  },
+  "c544": {
+    "name": "c544",
+    "skills": {
+      "s78": 10
+    },
+    "freeAt": 0
+  },
+  "c183": {
+    "name": "c183",
+    "skills": {
+      "s588": 10
+    },
+    "freeAt": 0
+  },
+  "c742": {
+    "name": "c742",
+    "skills": {
+      "s529": 10
+    },
+    "freeAt": 0
+  },
+  "c97": {
+    "name": "c97",
+    "skills": {
+      "s154": 10
+    },
+    "freeAt": 0
+  },
+  "c696": {
+    "name": "c696",
+    "skills": {
+      "s476": 10
+    },
+    "freeAt": 0
+  },
+  "c540": {
+    "name": "c540",
+    "skills": {
+      "s493": 10
+    },
+    "freeAt": 0
+  },
+  "c163": {
+    "name": "c163",
+    "skills": {
+      "s625": 10
+    },
+    "freeAt": 0
+  },
+  "c59": {
+    "name": "c59",
+    "skills": {
+      "s89": 10
+    },
+    "freeAt": 0
+  },
+  "c304": {
+    "name": "c304",
+    "skills": {
+      "s446": 10
+    },
+    "freeAt": 0
+  },
+  "c532": {
+    "name": "c532",
+    "skills": {
+      "s111": 10
+    },
+    "freeAt": 0
+  },
+  "c316": {
+    "name": "c316",
+    "skills": {
+      "s10": 10
+    },
+    "freeAt": 0
+  },
+  "c575": {
+    "name": "c575",
+    "skills": {
+      "s351": 10
+    },
+    "freeAt": 0
+  },
+  "c4": {
+    "name": "c4",
+    "skills": {
+      "s266": 10
+    },
+    "freeAt": 0
+  },
+  "c456": {
+    "name": "c456",
+    "skills": {
+      "s404": 10
+    },
+    "freeAt": 0
+  },
+  "c244": {
+    "name": "c244",
+    "skills": {
+      "s791": 10
+    },
+    "freeAt": 0
+  },
+  "c775": {
+    "name": "c775",
+    "skills": {
+      "s80": 10
+    },
+    "freeAt": 0
+  },
+  "c338": {
+    "name": "c338",
+    "skills": {
+      "s211": 10
+    },
+    "freeAt": 0
+  },
+  "c672": {
+    "name": "c672",
+    "skills": {
+      "s627": 10
+    },
+    "freeAt": 0
+  },
+  "c162": {
+    "name": "c162",
+    "skills": {
+      "s126": 10
+    },
+    "freeAt": 0
+  },
+  "c226": {
+    "name": "c226",
+    "skills": {
+      "s471": 10
+    },
+    "freeAt": 0
+  },
+  "c716": {
+    "name": "c716",
+    "skills": {
+      "s658": 10
+    },
+    "freeAt": 0
+  },
+  "c499": {
+    "name": "c499",
+    "skills": {
+      "s267": 10
+    },
+    "freeAt": 0
+  },
+  "c572": {
+    "name": "c572",
+    "skills": {
+      "s179": 10
+    },
+    "freeAt": 0
+  },
+  "c642": {
+    "name": "c642",
+    "skills": {
+      "s281": 10
+    },
+    "freeAt": 0
+  },
+  "c389": {
+    "name": "c389",
+    "skills": {
+      "s420": 10
+    },
+    "freeAt": 0
+  },
+  "c248": {
+    "name": "c248",
+    "skills": {
+      "s764": 10
+    },
+    "freeAt": 0
+  },
+  "c779": {
+    "name": "c779",
+    "skills": {
+      "s516": 10
+    },
+    "freeAt": 0
+  },
+  "c46": {
+    "name": "c46",
+    "skills": {
+      "s682": 10
+    },
+    "freeAt": 0
+  },
+  "c145": {
+    "name": "c145",
+    "skills": {
+      "s376": 10
+    },
+    "freeAt": 0
+  },
+  "c146": {
+    "name": "c146",
+    "skills": {
+      "s674": 10
+    },
+    "freeAt": 0
+  },
+  "c495": {
+    "name": "c495",
+    "skills": {
+      "s177": 10
+    },
+    "freeAt": 0
+  },
+  "c591": {
+    "name": "c591",
+    "skills": {
+      "s123": 10
+    },
+    "freeAt": 0
+  },
+  "c594": {
+    "name": "c594",
+    "skills": {
+      "s775": 10
+    },
+    "freeAt": 0
+  },
+  "c315": {
+    "name": "c315",
+    "skills": {
+      "s136": 10
+    },
+    "freeAt": 0
+  },
+  "c564": {
+    "name": "c564",
+    "skills": {
+      "s153": 10
+    },
+    "freeAt": 0
+  },
+  "c265": {
+    "name": "c265",
+    "skills": {
+      "s738": 10
+    },
+    "freeAt": 0
+  },
+  "c771": {
+    "name": "c771",
+    "skills": {
+      "s103": 10
+    },
+    "freeAt": 0
+  },
+  "c40": {
+    "name": "c40",
+    "skills": {
+      "s716": 10
+    },
+    "freeAt": 0
+  },
+  "c34": {
+    "name": "c34",
+    "skills": {
+      "s277": 10
+    },
+    "freeAt": 0
+  },
+  "c296": {
+    "name": "c296",
+    "skills": {
+      "s673": 10
+    },
+    "freeAt": 0
+  },
+  "c367": {
+    "name": "c367",
+    "skills": {
+      "s97": 10
+    },
+    "freeAt": 0
+  },
+  "c322": {
+    "name": "c322",
+    "skills": {
+      "s755": 10
+    },
+    "freeAt": 0
+  },
+  "c160": {
+    "name": "c160",
+    "skills": {
+      "s398": 10
+    },
+    "freeAt": 0
+  },
+  "c774": {
+    "name": "c774",
+    "skills": {
+      "s47": 10
+    },
+    "freeAt": 0
+  },
+  "c457": {
+    "name": "c457",
+    "skills": {
+      "s447": 10
+    },
+    "freeAt": 0
+  },
+  "c603": {
+    "name": "c603",
+    "skills": {
+      "s494": 10
+    },
+    "freeAt": 0
+  },
+  "c393": {
+    "name": "c393",
+    "skills": {
+      "s393": 10
+    },
+    "freeAt": 0
+  },
+  "c161": {
+    "name": "c161",
+    "skills": {
+      "s634": 10
+    },
+    "freeAt": 0
+  },
+  "c121": {
+    "name": "c121",
+    "skills": {
+      "s337": 10
+    },
+    "freeAt": 0
+  },
+  "c186": {
+    "name": "c186",
+    "skills": {
+      "s373": 10
+    },
+    "freeAt": 0
+  },
+  "c267": {
+    "name": "c267",
+    "skills": {
+      "s314": 10
+    },
+    "freeAt": 0
+  },
+  "c310": {
+    "name": "c310",
+    "skills": {
+      "s651": 10
+    },
+    "freeAt": 0
+  },
+  "c727": {
+    "name": "c727",
+    "skills": {
+      "s437": 10
+    },
+    "freeAt": 0
+  },
+  "c454": {
+    "name": "c454",
+    "skills": {
+      "s7": 10
+    },
+    "freeAt": 0
+  },
+  "c169": {
+    "name": "c169",
+    "skills": {
+      "s466": 10
+    },
+    "freeAt": 0
+  },
+  "c534": {
+    "name": "c534",
+    "skills": {
+      "s604": 10
+    },
+    "freeAt": 0
+  },
+  "c756": {
+    "name": "c756",
+    "skills": {
+      "s732": 10
+    },
+    "freeAt": 0
+  },
+  "c777": {
+    "name": "c777",
+    "skills": {
+      "s753": 10
+    },
+    "freeAt": 0
+  },
+  "c282": {
+    "name": "c282",
+    "skills": {
+      "s218": 10
+    },
+    "freeAt": 0
+  },
+  "c504": {
+    "name": "c504",
+    "skills": {
+      "s192": 10
+    },
+    "freeAt": 0
+  },
+  "c791": {
+    "name": "c791",
+    "skills": {
+      "s685": 10
+    },
+    "freeAt": 0
+  },
+  "c6": {
+    "name": "c6",
+    "skills": {
+      "s619": 10
+    },
+    "freeAt": 0
+  },
+  "c494": {
+    "name": "c494",
+    "skills": {
+      "s365": 10
+    },
+    "freeAt": 0
+  },
+  "c208": {
+    "name": "c208",
+    "skills": {
+      "s371": 10
+    },
+    "freeAt": 0
+  },
+  "c700": {
+    "name": "c700",
+    "skills": {
+      "s79": 10
+    },
+    "freeAt": 0
+  },
+  "c794": {
+    "name": "c794",
+    "skills": {
+      "s679": 10
+    },
+    "freeAt": 0
+  },
+  "c563": {
+    "name": "c563",
+    "skills": {
+      "s35": 10
+    },
+    "freeAt": 0
+  },
+  "c39": {
+    "name": "c39",
+    "skills": {
+      "s185": 10
+    },
+    "freeAt": 0
+  },
+  "c741": {
+    "name": "c741",
+    "skills": {
+      "s213": 10
+    },
+    "freeAt": 0
+  },
+  "c576": {
+    "name": "c576",
+    "skills": {
+      "s793": 10
+    },
+    "freeAt": 0
+  },
+  "c520": {
+    "name": "c520",
+    "skills": {
+      "s703": 10
+    },
+    "freeAt": 0
+  },
+  "c234": {
+    "name": "c234",
+    "skills": {
+      "s6": 10
+    },
+    "freeAt": 0
+  },
+  "c452": {
+    "name": "c452",
+    "skills": {
+      "s187": 10
+    },
+    "freeAt": 0
+  },
+  "c405": {
+    "name": "c405",
+    "skills": {
+      "s128": 10
+    },
+    "freeAt": 0
+  },
+  "c111": {
+    "name": "c111",
+    "skills": {
+      "s84": 10
+    },
+    "freeAt": 0
+  },
+  "c693": {
+    "name": "c693",
+    "skills": {
+      "s220": 10
+    },
+    "freeAt": 0
+  },
+  "c323": {
+    "name": "c323",
+    "skills": {
+      "s198": 10
+    },
+    "freeAt": 0
+  },
+  "c473": {
+    "name": "c473",
+    "skills": {
+      "s118": 10
+    },
+    "freeAt": 0
+  },
+  "c562": {
+    "name": "c562",
+    "skills": {
+      "s421": 10
+    },
+    "freeAt": 0
+  },
+  "c386": {
+    "name": "c386",
+    "skills": {
+      "s426": 10
+    },
+    "freeAt": 0
+  },
+  "c74": {
+    "name": "c74",
+    "skills": {
+      "s507": 10
+    },
+    "freeAt": 0
+  },
+  "c2": {
+    "name": "c2",
+    "skills": {
+      "s45": 10
+    },
+    "freeAt": 0
+  },
+  "c512": {
+    "name": "c512",
+    "skills": {
+      "s609": 10
+    },
+    "freeAt": 0
+  },
+  "c797": {
+    "name": "c797",
+    "skills": {
+      "s233": 10
+    },
+    "freeAt": 0
+  },
+  "c117": {
+    "name": "c117",
+    "skills": {
+      "s672": 10
+    },
+    "freeAt": 0
+  },
+  "c13": {
+    "name": "c13",
+    "skills": {
+      "s217": 10
+    },
+    "freeAt": 0
+  },
+  "c24": {
+    "name": "c24",
+    "skills": {
+      "s690": 10
+    },
+    "freeAt": 0
+  },
+  "c649": {
+    "name": "c649",
+    "skills": {
+      "s538": 10
+    },
+    "freeAt": 0
+  },
+  "c717": {
+    "name": "c717",
+    "skills": {
+      "s390": 10
+    },
+    "freeAt": 0
+  },
+  "c256": {
+    "name": "c256",
+    "skills": {
+      "s778": 10
+    },
+    "freeAt": 0
+  },
+  "c489": {
+    "name": "c489",
+    "skills": {
+      "s221": 10
+    },
+    "freeAt": 0
+  },
+  "c31": {
+    "name": "c31",
+    "skills": {
+      "s710": 10
+    },
+    "freeAt": 0
+  },
+  "c118": {
+    "name": "c118",
+    "skills": {
+      "s328": 10
+    },
+    "freeAt": 0
+  },
+  "c428": {
+    "name": "c428",
+    "skills": {
+      "s525": 10
+    },
+    "freeAt": 0
+  },
+  "c739": {
+    "name": "c739",
+    "skills": {
+      "s254": 10
+    },
+    "freeAt": 0
+  },
+  "c699": {
+    "name": "c699",
+    "skills": {
+      "s63": 10
+    },
+    "freeAt": 0
+  },
+  "c352": {
+    "name": "c352",
+    "skills": {
+      "s527": 10
+    },
+    "freeAt": 0
+  },
+  "c398": {
+    "name": "c398",
+    "skills": {
+      "s244": 10
+    },
+    "freeAt": 0
+  },
+  "c463": {
+    "name": "c463",
+    "skills": {
+      "s171": 10
+    },
+    "freeAt": 0
+  },
+  "c179": {
+    "name": "c179",
+    "skills": {
+      "s511": 10
+    },
+    "freeAt": 0
+  },
+  "c498": {
+    "name": "c498",
+    "skills": {
+      "s512": 10
+    },
+    "freeAt": 0
+  },
+  "c450": {
+    "name": "c450",
+    "skills": {
+      "s54": 10
+    },
+    "freeAt": 0
+  },
+  "c158": {
+    "name": "c158",
+    "skills": {
+      "s762": 10
+    },
+    "freeAt": 0
+  },
+  "c313": {
+    "name": "c313",
+    "skills": {
+      "s560": 10
+    },
+    "freeAt": 0
+  },
+  "c516": {
+    "name": "c516",
+    "skills": {
+      "s777": 10
+    },
+    "freeAt": 0
+  },
+  "c478": {
+    "name": "c478",
+    "skills": {
+      "s423": 10
+    },
+    "freeAt": 0
+  },
+  "c410": {
+    "name": "c410",
+    "skills": {
+      "s39": 10
+    },
+    "freeAt": 0
+  },
+  "c151": {
+    "name": "c151",
+    "skills": {
+      "s547": 10
+    },
+    "freeAt": 0
+  },
+  "c88": {
+    "name": "c88",
+    "skills": {
+      "s477": 10
+    },
+    "freeAt": 0
+  },
+  "c223": {
+    "name": "c223",
+    "skills": {
+      "s42": 10
+    },
+    "freeAt": 0
+  },
+  "c28": {
+    "name": "c28",
+    "skills": {
+      "s458": 10
+    },
+    "freeAt": 0
+  },
+  "c360": {
+    "name": "c360",
+    "skills": {
+      "s110": 10
+    },
+    "freeAt": 0
+  },
+  "c390": {
+    "name": "c390",
+    "skills": {
+      "s73": 10
+    },
+    "freeAt": 0
+  },
+  "c602": {
+    "name": "c602",
+    "skills": {
+      "s603": 10
+    },
+    "freeAt": 0
+  },
+  "c573": {
+    "name": "c573",
+    "skills": {
+      "s484": 10
+    },
+    "freeAt": 0
+  },
+  "c191": {
+    "name": "c191",
+    "skills": {
+      "s707": 10
+    },
+    "freeAt": 0
+  },
+  "c694": {
+    "name": "c694",
+    "skills": {
+      "s142": 10
+    },
+    "freeAt": 0
+  },
+  "c72": {
+    "name": "c72",
+    "skills": {
+      "s490": 10
+    },
+    "freeAt": 0
+  },
+  "c523": {
+    "name": "c523",
+    "skills": {
+      "s94": 10
+    },
+    "freeAt": 0
+  },
+  "c361": {
+    "name": "c361",
+    "skills": {
+      "s453": 10
+    },
+    "freeAt": 0
+  },
+  "c778": {
+    "name": "c778",
+    "skills": {
+      "s551": 10
+    },
+    "freeAt": 0
+  },
+  "c749": {
+    "name": "c749",
+    "skills": {
+      "s261": 10
+    },
+    "freeAt": 0
+  },
+  "c668": {
+    "name": "c668",
+    "skills": {
+      "s424": 10
+    },
+    "freeAt": 0
+  },
+  "c165": {
+    "name": "c165",
+    "skills": {
+      "s60": 10
+    },
+    "freeAt": 0
+  },
+  "c592": {
+    "name": "c592",
+    "skills": {
+      "s23": 10
+    },
+    "freeAt": 0
+  },
+  "c15": {
+    "name": "c15",
+    "skills": {
+      "s519": 10
+    },
+    "freeAt": 0
+  },
+  "c278": {
+    "name": "c278",
+    "skills": {
+      "s70": 10
+    },
+    "freeAt": 0
+  },
+  "c133": {
+    "name": "c133",
+    "skills": {
+      "s16": 10
+    },
+    "freeAt": 0
+  },
+  "c314": {
+    "name": "c314",
+    "skills": {
+      "s210": 10
+    },
+    "freeAt": 0
+  },
+  "c480": {
+    "name": "c480",
+    "skills": {
+      "s279": 10
+    },
+    "freeAt": 0
+  },
+  "c559": {
+    "name": "c559",
+    "skills": {
+      "s164": 10
+    },
+    "freeAt": 0
+  },
+  "c601": {
+    "name": "c601",
+    "skills": {
+      "s568": 10
+    },
+    "freeAt": 0
+  },
+  "c598": {
+    "name": "c598",
+    "skills": {
+      "s303": 10
+    },
+    "freeAt": 0
+  },
+  "c623": {
+    "name": "c623",
+    "skills": {
+      "s109": 10
+    },
+    "freeAt": 0
+  },
+  "c366": {
+    "name": "c366",
+    "skills": {
+      "s239": 10
+    },
+    "freeAt": 0
+  },
+  "c222": {
+    "name": "c222",
+    "skills": {
+      "s587": 10
+    },
+    "freeAt": 0
+  },
+  "c604": {
+    "name": "c604",
+    "skills": {
+      "s352": 10
+    },
+    "freeAt": 0
+  },
+  "c496": {
+    "name": "c496",
+    "skills": {
+      "s55": 10
+    },
+    "freeAt": 0
+  },
+  "c481": {
+    "name": "c481",
+    "skills": {
+      "s321": 10
+    },
+    "freeAt": 0
+  },
+  "c177": {
+    "name": "c177",
+    "skills": {
+      "s67": 10
+    },
+    "freeAt": 0
+  },
+  "c569": {
+    "name": "c569",
+    "skills": {
+      "s382": 10
+    },
+    "freeAt": 0
+  },
+  "c81": {
+    "name": "c81",
+    "skills": {
+      "s362": 10
+    },
+    "freeAt": 0
+  },
+  "c762": {
+    "name": "c762",
+    "skills": {
+      "s204": 10
+    },
+    "freeAt": 0
+  },
+  "c62": {
+    "name": "c62",
+    "skills": {
+      "s799": 10
+    },
+    "freeAt": 0
+  },
+  "c506": {
+    "name": "c506",
+    "skills": {
+      "s524": 10
+    },
+    "freeAt": 0
+  },
+  "c503": {
+    "name": "c503",
+    "skills": {
+      "s196": 10
+    },
+    "freeAt": 0
+  },
+  "c424": {
+    "name": "c424",
+    "skills": {
+      "s741": 10
+    },
+    "freeAt": 0
+  },
+  "c767": {
+    "name": "c767",
+    "skills": {
+      "s478": 10
+    },
+    "freeAt": 0
+  },
+  "c206": {
+    "name": "c206",
+    "skills": {
+      "s561": 10
+    },
+    "freeAt": 0
+  },
+  "c359": {
+    "name": "c359",
+    "skills": {
+      "s37": 10
+    },
+    "freeAt": 0
+  },
+  "c605": {
+    "name": "c605",
+    "skills": {
+      "s340": 10
+    },
+    "freeAt": 0
+  },
+  "c90": {
+    "name": "c90",
+    "skills": {
+      "s455": 10
+    },
+    "freeAt": 0
+  },
+  "c41": {
+    "name": "c41",
+    "skills": {
+      "s675": 10
+    },
+    "freeAt": 0
+  },
+  "c577": {
+    "name": "c577",
+    "skills": {
+      "s292": 10
+    },
+    "freeAt": 0
+  },
+  "c102": {
+    "name": "c102",
+    "skills": {
+      "s407": 10
+    },
+    "freeAt": 0
+  },
+  "c676": {
+    "name": "c676",
+    "skills": {
+      "s76": 10
+    },
+    "freeAt": 0
+  },
+  "c427": {
+    "name": "c427",
+    "skills": {
+      "s343": 10
+    },
+    "freeAt": 0
+  },
+  "c648": {
+    "name": "c648",
+    "skills": {
+      "s354": 10
+    },
+    "freeAt": 0
+  },
+  "c353": {
+    "name": "c353",
+    "skills": {
+      "s558": 10
+    },
+    "freeAt": 0
+  },
+  "c319": {
+    "name": "c319",
+    "skills": {
+      "s649": 10
+    },
+    "freeAt": 0
+  },
+  "c218": {
+    "name": "c218",
+    "skills": {
+      "s492": 10
+    },
+    "freeAt": 0
+  },
+  "c388": {
+    "name": "c388",
+    "skills": {
+      "s57": 10
+    },
+    "freeAt": 0
+  },
+  "c227": {
+    "name": "c227",
+    "skills": {
+      "s467": 10
+    },
+    "freeAt": 0
+  },
+  "c295": {
+    "name": "c295",
+    "skills": {
+      "s112": 10
+    },
+    "freeAt": 0
+  },
+  "c447": {
+    "name": "c447",
+    "skills": {
+      "s138": 10
+    },
+    "freeAt": 0
+  },
+  "c333": {
+    "name": "c333",
+    "skills": {
+      "s464": 10
+    },
+    "freeAt": 0
+  },
+  "c139": {
+    "name": "c139",
+    "skills": {
+      "s48": 10
+    },
+    "freeAt": 0
+  },
+  "c703": {
+    "name": "c703",
+    "skills": {
+      "s502": 10
+    },
+    "freeAt": 0
+  },
+  "c651": {
+    "name": "c651",
+    "skills": {
+      "s504": 10
+    },
+    "freeAt": 0
+  },
+  "c85": {
+    "name": "c85",
+    "skills": {
+      "s664": 10
+    },
+    "freeAt": 0
+  },
+  "c255": {
+    "name": "c255",
+    "skills": {
+      "s11": 10
+    },
+    "freeAt": 0
+  },
+  "c96": {
+    "name": "c96",
+    "skills": {
+      "s590": 10
+    },
+    "freeAt": 0
+  },
+  "c412": {
+    "name": "c412",
+    "skills": {
+      "s548": 10
+    },
+    "freeAt": 0
+  },
+  "c792": {
+    "name": "c792",
+    "skills": {
+      "s748": 10
+    },
+    "freeAt": 0
+  },
+  "c246": {
+    "name": "c246",
+    "skills": {
+      "s620": 10
+    },
+    "freeAt": 0
+  },
+  "c500": {
+    "name": "c500",
+    "skills": {
+      "s293": 10
+    },
+    "freeAt": 0
+  },
+  "c761": {
+    "name": "c761",
+    "skills": {
+      "s767": 10
+    },
+    "freeAt": 0
+  },
+  "c346": {
+    "name": "c346",
+    "skills": {
+      "s680": 10
+    },
+    "freeAt": 0
+  },
+  "c581": {
+    "name": "c581",
+    "skills": {
+      "s454": 10
+    },
+    "freeAt": 0
+  },
+  "c134": {
+    "name": "c134",
+    "skills": {
+      "s209": 10
+    },
+    "freeAt": 0
+  },
+  "c325": {
+    "name": "c325",
+    "skills": {
+      "s157": 10
+    },
+    "freeAt": 0
+  },
+  "c695": {
+    "name": "c695",
+    "skills": {
+      "s728": 10
+    },
+    "freeAt": 0
+  },
+  "c363": {
+    "name": "c363",
+    "skills": {
+      "s166": 10
+    },
+    "freeAt": 0
+  },
+  "c765": {
+    "name": "c765",
+    "skills": {
+      "s702": 10
+    },
+    "freeAt": 0
+  },
+  "c487": {
+    "name": "c487",
+    "skills": {
+      "s759": 10
+    },
+    "freeAt": 0
+  },
+  "c444": {
+    "name": "c444",
+    "skills": {
+      "s389": 10
+    },
+    "freeAt": 0
+  },
+  "c533": {
+    "name": "c533",
+    "skills": {
+      "s430": 10
+    },
+    "freeAt": 0
+  },
+  "c142": {
+    "name": "c142",
+    "skills": {
+      "s71": 10
+    },
+    "freeAt": 0
+  },
+  "c368": {
+    "name": "c368",
+    "skills": {
+      "s419": 10
+    },
+    "freeAt": 0
+  },
+  "c501": {
+    "name": "c501",
+    "skills": {
+      "s556": 10
+    },
+    "freeAt": 0
+  },
+  "c176": {
+    "name": "c176",
+    "skills": {
+      "s399": 10
+    },
+    "freeAt": 0
+  },
+  "c340": {
+    "name": "c340",
+    "skills": {
+      "s189": 10
+    },
+    "freeAt": 0
+  },
+  "c391": {
+    "name": "c391",
+    "skills": {
+      "s86": 10
+    },
+    "freeAt": 0
+  },
+  "c750": {
+    "name": "c750",
+    "skills": {
+      "s597": 10
+    },
+    "freeAt": 0
+  },
+  "c708": {
+    "name": "c708",
+    "skills": {
+      "s360": 10
+    },
+    "freeAt": 0
+  },
+  "c680": {
+    "name": "c680",
+    "skills": {
+      "s431": 10
+    },
+    "freeAt": 0
+  },
+  "c773": {
+    "name": "c773",
+    "skills": {
+      "s162": 10
+    },
+    "freeAt": 0
+  },
+  "c666": {
+    "name": "c666",
+    "skills": {
+      "s698": 10
+    },
+    "freeAt": 0
+  },
+  "c302": {
+    "name": "c302",
+    "skills": {
+      "s498": 10
+    },
+    "freeAt": 0
+  },
+  "c508": {
+    "name": "c508",
+    "skills": {
+      "s207": 10
+    },
+    "freeAt": 0
+  },
+  "c469": {
+    "name": "c469",
+    "skills": {
+      "s746": 10
+    },
+    "freeAt": 0
+  },
+  "c5": {
+    "name": "c5",
+    "skills": {
+      "s229": 10
+    },
+    "freeAt": 0
+  },
+  "c784": {
+    "name": "c784",
+    "skills": {
+      "s480": 10
+    },
+    "freeAt": 0
+  },
+  "c468": {
+    "name": "c468",
+    "skills": {
+      "s232": 10
+    },
+    "freeAt": 0
+  },
+  "c219": {
+    "name": "c219",
+    "skills": {
+      "s333": 10
+    },
+    "freeAt": 0
+  },
+  "c200": {
+    "name": "c200",
+    "skills": {
+      "s309": 10
+    },
+    "freeAt": 0
+  },
+  "c655": {
+    "name": "c655",
+    "skills": {
+      "s638": 10
+    },
+    "freeAt": 0
+  },
+  "c617": {
+    "name": "c617",
+    "skills": {
+      "s409": 10
+    },
+    "freeAt": 0
+  },
+  "c364": {
+    "name": "c364",
+    "skills": {
+      "s550": 10
+    },
+    "freeAt": 0
+  },
+  "c754": {
+    "name": "c754",
+    "skills": {
+      "s693": 10
+    },
+    "freeAt": 0
+  },
+  "c214": {
+    "name": "c214",
+    "skills": {
+      "s159": 10
+    },
+    "freeAt": 0
+  },
+  "c190": {
+    "name": "c190",
+    "skills": {
+      "s188": 10
+    },
+    "freeAt": 0
+  },
+  "c743": {
+    "name": "c743",
+    "skills": {
+      "s230": 10
+    },
+    "freeAt": 0
+  },
+  "c14": {
+    "name": "c14",
+    "skills": {
+      "s176": 10
+    },
+    "freeAt": 0
+  },
+  "c136": {
+    "name": "c136",
+    "skills": {
+      "s263": 10
+    },
+    "freeAt": 0
+  },
+  "c753": {
+    "name": "c753",
+    "skills": {
+      "s772": 10
+    },
+    "freeAt": 0
+  },
+  "c123": {
+    "name": "c123",
+    "skills": {
+      "s719": 10
+    },
+    "freeAt": 0
+  },
+  "c418": {
+    "name": "c418",
+    "skills": {
+      "s139": 10
+    },
+    "freeAt": 0
+  },
+  "c17": {
+    "name": "c17",
+    "skills": {
+      "s790": 10
+    },
+    "freeAt": 0
+  },
+  "c196": {
+    "name": "c196",
+    "skills": {
+      "s605": 10
+    },
+    "freeAt": 0
+  },
+  "c686": {
+    "name": "c686",
+    "skills": {
+      "s666": 10
+    },
+    "freeAt": 0
+  },
+  "c269": {
+    "name": "c269",
+    "skills": {
+      "s69": 10
+    },
+    "freeAt": 0
+  },
+  "c287": {
+    "name": "c287",
+    "skills": {
+      "s52": 10
+    },
+    "freeAt": 0
+  },
+  "c711": {
+    "name": "c711",
+    "skills": {
+      "s286": 10
+    },
+    "freeAt": 0
+  },
+  "c373": {
+    "name": "c373",
+    "skills": {
+      "s733": 10
+    },
+    "freeAt": 0
+  },
+  "c291": {
+    "name": "c291",
+    "skills": {
+      "s58": 10
+    },
+    "freeAt": 0
+  },
+  "c175": {
+    "name": "c175",
+    "skills": {
+      "s562": 10
+    },
+    "freeAt": 0
+  },
+  "c7": {
+    "name": "c7",
+    "skills": {
+      "s717": 10
+    },
+    "freeAt": 0
+  },
+  "c406": {
+    "name": "c406",
+    "skills": {
+      "s540": 10
+    },
+    "freeAt": 0
+  },
+  "c344": {
+    "name": "c344",
+    "skills": {
+      "s646": 10
+    },
+    "freeAt": 0
+  },
+  "c721": {
+    "name": "c721",
+    "skills": {
+      "s599": 10
+    },
+    "freeAt": 0
+  },
+  "c783": {
+    "name": "c783",
+    "skills": {
+      "s745": 10
+    },
+    "freeAt": 0
+  },
+  "c712": {
+    "name": "c712",
+    "skills": {
+      "s116": 10
+    },
+    "freeAt": 0
+  },
+  "c493": {
+    "name": "c493",
+    "skills": {
+      "s275": 10
+    },
+    "freeAt": 0
+  },
+  "c770": {
+    "name": "c770",
+    "skills": {
+      "s262": 10
+    },
+    "freeAt": 0
+  },
+  "c633": {
+    "name": "c633",
+    "skills": {
+      "s570": 10
+    },
+    "freeAt": 0
+  },
+  "c48": {
+    "name": "c48",
+    "skills": {
+      "s278": 10
+    },
+    "freeAt": 0
+  },
+  "c101": {
+    "name": "c101",
+    "skills": {
+      "s125": 10
+    },
+    "freeAt": 0
+  },
+  "c658": {
+    "name": "c658",
+    "skills": {
+      "s93": 10
+    },
+    "freeAt": 0
+  },
+  "c67": {
+    "name": "c67",
+    "skills": {
+      "s783": 10
+    },
+    "freeAt": 0
+  },
+  "c249": {
+    "name": "c249",
+    "skills": {
+      "s576": 10
+    },
+    "freeAt": 0
+  },
+  "c277": {
+    "name": "c277",
+    "skills": {
+      "s347": 10
+    },
+    "freeAt": 0
+  },
+  "c307": {
+    "name": "c307",
+    "skills": {
+      "s572": 10
+    },
+    "freeAt": 0
+  },
+  "c130": {
+    "name": "c130",
+    "skills": {
+      "s521": 10
+    },
+    "freeAt": 0
+  },
+  "c653": {
+    "name": "c653",
+    "skills": {
+      "s505": 10
+    },
+    "freeAt": 0
+  },
+  "c284": {
+    "name": "c284",
+    "skills": {
+      "s443": 10
+    },
+    "freeAt": 0
+  },
+  "c701": {
+    "name": "c701",
+    "skills": {
+      "s240": 10
+    },
+    "freeAt": 0
+  },
+  "c479": {
+    "name": "c479",
+    "skills": {
+      "s481": 10
+    },
+    "freeAt": 0
+  },
+  "c580": {
+    "name": "c580",
+    "skills": {
+      "s26": 10
+    },
+    "freeAt": 0
+  },
+  "c596": {
+    "name": "c596",
+    "skills": {
+      "s763": 10
+    },
+    "freeAt": 0
+  },
+  "c294": {
+    "name": "c294",
+    "skills": {
+      "s618": 10
+    },
+    "freeAt": 0
+  },
+  "c745": {
+    "name": "c745",
+    "skills": {
+      "s773": 10
+    },
+    "freeAt": 0
+  },
+  "c336": {
+    "name": "c336",
+    "skills": {
+      "s489": 10
+    },
+    "freeAt": 0
+  },
+  "c120": {
+    "name": "c120",
+    "skills": {
+      "s62": 10
+    },
+    "freeAt": 0
+  },
+  "c408": {
+    "name": "c408",
+    "skills": {
+      "s542": 10
+    },
+    "freeAt": 0
+  },
+  "c517": {
+    "name": "c517",
+    "skills": {
+      "s205": 10
+    },
+    "freeAt": 0
+  },
+  "c571": {
+    "name": "c571",
+    "skills": {
+      "s722": 10
+    },
+    "freeAt": 0
+  },
+  "c260": {
+    "name": "c260",
+    "skills": {
+      "s313": 10
+    },
+    "freeAt": 0
+  },
+  "c396": {
+    "name": "c396",
+    "skills": {
+      "s17": 10
+    },
+    "freeAt": 0
+  },
+  "c510": {
+    "name": "c510",
+    "skills": {
+      "s645": 10
+    },
+    "freeAt": 0
+  },
+  "c166": {
+    "name": "c166",
+    "skills": {
+      "s787": 10
+    },
+    "freeAt": 0
+  },
+  "c714": {
+    "name": "c714",
+    "skills": {
+      "s774": 10
+    },
+    "freeAt": 0
+  },
+  "c217": {
+    "name": "c217",
+    "skills": {
+      "s20": 10
+    },
+    "freeAt": 0
+  },
+  "c584": {
+    "name": "c584",
+    "skills": {
+      "s593": 10
+    },
+    "freeAt": 0
+  },
+  "c531": {
+    "name": "c531",
+    "skills": {
+      "s341": 10
+    },
+    "freeAt": 0
+  },
+  "c763": {
+    "name": "c763",
+    "skills": {
+      "s614": 10
+    },
+    "freeAt": 0
+  },
+  "c748": {
+    "name": "c748",
+    "skills": {
+      "s552": 10
+    },
+    "freeAt": 0
+  },
+  "c27": {
+    "name": "c27",
+    "skills": {
+      "s784": 10
+    },
+    "freeAt": 0
+  },
+  "c349": {
+    "name": "c349",
+    "skills": {
+      "s147": 10
+    },
+    "freeAt": 0
+  },
+  "c400": {
+    "name": "c400",
+    "skills": {
+      "s114": 10
+    },
+    "freeAt": 0
+  },
+  "c75": {
+    "name": "c75",
+    "skills": {
+      "s288": 10
+    },
+    "freeAt": 0
+  },
+  "c567": {
+    "name": "c567",
+    "skills": {
+      "s168": 10
+    },
+    "freeAt": 0
+  },
+  "c453": {
+    "name": "c453",
+    "skills": {
+      "s531": 10
+    },
+    "freeAt": 0
+  },
+  "c679": {
+    "name": "c679",
+    "skills": {
+      "s400": 10
+    },
+    "freeAt": 0
+  },
+  "c438": {
+    "name": "c438",
+    "skills": {
+      "s349": 10
+    },
+    "freeAt": 0
+  },
+  "c674": {
+    "name": "c674",
+    "skills": {
+      "s782": 10
+    },
+    "freeAt": 0
+  },
+  "c723": {
+    "name": "c723",
+    "skills": {
+      "s544": 10
+    },
+    "freeAt": 0
+  },
+  "c210": {
+    "name": "c210",
+    "skills": {
+      "s451": 10
+    },
+    "freeAt": 0
+  },
+  "c199": {
+    "name": "c199",
+    "skills": {
+      "s146": 10
+    },
+    "freeAt": 0
+  },
+  "c640": {
+    "name": "c640",
+    "skills": {
+      "s173": 10
+    },
+    "freeAt": 0
+  },
+  "c551": {
+    "name": "c551",
+    "skills": {
+      "s252": 10
+    },
+    "freeAt": 0
+  },
+  "c430": {
+    "name": "c430",
+    "skills": {
+      "s781": 10
+    },
+    "freeAt": 0
+  },
+  "c760": {
+    "name": "c760",
+    "skills": {
+      "s616": 10
+    },
+    "freeAt": 0
+  },
+  "c713": {
+    "name": "c713",
+    "skills": {
+      "s336": 10
+    },
+    "freeAt": 0
+  },
+  "c119": {
+    "name": "c119",
+    "skills": {
+      "s315": 10
+    },
+    "freeAt": 0
+  },
+  "c65": {
+    "name": "c65",
+    "skills": {
+      "s324": 10
+    },
+    "freeAt": 0
+  },
+  "c286": {
+    "name": "c286",
+    "skills": {
+      "s526": 10
+    },
+    "freeAt": 0
+  },
+  "c755": {
+    "name": "c755",
+    "skills": {
+      "s541": 10
+    },
+    "freeAt": 0
+  },
+  "c152": {
+    "name": "c152",
+    "skills": {
+      "s28": 10
+    },
+    "freeAt": 0
+  },
+  "c484": {
+    "name": "c484",
+    "skills": {
+      "s395": 10
+    },
+    "freeAt": 0
+  },
+  "c354": {
+    "name": "c354",
+    "skills": {
+      "s536": 10
+    },
+    "freeAt": 0
+  },
+  "c475": {
+    "name": "c475",
+    "skills": {
+      "s117": 10
+    },
+    "freeAt": 0
+  },
+  "c460": {
+    "name": "c460",
+    "skills": {
+      "s379": 10
+    },
+    "freeAt": 0
+  },
+  "c384": {
+    "name": "c384",
+    "skills": {
+      "s776": 10
+    },
+    "freeAt": 0
+  },
+  "c416": {
+    "name": "c416",
+    "skills": {
+      "s795": 10
+    },
+    "freeAt": 0
+  },
+  "c331": {
+    "name": "c331",
+    "skills": {
+      "s366": 10
+    },
+    "freeAt": 0
+  },
+  "c45": {
+    "name": "c45",
+    "skills": {
+      "s106": 10
+    },
+    "freeAt": 0
+  },
+  "c87": {
+    "name": "c87",
+    "skills": {
+      "s374": 10
+    },
+    "freeAt": 0
+  },
+  "c127": {
+    "name": "c127",
+    "skills": {
+      "s403": 10
+    },
+    "freeAt": 0
+  },
+  "c54": {
+    "name": "c54",
+    "skills": {
+      "s626": 10
+    },
+    "freeAt": 0
+  },
+  "c622": {
+    "name": "c622",
+    "skills": {
+      "s242": 10
+    },
+    "freeAt": 0
+  },
+  "c740": {
+    "name": "c740",
+    "skills": {
+      "s41": 10
+    },
+    "freeAt": 0
+  },
+  "c228": {
+    "name": "c228",
+    "skills": {
+      "s532": 10
+    },
+    "freeAt": 0
+  },
+  "c434": {
+    "name": "c434",
+    "skills": {
+      "s688": 10
+    },
+    "freeAt": 0
+  },
+  "c209": {
+    "name": "c209",
+    "skills": {
+      "s557": 10
+    },
+    "freeAt": 0
+  },
+  "c795": {
+    "name": "c795",
+    "skills": {
+      "s175": 10
+    },
+    "freeAt": 0
+  },
+  "c280": {
+    "name": "c280",
+    "skills": {
+      "s637": 10
+    },
+    "freeAt": 0
+  },
+  "c583": {
+    "name": "c583",
+    "skills": {
+      "s726": 10
+    },
+    "freeAt": 0
+  },
+  "c608": {
+    "name": "c608",
+    "skills": {
+      "s36": 10
+    },
+    "freeAt": 0
+  },
+  "c490": {
+    "name": "c490",
+    "skills": {
+      "s585": 10
+    },
+    "freeAt": 0
+  },
+  "c606": {
+    "name": "c606",
+    "skills": {
+      "s107": 10
+    },
+    "freeAt": 0
+  },
+  "c521": {
+    "name": "c521",
+    "skills": {
+      "s706": 10
+    },
+    "freeAt": 0
+  },
+  "c502": {
+    "name": "c502",
+    "skills": {
+      "s353": 10
+    },
+    "freeAt": 0
+  },
+  "c266": {
+    "name": "c266",
+    "skills": {
+      "s200": 10
+    },
+    "freeAt": 0
+  },
+  "c747": {
+    "name": "c747",
+    "skills": {
+      "s575": 10
+    },
+    "freeAt": 0
+  },
+  "c392": {
+    "name": "c392",
+    "skills": {
+      "s18": 10
+    },
+    "freeAt": 0
+  },
+  "c626": {
+    "name": "c626",
+    "skills": {
+      "s485": 10
+    },
+    "freeAt": 0
+  },
+  "c659": {
+    "name": "c659",
+    "skills": {
+      "s569": 10
+    },
+    "freeAt": 0
+  },
+  "c375": {
+    "name": "c375",
+    "skills": {
+      "s248": 10
+    },
+    "freeAt": 0
+  },
+  "c197": {
+    "name": "c197",
+    "skills": {
+      "s600": 10
+    },
+    "freeAt": 0
+  },
+  "c382": {
+    "name": "c382",
+    "skills": {
+      "s718": 10
+    },
+    "freeAt": 0
+  },
+  "c497": {
+    "name": "c497",
+    "skills": {
+      "s300": 10
+    },
+    "freeAt": 0
+  },
+  "c268": {
+    "name": "c268",
+    "skills": {
+      "s208": 10
+    },
+    "freeAt": 0
+  },
+  "c702": {
+    "name": "c702",
+    "skills": {
+      "s695": 10
+    },
+    "freeAt": 0
+  },
+  "c239": {
+    "name": "c239",
+    "skills": {
+      "s501": 10
+    },
+    "freeAt": 0
+  },
+  "c0": {
+    "name": "c0",
+    "skills": {
+      "s297": 10
+    },
+    "freeAt": 0
+  },
+  "c798": {
+    "name": "c798",
+    "skills": {
+      "s441": 10
+    },
+    "freeAt": 0
+  },
+  "c530": {
+    "name": "c530",
+    "skills": {
+      "s406": 10
+    },
+    "freeAt": 0
+  },
+  "c726": {
+    "name": "c726",
+    "skills": {
+      "s785": 10
+    },
+    "freeAt": 0
+  },
+  "c722": {
+    "name": "c722",
+    "skills": {
+      "s517": 10
+    },
+    "freeAt": 0
+  },
+  "c173": {
+    "name": "c173",
+    "skills": {
+      "s158": 10
+    },
+    "freeAt": 0
+  },
+  "c613": {
+    "name": "c613",
+    "skills": {
+      "s235": 10
+    },
+    "freeAt": 0
+  },
+  "c377": {
+    "name": "c377",
+    "skills": {
+      "s21": 10
+    },
+    "freeAt": 0
+  },
+  "c766": {
+    "name": "c766",
+    "skills": {
+      "s298": 10
+    },
+    "freeAt": 0
+  },
+  "c758": {
+    "name": "c758",
+    "skills": {
+      "s228": 10
+    },
+    "freeAt": 0
+  },
+  "c645": {
+    "name": "c645",
+    "skills": {
+      "s30": 10
+    },
+    "freeAt": 0
+  },
+  "c647": {
+    "name": "c647",
+    "skills": {
+      "s259": 10
+    },
+    "freeAt": 0
+  },
+  "c677": {
+    "name": "c677",
+    "skills": {
+      "s514": 10
+    },
+    "freeAt": 0
+  },
+  "c132": {
+    "name": "c132",
+    "skills": {
+      "s318": 10
+    },
+    "freeAt": 0
+  },
+  "c511": {
+    "name": "c511",
+    "skills": {
+      "s508": 10
+    },
+    "freeAt": 0
+  },
+  "c786": {
+    "name": "c786",
+    "skills": {
+      "s231": 10
+    },
+    "freeAt": 0
+  },
+  "c98": {
+    "name": "c98",
+    "skills": {
+      "s99": 10
+    },
+    "freeAt": 0
+  },
+  "c188": {
+    "name": "c188",
+    "skills": {
+      "s670": 10
+    },
+    "freeAt": 0
+  },
+  "c439": {
+    "name": "c439",
+    "skills": {
+      "s578": 10
+    },
+    "freeAt": 0
+  },
+  "c429": {
+    "name": "c429",
+    "skills": {
+      "s301": 10
+    },
+    "freeAt": 0
+  },
+  "c593": {
+    "name": "c593",
+    "skills": {
+      "s75": 10
+    },
+    "freeAt": 0
+  },
+  "c185": {
+    "name": "c185",
+    "skills": {
+      "s264": 10
+    },
+    "freeAt": 0
+  },
+  "c799": {
+    "name": "c799",
+    "skills": {
+      "s237": 10
+    },
+    "freeAt": 0
+  },
+  "c73": {
+    "name": "c73",
+    "skills": {
+      "s553": 10
+    },
+    "freeAt": 0
+  },
+  "c381": {
+    "name": "c381",
+    "skills": {
+      "s402": 10
+    },
+    "freeAt": 0
+  },
+  "c172": {
+    "name": "c172",
+    "skills": {
+      "s290": 10
+    },
+    "freeAt": 0
+  },
+  "c143": {
+    "name": "c143",
+    "skills": {
+      "s335": 10
+    },
+    "freeAt": 0
+  },
+  "c124": {
+    "name": "c124",
+    "skills": {
+      "s792": 10
+    },
+    "freeAt": 0
+  },
+  "c187": {
+    "name": "c187",
+    "skills": {
+      "s92": 10
+    },
+    "freeAt": 0
+  },
+  "c126": {
+    "name": "c126",
+    "skills": {
+      "s152": 10
+    },
+    "freeAt": 0
+  },
+  "c789": {
+    "name": "c789",
+    "skills": {
+      "s271": 10
+    },
+    "freeAt": 0
+  },
+  "c25": {
+    "name": "c25",
+    "skills": {
+      "s417": 10
+    },
+    "freeAt": 0
+  },
+  "c505": {
+    "name": "c505",
+    "skills": {
+      "s591": 10
+    },
+    "freeAt": 0
+  },
+  "c164": {
+    "name": "c164",
+    "skills": {
+      "s571": 10
+    },
+    "freeAt": 0
+  },
+  "c283": {
+    "name": "c283",
+    "skills": {
+      "s567": 10
+    },
+    "freeAt": 0
+  },
+  "c682": {
+    "name": "c682",
+    "skills": {
+      "s495": 10
+    },
+    "freeAt": 0
+  },
+  "c335": {
+    "name": "c335",
+    "skills": {
+      "s253": 10
+    },
+    "freeAt": 0
+  },
+  "c328": {
+    "name": "c328",
+    "skills": {
+      "s134": 10
+    },
+    "freeAt": 0
+  },
+  "c135": {
+    "name": "c135",
+    "skills": {
+      "s195": 10
+    },
+    "freeAt": 0
+  },
+  "c539": {
+    "name": "c539",
+    "skills": {
+      "s623": 10
+    },
+    "freeAt": 0
+  },
+  "c42": {
+    "name": "c42",
+    "skills": {
+      "s602": 10
+    },
+    "freeAt": 0
+  },
+  "c44": {
+    "name": "c44",
+    "skills": {
+      "s375": 10
+    },
+    "freeAt": 0
+  },
+  "c524": {
+    "name": "c524",
+    "skills": {
+      "s734": 10
+    },
+    "freeAt": 0
+  },
+  "c89": {
+    "name": "c89",
+    "skills": {
+      "s742": 10
+    },
+    "freeAt": 0
+  },
+  "c11": {
+    "name": "c11",
+    "skills": {
+      "s184": 10
+    },
+    "freeAt": 0
+  },
+  "c285": {
+    "name": "c285",
+    "skills": {
+      "s554": 10
+    },
+    "freeAt": 0
+  },
+  "c374": {
+    "name": "c374",
+    "skills": {
+      "s624": 10
+    },
+    "freeAt": 0
+  },
+  "c411": {
+    "name": "c411",
+    "skills": {
+      "s2": 10
+    },
+    "freeAt": 0
+  },
+  "c548": {
+    "name": "c548",
+    "skills": {
+      "s346": 10
+    },
+    "freeAt": 0
+  },
+  "c646": {
+    "name": "c646",
+    "skills": {
+      "s401": 10
+    },
+    "freeAt": 0
+  },
+  "c570": {
+    "name": "c570",
+    "skills": {
+      "s190": 10
+    },
+    "freeAt": 0
+  },
+  "c698": {
+    "name": "c698",
+    "skills": {
+      "s592": 10
+    },
+    "freeAt": 0
+  },
+  "c611": {
+    "name": "c611",
+    "skills": {
+      "s380": 10
+    },
+    "freeAt": 0
+  },
+  "c334": {
+    "name": "c334",
+    "skills": {
+      "s546": 10
+    },
+    "freeAt": 0
+  },
+  "c70": {
+    "name": "c70",
+    "skills": {
+      "s429": 10
+    },
+    "freeAt": 0
+  },
+  "c131": {
+    "name": "c131",
+    "skills": {
+      "s669": 10
+    },
+    "freeAt": 0
+  },
+  "c466": {
+    "name": "c466",
+    "skills": {
+      "s4": 10
+    },
+    "freeAt": 0
+  },
+  "c630": {
+    "name": "c630",
+    "skills": {
+      "s648": 10
+    },
+    "freeAt": 0
+  },
+  "c664": {
+    "name": "c664",
+    "skills": {
+      "s657": 10
+    },
+    "freeAt": 0
+  },
+  "c518": {
+    "name": "c518",
+    "skills": {
+      "s310": 10
+    },
+    "freeAt": 0
+  },
+  "c178": {
+    "name": "c178",
+    "skills": {
+      "s367": 10
+    },
+    "freeAt": 0
+  },
+  "c553": {
+    "name": "c553",
+    "skills": {
+      "s25": 10
+    },
+    "freeAt": 0
+  },
+  "c395": {
+    "name": "c395",
+    "skills": {
+      "s222": 10
+    },
+    "freeAt": 0
+  },
+  "c264": {
+    "name": "c264",
+    "skills": {
+      "s756": 10
+    },
+    "freeAt": 0
+  },
+  "c9": {
+    "name": "c9",
+    "skills": {
+      "s515": 10
+    },
+    "freeAt": 0
+  },
+  "c35": {
+    "name": "c35",
+    "skills": {
+      "s539": 10
+    },
+    "freeAt": 0
+  },
+  "c624": {
+    "name": "c624",
+    "skills": {
+      "s102": 10
+    },
+    "freeAt": 0
+  },
+  "c362": {
+    "name": "c362",
+    "skills": {
+      "s236": 10
+    },
+    "freeAt": 0
+  },
+  "c355": {
+    "name": "c355",
+    "skills": {
+      "s219": 10
+    },
+    "freeAt": 0
+  },
+  "c339": {
+    "name": "c339",
+    "skills": {
+      "s663": 10
+    },
+    "freeAt": 0
+  },
+  "c125": {
+    "name": "c125",
+    "skills": {
+      "s332": 10
+    },
+    "freeAt": 0
+  },
+  "c514": {
+    "name": "c514",
+    "skills": {
+      "s684": 10
+    },
+    "freeAt": 0
+  },
+  "c718": {
+    "name": "c718",
+    "skills": {
+      "s584": 10
+    },
+    "freeAt": 0
+  },
+  "c273": {
+    "name": "c273",
+    "skills": {
+      "s499": 10
+    },
+    "freeAt": 0
+  },
+  "c644": {
+    "name": "c644",
+    "skills": {
+      "s653": 10
+    },
+    "freeAt": 0
+  },
+  "c221": {
+    "name": "c221",
+    "skills": {
+      "s145": 10
+    },
+    "freeAt": 0
+  },
+  "c20": {
+    "name": "c20",
+    "skills": {
+      "s534": 10
+    },
+    "freeAt": 0
+  },
+  "c446": {
+    "name": "c446",
+    "skills": {
+      "s545": 10
+    },
+    "freeAt": 0
+  },
+  "c350": {
+    "name": "c350",
+    "skills": {
+      "s394": 10
+    },
+    "freeAt": 0
+  },
+  "c426": {
+    "name": "c426",
+    "skills": {
+      "s323": 10
+    },
+    "freeAt": 0
+  },
+  "c691": {
+    "name": "c691",
+    "skills": {
+      "s523": 10
+    },
+    "freeAt": 0
+  },
+  "c379": {
+    "name": "c379",
+    "skills": {
+      "s50": 10
+    },
+    "freeAt": 0
+  },
+  "c440": {
+    "name": "c440",
+    "skills": {
+      "s611": 10
+    },
+    "freeAt": 0
+  },
+  "c397": {
+    "name": "c397",
+    "skills": {
+      "s124": 10
+    },
+    "freeAt": 0
+  },
+  "c482": {
+    "name": "c482",
+    "skills": {
+      "s285": 10
+    },
+    "freeAt": 0
+  },
+  "c385": {
+    "name": "c385",
+    "skills": {
+      "s457": 10
+    },
+    "freeAt": 0
+  },
+  "c230": {
+    "name": "c230",
+    "skills": {
+      "s768": 10
+    },
+    "freeAt": 0
+  },
+  "c597": {
+    "name": "c597",
+    "skills": {
+      "s319": 10
+    },
+    "freeAt": 0
+  },
+  "c759": {
+    "name": "c759",
+    "skills": {
+      "s503": 10
+    },
+    "freeAt": 0
+  },
+  "c195": {
+    "name": "c195",
+    "skills": {
+      "s74": 10
+    },
+    "freeAt": 0
+  },
+  "c116": {
+    "name": "c116",
+    "skills": {
+      "s491": 10
+    },
+    "freeAt": 0
+  },
+  "c341": {
+    "name": "c341",
+    "skills": {
+      "s639": 10
+    },
+    "freeAt": 0
+  },
+  "c157": {
+    "name": "c157",
+    "skills": {
+      "s468": 10
+    },
+    "freeAt": 0
+  },
+  "c19": {
+    "name": "c19",
+    "skills": {
+      "s127": 10
+    },
+    "freeAt": 0
+  },
+  "c772": {
+    "name": "c772",
+    "skills": {
+      "s460": 10
+    },
+    "freeAt": 0
+  },
+  "c585": {
+    "name": "c585",
+    "skills": {
+      "s276": 10
+    },
+    "freeAt": 0
+  },
+  "c419": {
+    "name": "c419",
+    "skills": {
+      "s486": 10
+    },
+    "freeAt": 0
+  },
+  "c565": {
+    "name": "c565",
+    "skills": {
+      "s433": 10
+    },
+    "freeAt": 0
+  },
+  "c49": {
+    "name": "c49",
+    "skills": {
+      "s65": 10
+    },
+    "freeAt": 0
+  },
+  "c415": {
+    "name": "c415",
+    "skills": {
+      "s27": 10
+    },
+    "freeAt": 0
+  },
+  "c92": {
+    "name": "c92",
+    "skills": {
+      "s730": 10
+    },
+    "freeAt": 0
+  },
+  "c202": {
+    "name": "c202",
+    "skills": {
+      "s29": 10
+    },
+    "freeAt": 0
+  },
+  "c159": {
+    "name": "c159",
+    "skills": {
+      "s155": 10
+    },
+    "freeAt": 0
+  },
+  "c671": {
+    "name": "c671",
+    "skills": {
+      "s391": 10
+    },
+    "freeAt": 0
+  },
+  "c68": {
+    "name": "c68",
+    "skills": {
+      "s316": 10
+    },
+    "freeAt": 0
+  },
+  "c293": {
+    "name": "c293",
+    "skills": {
+      "s269": 10
+    },
+    "freeAt": 0
+  },
+  "c537": {
+    "name": "c537",
+    "skills": {
+      "s737": 10
+    },
+    "freeAt": 0
+  },
+  "c492": {
+    "name": "c492",
+    "skills": {
+      "s283": 10
+    },
+    "freeAt": 0
+  },
+  "c515": {
+    "name": "c515",
+    "skills": {
+      "s413": 10
+    },
+    "freeAt": 0
+  },
+  "c297": {
+    "name": "c297",
+    "skills": {
+      "s761": 10
+    },
+    "freeAt": 0
+  },
+  "c263": {
+    "name": "c263",
+    "skills": {
+      "s744": 10
+    },
+    "freeAt": 0
+  },
+  "c36": {
+    "name": "c36",
+    "skills": {
+      "s789": 10
+    },
+    "freeAt": 0
+  },
+  "c58": {
+    "name": "c58",
+    "skills": {
+      "s320": 10
+    },
+    "freeAt": 0
+  },
+  "c458": {
+    "name": "c458",
+    "skills": {
+      "s131": 10
+    },
+    "freeAt": 0
+  },
+  "c348": {
+    "name": "c348",
+    "skills": {
+      "s13": 10
+    },
+    "freeAt": 0
+  },
+  "c768": {
+    "name": "c768",
+    "skills": {
+      "s607": 10
+    },
+    "freeAt": 0
+  },
+  "c525": {
+    "name": "c525",
+    "skills": {
+      "s224": 10
+    },
+    "freeAt": 0
+  },
+  "c254": {
+    "name": "c254",
+    "skills": {
+      "s334": 10
+    },
+    "freeAt": 0
+  },
+  "c657": {
+    "name": "c657",
+    "skills": {
+      "s701": 10
+    },
+    "freeAt": 0
+  },
+  "c261": {
+    "name": "c261",
+    "skills": {
+      "s186": 10
+    },
+    "freeAt": 0
+  },
+  "c156": {
+    "name": "c156",
+    "skills": {
+      "s518": 10
+    },
+    "freeAt": 0
+  },
+  "c639": {
+    "name": "c639",
+    "skills": {
+      "s598": 10
+    },
+    "freeAt": 0
+  },
+  "c519": {
+    "name": "c519",
+    "skills": {
+      "s246": 10
+    },
+    "freeAt": 0
+  },
+  "c69": {
+    "name": "c69",
+    "skills": {
+      "s150": 10
+    },
+    "freeAt": 0
+  },
+  "c213": {
+    "name": "c213",
+    "skills": {
+      "s345": 10
+    },
+    "freeAt": 0
+  },
+  "c109": {
+    "name": "c109",
+    "skills": {
+      "s8": 10
+    },
+    "freeAt": 0
+  },
+  "c483": {
+    "name": "c483",
+    "skills": {
+      "s506": 10
+    },
+    "freeAt": 0
+  },
+  "c330": {
+    "name": "c330",
+    "skills": {
+      "s19": 10
+    },
+    "freeAt": 0
+  },
+  "c250": {
+    "name": "c250",
+    "skills": {
+      "s444": 10
+    },
+    "freeAt": 0
+  },
+  "c488": {
+    "name": "c488",
+    "skills": {
+      "s325": 10
+    },
+    "freeAt": 0
+  },
+  "c99": {
+    "name": "c99",
+    "skills": {
+      "s632": 10
+    },
+    "freeAt": 0
+  },
+  "c513": {
+    "name": "c513",
+    "skills": {
+      "s226": 10
+    },
+    "freeAt": 0
+  },
+  "c29": {
+    "name": "c29",
+    "skills": {
+      "s178": 10
+    },
+    "freeAt": 0
+  },
+  "c298": {
+    "name": "c298",
+    "skills": {
+      "s689": 10
+    },
+    "freeAt": 0
+  },
+  "c635": {
+    "name": "c635",
+    "skills": {
+      "s342": 10
+    },
+    "freeAt": 0
+  },
+  "c555": {
+    "name": "c555",
+    "skills": {
+      "s469": 10
+    },
+    "freeAt": 0
+  },
+  "c229": {
+    "name": "c229",
+    "skills": {
+      "s274": 10
+    },
+    "freeAt": 0
+  },
+  "c232": {
+    "name": "c232",
+    "skills": {
+      "s265": 10
+    },
+    "freeAt": 0
+  },
+  "c715": {
+    "name": "c715",
+    "skills": {
+      "s681": 10
+    },
+    "freeAt": 0
+  },
+  "c787": {
+    "name": "c787",
+    "skills": {
+      "s388": 10
+    },
+    "freeAt": 0
+  },
+  "c461": {
+    "name": "c461",
+    "skills": {
+      "s135": 10
+    },
+    "freeAt": 0
+  },
+  "c378": {
+    "name": "c378",
+    "skills": {
+      "s736": 10
+    },
+    "freeAt": 0
+  },
+  "c288": {
+    "name": "c288",
+    "skills": {
+      "s608": 10
+    },
+    "freeAt": 0
+  },
+  "c793": {
+    "name": "c793",
+    "skills": {
+      "s255": 10
+    },
+    "freeAt": 0
+  },
+  "c709": {
+    "name": "c709",
+    "skills": {
+      "s724": 10
+    },
+    "freeAt": 0
+  },
+  "c337": {
+    "name": "c337",
+    "skills": {
+      "s144": 10
+    },
+    "freeAt": 0
+  },
+  "c8": {
+    "name": "c8",
+    "skills": {
+      "s601": 10
+    },
+    "freeAt": 0
+  },
+  "c79": {
+    "name": "c79",
+    "skills": {
+      "s566": 10
+    },
+    "freeAt": 0
+  },
+  "c455": {
+    "name": "c455",
+    "skills": {
+      "s630": 10
+    },
+    "freeAt": 0
+  },
+  "c270": {
+    "name": "c270",
+    "skills": {
+      "s38": 10
+    },
+    "freeAt": 0
+  },
+  "c351": {
+    "name": "c351",
+    "skills": {
+      "s665": 10
+    },
+    "freeAt": 0
+  },
+  "c129": {
+    "name": "c129",
+    "skills": {
+      "s31": 10
+    },
+    "freeAt": 0
+  },
+  "c628": {
+    "name": "c628",
+    "skills": {
+      "s83": 10
+    },
+    "freeAt": 0
+  },
+  "c751": {
+    "name": "c751",
+    "skills": {
+      "s33": 10
+    },
+    "freeAt": 0
+  },
+  "c271": {
+    "name": "c271",
+    "skills": {
+      "s206": 10
+    },
+    "freeAt": 0
+  },
+  "c144": {
+    "name": "c144",
+    "skills": {
+      "s357": 10
+    },
+    "freeAt": 0
+  },
+  "c667": {
+    "name": "c667",
+    "skills": {
+      "s482": 10
+    },
+    "freeAt": 0
+  },
+  "c168": {
+    "name": "c168",
+    "skills": {
+      "s201": 10
+    },
+    "freeAt": 0
+  },
+  "c448": {
+    "name": "c448",
+    "skills": {
+      "s302": 10
+    },
+    "freeAt": 0
+  },
+  "c63": {
+    "name": "c63",
+    "skills": {
+      "s273": 10
+    },
+    "freeAt": 0
+  },
+  "c262": {
+    "name": "c262",
+    "skills": {
+      "s565": 10
+    },
+    "freeAt": 0
+  },
+  "c257": {
+    "name": "c257",
+    "skills": {
+      "s459": 10
+    },
+    "freeAt": 0
+  },
+  "c189": {
+    "name": "c189",
+    "skills": {
+      "s241": 10
+    },
+    "freeAt": 0
+  },
+  "c342": {
+    "name": "c342",
+    "skills": {
+      "s56": 10
+    },
+    "freeAt": 0
+  },
+  "c140": {
+    "name": "c140",
+    "skills": {
+      "s88": 10
+    },
+    "freeAt": 0
+  },
+  "c465": {
+    "name": "c465",
+    "skills": {
+      "s250": 10
+    },
+    "freeAt": 0
+  },
+  "c654": {
+    "name": "c654",
+    "skills": {
+      "s683": 10
+    },
+    "freeAt": 0
+  },
+  "c61": {
+    "name": "c61",
+    "skills": {
+      "s170": 10
+    },
+    "freeAt": 0
+  },
+  "c558": {
+    "name": "c558",
+    "skills": {
+      "s311": 10
+    },
+    "freeAt": 0
+  },
+  "c23": {
+    "name": "c23",
+    "skills": {
+      "s396": 10
+    },
+    "freeAt": 0
+  },
+  "c780": {
+    "name": "c780",
+    "skills": {
+      "s59": 10
+    },
+    "freeAt": 0
+  },
+  "c407": {
+    "name": "c407",
+    "skills": {
+      "s32": 10
+    },
+    "freeAt": 0
+  },
+  "c625": {
+    "name": "c625",
+    "skills": {
+      "s581": 10
+    },
+    "freeAt": 0
+  },
+  "c201": {
+    "name": "c201",
+    "skills": {
+      "s68": 10
+    },
+    "freeAt": 0
+  },
+  "c614": {
+    "name": "c614",
+    "skills": {
+      "s141": 10
+    },
+    "freeAt": 0
+  },
+  "c554": {
+    "name": "c554",
+    "skills": {
+      "s87": 10
+    },
+    "freeAt": 0
+  },
+  "c77": {
+    "name": "c77",
+    "skills": {
+      "s644": 10
+    },
+    "freeAt": 0
+  },
+  "c394": {
+    "name": "c394",
+    "skills": {
+      "s258": 10
+    },
+    "freeAt": 0
+  },
+  "c289": {
+    "name": "c289",
+    "skills": {
+      "s329": 10
+    },
+    "freeAt": 0
+  },
+  "c22": {
+    "name": "c22",
+    "skills": {
+      "s483": 10
+    },
+    "freeAt": 0
+  },
+  "c86": {
+    "name": "c86",
+    "skills": {
+      "s439": 10
+    },
+    "freeAt": 0
+  },
+  "c425": {
+    "name": "c425",
+    "skills": {
+      "s530": 10
+    },
+    "freeAt": 0
+  },
+  "c149": {
+    "name": "c149",
+    "skills": {
+      "s794": 10
+    },
+    "freeAt": 0
+  },
+  "c104": {
+    "name": "c104",
+    "skills": {
+      "s216": 10
+    },
+    "freeAt": 0
+  },
+  "c683": {
+    "name": "c683",
+    "skills": {
+      "s312": 10
+    },
+    "freeAt": 0
+  },
+  "c12": {
+    "name": "c12",
+    "skills": {
+      "s119": 10
+    },
+    "freeAt": 0
+  },
+  "c138": {
+    "name": "c138",
+    "skills": {
+      "s704": 10
+    },
+    "freeAt": 0
+  },
+  "c643": {
+    "name": "c643",
+    "skills": {
+      "s656": 10
+    },
+    "freeAt": 0
+  },
+  "c148": {
+    "name": "c148",
+    "skills": {
+      "s650": 10
+    },
+    "freeAt": 0
+  },
+  "c656": {
+    "name": "c656",
+    "skills": {
+      "s331": 10
+    },
+    "freeAt": 0
+  },
+  "c641": {
+    "name": "c641",
+    "skills": {
+      "s414": 10
+    },
+    "freeAt": 0
+  },
+  "c274": {
+    "name": "c274",
+    "skills": {
+      "s151": 10
+    },
+    "freeAt": 0
+  },
+  "c619": {
+    "name": "c619",
+    "skills": {
+      "s408": 10
+    },
+    "freeAt": 0
+  },
+  "c299": {
+    "name": "c299",
+    "skills": {
+      "s182": 10
+    },
+    "freeAt": 0
+  },
+  "c627": {
+    "name": "c627",
+    "skills": {
+      "s641": 10
+    },
+    "freeAt": 0
+  },
+  "c358": {
+    "name": "c358",
+    "skills": {
+      "s760": 10
+    },
+    "freeAt": 0
+  },
+  "c417": {
+    "name": "c417",
+    "skills": {
+      "s165": 10
+    },
+    "freeAt": 0
+  },
+  "c629": {
+    "name": "c629",
+    "skills": {
+      "s247": 10
+    },
+    "freeAt": 0
+  },
+  "c687": {
+    "name": "c687",
+    "skills": {
+      "s348": 10
+    },
+    "freeAt": 0
+  },
+  "c243": {
+    "name": "c243",
+    "skills": {
+      "s757": 10
+    },
+    "freeAt": 0
+  },
+  "c80": {
+    "name": "c80",
+    "skills": {
+      "s743": 10
+    },
+    "freeAt": 0
+  },
+  "c471": {
+    "name": "c471",
+    "skills": {
+      "s51": 10
+    },
+    "freeAt": 0
+  },
+  "c634": {
+    "name": "c634",
+    "skills": {
+      "s655": 10
+    },
+    "freeAt": 0
+  },
+  "c216": {
+    "name": "c216",
+    "skills": {
+      "s381": 10
+    },
+    "freeAt": 0
+  },
+  "c589": {
+    "name": "c589",
+    "skills": {
+      "s194": 10
+    },
+    "freeAt": 0
+  },
+  "c413": {
+    "name": "c413",
+    "skills": {
+      "s622": 10
+    },
+    "freeAt": 0
+  },
+  "c673": {
+    "name": "c673",
+    "skills": {
+      "s64": 10
+    },
+    "freeAt": 0
+  },
+  "c462": {
+    "name": "c462",
+    "skills": {
+      "s370": 10
+    },
+    "freeAt": 0
+  },
+  "c235": {
+    "name": "c235",
+    "skills": {
+      "s317": 10
+    },
+    "freeAt": 0
+  },
+  "c681": {
+    "name": "c681",
+    "skills": {
+      "s412": 10
+    },
+    "freeAt": 0
+  },
+  "c549": {
+    "name": "c549",
+    "skills": {
+      "s96": 10
+    },
+    "freeAt": 0
+  },
+  "c669": {
+    "name": "c669",
+    "skills": {
+      "s15": 10
+    },
+    "freeAt": 0
+  },
+  "c30": {
+    "name": "c30",
+    "skills": {
+      "s488": 10
+    },
+    "freeAt": 0
+  },
+  "c670": {
+    "name": "c670",
+    "skills": {
+      "s72": 10
+    },
+    "freeAt": 0
+  },
+  "c332": {
+    "name": "c332",
+    "skills": {
+      "s432": 10
+    },
+    "freeAt": 0
+  },
+  "c324": {
+    "name": "c324",
+    "skills": {
+      "s143": 10
+    },
+    "freeAt": 0
+  },
+  "c233": {
+    "name": "c233",
+    "skills": {
+      "s149": 10
+    },
+    "freeAt": 0
+  },
+  "c522": {
+    "name": "c522",
+    "skills": {
+      "s326": 10
+    },
+    "freeAt": 0
+  },
+  "c441": {
+    "name": "c441",
+    "skills": {
+      "s543": 10
+    },
+    "freeAt": 0
+  },
+  "c247": {
+    "name": "c247",
+    "skills": {
+      "s758": 10
+    },
+    "freeAt": 0
+  },
+  "c211": {
+    "name": "c211",
+    "skills": {
+      "s95": 10
+    },
+    "freeAt": 0
+  },
+  "c1": {
+    "name": "c1",
+    "skills": {
+      "s769": 10
+    },
+    "freeAt": 0
+  },
+  "c326": {
+    "name": "c326",
+    "skills": {
+      "s1": 10
+    },
+    "freeAt": 0
+  },
+  "c193": {
+    "name": "c193",
+    "skills": {
+      "s330": 10
+    },
+    "freeAt": 0
+  },
+  "c421": {
+    "name": "c421",
+    "skills": {
+      "s751": 10
+    },
+    "freeAt": 0
+  },
+  "c542": {
+    "name": "c542",
+    "skills": {
+      "s405": 10
+    },
+    "freeAt": 0
+  },
+  "c543": {
+    "name": "c543",
+    "skills": {
+      "s368": 10
+    },
+    "freeAt": 0
+  },
+  "c725": {
+    "name": "c725",
+    "skills": {
+      "s573": 10
+    },
+    "freeAt": 0
+  },
+  "c459": {
+    "name": "c459",
+    "skills": {
+      "s260": 10
+    },
+    "freeAt": 0
+  },
+  "c55": {
+    "name": "c55",
+    "skills": {
+      "s156": 10
+    },
+    "freeAt": 0
+  },
+  "c433": {
+    "name": "c433",
+    "skills": {
+      "s284": 10
+    },
+    "freeAt": 0
+  },
+  "c464": {
+    "name": "c464",
+    "skills": {
+      "s85": 10
+    },
+    "freeAt": 0
+  },
+  "c357": {
+    "name": "c357",
+    "skills": {
+      "s163": 10
+    },
+    "freeAt": 0
+  },
+  "c231": {
+    "name": "c231",
+    "skills": {
+      "s344": 10
+    },
+    "freeAt": 0
+  },
+  "c238": {
+    "name": "c238",
+    "skills": {
+      "s256": 10
+    },
+    "freeAt": 0
+  },
+  "c106": {
+    "name": "c106",
+    "skills": {
+      "s694": 10
+    },
+    "freeAt": 0
+  },
+  "c251": {
+    "name": "c251",
+    "skills": {
+      "s294": 10
+    },
+    "freeAt": 0
+  },
+  "c192": {
+    "name": "c192",
+    "skills": {
+      "s633": 10
+    },
+    "freeAt": 0
+  },
+  "c141": {
+    "name": "c141",
+    "skills": {
+      "s697": 10
+    },
+    "freeAt": 0
+  },
+  "c281": {
+    "name": "c281",
+    "skills": {
+      "s101": 10
+    },
+    "freeAt": 0
+  },
+  "c443": {
+    "name": "c443",
+    "skills": {
+      "s193": 10
+    },
+    "freeAt": 0
+  },
+  "c586": {
+    "name": "c586",
+    "skills": {
+      "s798": 10
+    },
+    "freeAt": 0
+  },
+  "c684": {
+    "name": "c684",
+    "skills": {
+      "s361": 10
+    },
+    "freeAt": 0
+  },
+  "c311": {
+    "name": "c311",
+    "skills": {
+      "s445": 10
+    },
+    "freeAt": 0
+  },
+  "c491": {
+    "name": "c491",
+    "skills": {
+      "s299": 10
+    },
+    "freeAt": 0
+  },
+  "c431": {
+    "name": "c431",
+    "skills": {
+      "s129": 10
+    },
+    "freeAt": 0
+  },
+  "c253": {
+    "name": "c253",
+    "skills": {
+      "s212": 10
+    },
+    "freeAt": 0
+  },
+  "c309": {
+    "name": "c309",
+    "skills": {
+      "s438": 10
+    },
+    "freeAt": 0
+  },
+  "c690": {
+    "name": "c690",
+    "skills": {
+      "s574": 10
+    },
+    "freeAt": 0
+  },
+  "c82": {
+    "name": "c82",
+    "skills": {
+      "s555": 10
+    },
+    "freeAt": 0
+  },
+  "c150": {
+    "name": "c150",
+    "skills": {
+      "s465": 10
+    },
+    "freeAt": 0
+  },
+  "c207": {
+    "name": "c207",
+    "skills": {
+      "s715": 10
+    },
+    "freeAt": 0
+  },
+  "c224": {
+    "name": "c224",
+    "skills": {
+      "s363": 10
+    },
+    "freeAt": 0
+  },
+  "c729": {
+    "name": "c729",
+    "skills": {
+      "s749": 10
+    },
+    "freeAt": 0
+  },
+  "c301": {
+    "name": "c301",
+    "skills": {
+      "s628": 10
+    },
+    "freeAt": 0
+  },
+  "c343": {
+    "name": "c343",
+    "skills": {
+      "s475": 10
+    },
+    "freeAt": 0
+  },
+  "c790": {
+    "name": "c790",
+    "skills": {
+      "s676": 10
+    },
+    "freeAt": 0
+  },
+  "c631": {
+    "name": "c631",
+    "skills": {
+      "s474": 10
+    },
+    "freeAt": 0
+  },
+  "c420": {
+    "name": "c420",
+    "skills": {
+      "s577": 10
+    },
+    "freeAt": 0
+  },
+  "c100": {
+    "name": "c100",
+    "skills": {
+      "s643": 10
+    },
+    "freeAt": 0
+  },
+  "c401": {
+    "name": "c401",
+    "skills": {
+      "s383": 10
+    },
+    "freeAt": 0
+  },
+  "c568": {
+    "name": "c568",
+    "skills": {
+      "s61": 10
+    },
+    "freeAt": 0
+  },
+  "c383": {
+    "name": "c383",
+    "skills": {
+      "s34": 10
+    },
+    "freeAt": 0
+  },
+  "c550": {
+    "name": "c550",
+    "skills": {
+      "s249": 10
+    },
+    "freeAt": 0
+  },
+  "c153": {
+    "name": "c153",
+    "skills": {
+      "s510": 10
+    },
+    "freeAt": 0
+  },
+  "c638": {
+    "name": "c638",
+    "skills": {
+      "s243": 10
+    },
+    "freeAt": 0
+  },
+  "c205": {
+    "name": "c205",
+    "skills": {
+      "s356": 10
+    },
+    "freeAt": 0
+  },
+  "c320": {
+    "name": "c320",
+    "skills": {
+      "s487": 10
+    },
+    "freeAt": 0
+  },
+  "c380": {
+    "name": "c380",
+    "skills": {
+      "s714": 10
+    },
+    "freeAt": 0
+  },
+  "c621": {
+    "name": "c621",
+    "skills": {
+      "s580": 10
+    },
+    "freeAt": 0
+  },
+  "c252": {
+    "name": "c252",
+    "skills": {
+      "s397": 10
+    },
+    "freeAt": 0
+  },
+  "c171": {
+    "name": "c171",
+    "skills": {
+      "s582": 10
+    },
+    "freeAt": 0
+  },
+  "c212": {
+    "name": "c212",
+    "skills": {
+      "s615": 10
+    },
+    "freeAt": 0
+  },
+  "c167": {
+    "name": "c167",
+    "skills": {
+      "s713": 10
+    },
+    "freeAt": 0
+  },
+  "c764": {
+    "name": "c764",
+    "skills": {
+      "s449": 10
+    },
+    "freeAt": 0
+  },
+  "c91": {
+    "name": "c91",
+    "skills": {
+      "s699": 10
+    },
+    "freeAt": 0
+  },
+  "c546": {
+    "name": "c546",
+    "skills": {
+      "s727": 10
+    },
+    "freeAt": 0
+  },
+  "c477": {
+    "name": "c477",
+    "skills": {
+      "s617": 10
+    },
+    "freeAt": 0
+  },
+  "c507": {
+    "name": "c507",
+    "skills": {
+      "s642": 10
+    },
+    "freeAt": 0
+  },
+  "c365": {
+    "name": "c365",
+    "skills": {
+      "s137": 10
+    },
+    "freeAt": 0
+  },
+  "c404": {
+    "name": "c404",
+    "skills": {
+      "s720": 10
+    },
+    "freeAt": 0
+  },
+  "c582": {
+    "name": "c582",
+    "skills": {
+      "s392": 10
+    },
+    "freeAt": 0
+  },
+  "c242": {
+    "name": "c242",
+    "skills": {
+      "s667": 10
+    },
+    "freeAt": 0
+  },
+  "c788": {
+    "name": "c788",
+    "skills": {
+      "s779": 10
+    },
+    "freeAt": 0
+  },
+  "c652": {
+    "name": "c652",
+    "skills": {
+      "s729": 10
+    },
+    "freeAt": 0
+  },
+  "c93": {
+    "name": "c93",
+    "skills": {
+      "s549": 10
+    },
+    "freeAt": 0
+  },
+  "c3": {
+    "name": "c3",
+    "skills": {
+      "s120": 10
+    },
+    "freeAt": 0
+  },
+  "c137": {
+    "name": "c137",
+    "skills": {
+      "s662": 10
+    },
+    "freeAt": 0
+  },
+  "c588": {
+    "name": "c588",
+    "skills": {
+      "s215": 10
+    },
+    "freeAt": 0
+  },
+  "c472": {
+    "name": "c472",
+    "skills": {
+      "s452": 10
+    },
+    "freeAt": 0
+  },
+  "c661": {
+    "name": "c661",
+    "skills": {
+      "s725": 10
+    },
+    "freeAt": 0
+  },
+  "c215": {
+    "name": "c215",
+    "skills": {
+      "s788": 10
+    },
+    "freeAt": 0
+  },
+  "c345": {
+    "name": "c345",
+    "skills": {
+      "s418": 10
+    },
+    "freeAt": 0
+  },
+  "c528": {
+    "name": "c528",
+    "skills": {
+      "s161": 10
+    },
+    "freeAt": 0
+  },
+  "c66": {
+    "name": "c66",
+    "skills": {
+      "s708": 10
+    },
+    "freeAt": 0
+  },
+  "c705": {
+    "name": "c705",
+    "skills": {
+      "s473": 10
+    },
+    "freeAt": 0
+  },
+  "c292": {
+    "name": "c292",
+    "skills": {
+      "s500": 10
+    },
+    "freeAt": 0
+  },
+  "c685": {
+    "name": "c685",
+    "skills": {
+      "s238": 10
+    },
+    "freeAt": 0
+  },
+  "c258": {
+    "name": "c258",
+    "skills": {
+      "s160": 10
+    },
+    "freeAt": 0
+  },
+  "c198": {
+    "name": "c198",
+    "skills": {
+      "s339": 10
+    },
+    "freeAt": 0
+  },
+  "c114": {
+    "name": "c114",
+    "skills": {
+      "s14": 10
+    },
+    "freeAt": 0
+  },
+  "c474": {
+    "name": "c474",
+    "skills": {
+      "s167": 10
+    },
+    "freeAt": 0
+  },
+  "c509": {
+    "name": "c509",
+    "skills": {
+      "s522": 10
+    },
+    "freeAt": 0
+  },
+  "c535": {
+    "name": "c535",
+    "skills": {
+      "s636": 10
+    },
+    "freeAt": 0
+  },
+  "c60": {
+    "name": "c60",
+    "skills": {
+      "s296": 10
+    },
+    "freeAt": 0
+  },
+  "c724": {
+    "name": "c724",
+    "skills": {
+      "s671": 10
+    },
+    "freeAt": 0
+  },
+  "c318": {
+    "name": "c318",
+    "skills": {
+      "s497": 10
+    },
+    "freeAt": 0
+  },
+  "c52": {
+    "name": "c52",
+    "skills": {
+      "s49": 10
+    },
+    "freeAt": 0
+  },
+  "c609": {
+    "name": "c609",
+    "skills": {
+      "s612": 10
+    },
+    "freeAt": 0
+  },
+  "c170": {
+    "name": "c170",
+    "skills": {
+      "s140": 10
+    },
+    "freeAt": 0
+  },
+  "c720": {
+    "name": "c720",
+    "skills": {
+      "s251": 10
+    },
+    "freeAt": 0
+  },
+  "c632": {
+    "name": "c632",
+    "skills": {
+      "s595": 10
+    },
+    "freeAt": 0
+  },
+  "c184": {
+    "name": "c184",
+    "skills": {
+      "s359": 10
+    },
+    "freeAt": 0
+  },
+  "c50": {
+    "name": "c50",
+    "skills": {
+      "s104": 10
+    },
+    "freeAt": 0
+  },
+  "c451": {
+    "name": "c451",
+    "skills": {
+      "s268": 10
+    },
+    "freeAt": 0
+  },
+  "c527": {
+    "name": "c527",
+    "skills": {
+      "s705": 10
+    },
+    "freeAt": 0
+  },
+  "c435": {
+    "name": "c435",
+    "skills": {
+      "s384": 10
+    },
+    "freeAt": 0
+  },
+  "c735": {
+    "name": "c735",
+    "skills": {
+      "s257": 10
+    },
+    "freeAt": 0
+  },
+  "c414": {
+    "name": "c414",
+    "skills": {
+      "s589": 10
+    },
+    "freeAt": 0
+  },
+  "c557": {
+    "name": "c557",
+    "skills": {
+      "s435": 10
+    },
+    "freeAt": 0
+  },
+  "c180": {
+    "name": "c180",
+    "skills": {
+      "s428": 10
+    },
+    "freeAt": 0
+  },
+  "c436": {
+    "name": "c436",
+    "skills": {
+      "s386": 10
+    },
+    "freeAt": 0
+  },
+  "c719": {
+    "name": "c719",
+    "skills": {
+      "s687": 10
+    },
+    "freeAt": 0
+  },
+  "c737": {
+    "name": "c737",
+    "skills": {
+      "s304": 10
+    },
+    "freeAt": 0
+  },
+  "c612": {
+    "name": "c612",
+    "skills": {
+      "s172": 10
+    },
+    "freeAt": 0
+  },
+  "c53": {
+    "name": "c53",
+    "skills": {
+      "s678": 10
+    },
+    "freeAt": 0
+  },
+  "c707": {
+    "name": "c707",
+    "skills": {
+      "s434": 10
+    },
+    "freeAt": 0
+  },
+  "c47": {
+    "name": "c47",
+    "skills": {
+      "s780": 10
+    },
+    "freeAt": 0
+  },
+  "c689": {
+    "name": "c689",
+    "skills": {
+      "s280": 10
+    },
+    "freeAt": 0
+  },
+  "c423": {
+    "name": "c423",
+    "skills": {
+      "s647": 10
+    },
+    "freeAt": 0
+  },
+  "c174": {
+    "name": "c174",
+    "skills": {
+      "s169": 10
+    },
+    "freeAt": 0
+  },
+  "c663": {
+    "name": "c663",
+    "skills": {
+      "s307": 10
+    },
+    "freeAt": 0
+  },
+  "c236": {
+    "name": "c236",
+    "skills": {
+      "s270": 10
+    },
+    "freeAt": 0
+  },
+  "c300": {
+    "name": "c300",
+    "skills": {
+      "s369": 10
+    },
+    "freeAt": 0
+  },
+  "c203": {
+    "name": "c203",
+    "skills": {
+      "s66": 10
+    },
+    "freeAt": 0
+  },
+  "c371": {
+    "name": "c371",
+    "skills": {
+      "s181": 10
+    },
+    "freeAt": 0
+  },
+  "c83": {
+    "name": "c83",
+    "skills": {
+      "s387": 10
+    },
+    "freeAt": 0
+  },
+  "c692": {
+    "name": "c692",
+    "skills": {
+      "s245": 10
+    },
+    "freeAt": 0
+  },
+  "c732": {
+    "name": "c732",
+    "skills": {
+      "s121": 10
+    },
+    "freeAt": 0
+  },
+  "c600": {
+    "name": "c600",
+    "skills": {
+      "s180": 10
+    },
+    "freeAt": 0
+  },
+  "c662": {
+    "name": "c662",
+    "skills": {
+      "s113": 10
+    },
+    "freeAt": 0
+  },
+  "c706": {
+    "name": "c706",
+    "skills": {
+      "s3": 10
+    },
+    "freeAt": 0
+  },
+  "c529": {
+    "name": "c529",
+    "skills": {
+      "s750": 10
+    },
+    "freeAt": 0
+  },
+  "c402": {
+    "name": "c402",
+    "skills": {
+      "s677": 10
+    },
+    "freeAt": 0
+  },
+  "c225": {
+    "name": "c225",
+    "skills": {
+      "s462": 10
+    },
+    "freeAt": 0
+  },
+  "c115": {
+    "name": "c115",
+    "skills": {
+      "s752": 10
+    },
+    "freeAt": 0
+  },
+  "c744": {
+    "name": "c744",
+    "skills": {
+      "s282": 10
+    },
+    "freeAt": 0
+  },
+  "c306": {
+    "name": "c306",
+    "skills": {
+      "s5": 10
+    },
+    "freeAt": 0
+  },
+  "c688": {
+    "name": "c688",
+    "skills": {
+      "s24": 10
+    },
+    "freeAt": 0
+  },
+  "c387": {
+    "name": "c387",
+    "skills": {
+      "s640": 10
+    },
+    "freeAt": 0
+  },
+  "c486": {
+    "name": "c486",
+    "skills": {
+      "s223": 10
+    },
+    "freeAt": 0
+  },
+  "c678": {
+    "name": "c678",
+    "skills": {
+      "s291": 10
+    },
+    "freeAt": 0
+  },
+  "c445": {
+    "name": "c445",
+    "skills": {
+      "s696": 10
+    },
+    "freeAt": 0
+  },
+  "c595": {
+    "name": "c595",
+    "skills": {
+      "s377": 10
+    },
+    "freeAt": 0
+  },
+  "c259": {
+    "name": "c259",
+    "skills": {
+      "s427": 10
+    },
+    "freeAt": 0
+  },
+  "c710": {
+    "name": "c710",
+    "skills": {
+      "s199": 10
+    },
+    "freeAt": 0
+  },
+  "c547": {
+    "name": "c547",
+    "skills": {
+      "s202": 10
+    },
+    "freeAt": 0
+  },
+  "c437": {
+    "name": "c437",
+    "skills": {
+      "s463": 10
+    },
+    "freeAt": 0
+  },
+  "c305": {
+    "name": "c305",
+    "skills": {
+      "s786": 10
+    },
+    "freeAt": 0
+  },
+  "c26": {
+    "name": "c26",
+    "skills": {
+      "s528": 10
+    },
+    "freeAt": 0
+  },
+  "c10": {
+    "name": "c10",
+    "skills": {
+      "s535": 10
+    },
+    "freeAt": 0
+  },
+  "c128": {
+    "name": "c128",
+    "skills": {
+      "s472": 10
+    },
+    "freeAt": 0
+  },
+  "c785": {
+    "name": "c785",
+    "skills": {
+      "s225": 10
+    },
+    "freeAt": 0
+  },
+  "c610": {
+    "name": "c610",
+    "skills": {
+      "s796": 10
+    },
+    "freeAt": 0
+  },
+  "c796": {
+    "name": "c796",
+    "skills": {
+      "s22": 10
+    },
+    "freeAt": 0
+  },
+  "c776": {
+    "name": "c776",
+    "skills": {
+      "s509": 10
+    },
+    "freeAt": 0
+  },
+  "c561": {
+    "name": "c561",
+    "skills": {
+      "s9": 10
+    },
+    "freeAt": 0
+  },
+  "c43": {
+    "name": "c43",
+    "skills": {
+      "s410": 10
+    },
+    "freeAt": 0
+  },
+  "c84": {
+    "name": "c84",
+    "skills": {
+      "s709": 10
+    },
+    "freeAt": 0
+  },
+  "c372": {
+    "name": "c372",
+    "skills": {
+      "s105": 10
+    },
+    "freeAt": 0
+  },
+  "c110": {
+    "name": "c110",
+    "skills": {
+      "s227": 10
+    },
+    "freeAt": 0
+  },
+  "c579": {
+    "name": "c579",
+    "skills": {
+      "s631": 10
+    },
+    "freeAt": 0
+  },
+  "c470": {
+    "name": "c470",
+    "skills": {
+      "s289": 10
+    },
+    "freeAt": 0
+  },
+  "c155": {
+    "name": "c155",
+    "skills": {
+      "s613": 10
+    },
+    "freeAt": 0
+  },
+  "c303": {
+    "name": "c303",
+    "skills": {
+      "s797": 10
+    },
+    "freeAt": 0
+  },
+  "c103": {
+    "name": "c103",
+    "skills": {
+      "s520": 10
+    },
+    "freeAt": 0
+  },
+  "c204": {
+    "name": "c204",
+    "skills": {
+      "s287": 10
+    },
+    "freeAt": 0
+  },
+  "c272": {
+    "name": "c272",
+    "skills": {
+      "s711": 10
+    },
+    "freeAt": 0
+  },
+  "c16": {
+    "name": "c16",
+    "skills": {
+      "s537": 10
+    },
+    "freeAt": 0
+  },
+  "c32": {
+    "name": "c32",
+    "skills": {
+      "s46": 10
+    },
+    "freeAt": 0
+  },
+  "c476": {
+    "name": "c476",
+    "skills": {
+      "s0": 10
+    },
+    "freeAt": 0
+  },
+  "c399": {
+    "name": "c399",
+    "skills": {
+      "s747": 10
+    },
+    "freeAt": 0
+  },
+  "c108": {
+    "name": "c108",
+    "skills": {
+      "s583": 10
+    },
+    "freeAt": 0
+  },
+  "c279": {
+    "name": "c279",
+    "skills": {
+      "s174": 10
+    },
+    "freeAt": 0
+  },
+  "c738": {
+    "name": "c738",
+    "skills": {
+      "s425": 10
+    },
+    "freeAt": 0
+  },
+  "c616": {
+    "name": "c616",
+    "skills": {
+      "s306": 10
+    },
+    "freeAt": 0
+  },
+  "c660": {
+    "name": "c660",
+    "skills": {
+      "s448": 10
+    },
+    "freeAt": 0
+  },
+  "c147": {
+    "name": "c147",
+    "skills": {
+      "s436": 10
+    },
+    "freeAt": 0
+  },
+  "c704": {
+    "name": "c704",
+    "skills": {
+      "s77": 10
+    },
+    "freeAt": 0
+  },
+  "c18": {
+    "name": "c18",
+    "skills": {
+      "s496": 10
+    },
+    "freeAt": 0
+  },
+  "c245": {
+    "name": "c245",
+    "skills": {
+      "s355": 10
+    },
+    "freeAt": 0
+  },
+  "c587": {
+    "name": "c587",
+    "skills": {
+      "s272": 10
+    },
+    "freeAt": 0
+  },
+  "c181": {
+    "name": "c181",
+    "skills": {
+      "s40": 10
+    },
+    "freeAt": 0
+  },
+  "c38": {
+    "name": "c38",
+    "skills": {
+      "s559": 10
+    },
+    "freeAt": 0
+  },
+  "c618": {
+    "name": "c618",
+    "skills": {
+      "s305": 10
+    },
+    "freeAt": 0
+  },
+  "c560": {
+    "name": "c560",
+    "skills": {
+      "s629": 10
+    },
+    "freeAt": 0
+  },
+  "c76": {
+    "name": "c76",
+    "skills": {
+      "s214": 10
+    },
+    "freeAt": 0
+  },
+  "c71": {
+    "name": "c71",
+    "skills": {
+      "s621": 10
+    },
+    "freeAt": 0
+  },
+  "c409": {
+    "name": "c409",
+    "skills": {
+      "s700": 10
+    },
+    "freeAt": 0
+  },
+  "c757": {
+    "name": "c757",
+    "skills": {
+      "s456": 10
+    },
+    "freeAt": 0
+  },
+  "c369": {
+    "name": "c369",
+    "skills": {
+      "s115": 10
+    },
+    "freeAt": 0
+  },
+  "c746": {
+    "name": "c746",
+    "skills": {
+      "s610": 10
+    },
+    "freeAt": 0
+  },
+  "c782": {
+    "name": "c782",
+    "skills": {
+      "s721": 10
+    },
+    "freeAt": 0
+  },
+  "c769": {
+    "name": "c769",
+    "skills": {
+      "s442": 10
+    },
+    "freeAt": 0
+  },
+  "c403": {
+    "name": "c403",
+    "skills": {
+      "s364": 10
+    },
+    "freeAt": 0
+  },
+  "c556": {
+    "name": "c556",
+    "skills": {
+      "s563": 10
+    },
+    "freeAt": 0
+  },
+  "c781": {
+    "name": "c781",
+    "skills": {
+      "s322": 10
+    },
+    "freeAt": 0
+  },
+  "c552": {
+    "name": "c552",
+    "skills": {
+      "s594": 10
+    },
+    "freeAt": 0
+  },
+  "c545": {
+    "name": "c545",
+    "skills": {
+      "s450": 10
+    },
+    "freeAt": 0
+  },
+  "c347": {
+    "name": "c347",
+    "skills": {
+      "s596": 10
+    },
+    "freeAt": 0
+  },
+  "c422": {
+    "name": "c422",
+    "skills": {
+      "s660": 10
+    },
+    "freeAt": 0
+  },
+  "c607": {
+    "name": "c607",
+    "skills": {
+      "s82": 10
+    },
+    "freeAt": 0
+  },
+  "c538": {
+    "name": "c538",
+    "skills": {
+      "s771": 10
+    },
+    "freeAt": 0
+  },
+  "c449": {
+    "name": "c449",
+    "skills": {
+      "s470": 10
+    },
+    "freeAt": 0
+  },
+  "c240": {
+    "name": "c240",
+    "skills": {
+      "s90": 10
+    },
+    "freeAt": 0
+  },
+  "c730": {
+    "name": "c730",
+    "skills": {
+      "s461": 10
+    },
+    "freeAt": 0
+  },
+  "c675": {
+    "name": "c675",
+    "skills": {
+      "s148": 10
+    },
+    "freeAt": 0
+  },
+  "c21": {
+    "name": "c21",
+    "skills": {
+      "s53": 10
+    },
+    "freeAt": 0
+  },
+  "c541": {
+    "name": "c541",
+    "skills": {
+      "s564": 10
+    },
+    "freeAt": 0
+  },
+  "c566": {
+    "name": "c566",
+    "skills": {
+      "s440": 10
+    },
+    "freeAt": 0
+  },
+  "c329": {
+    "name": "c329",
+    "skills": {
+      "s197": 10
+    },
+    "freeAt": 0
+  },
+  "c650": {
+    "name": "c650",
+    "skills": {
+      "s81": 10
+    },
+    "freeAt": 0
+  },
+  "c122": {
+    "name": "c122",
+    "skills": {
+      "s770": 10
+    },
+    "freeAt": 0
+  },
+  "c615": {
+    "name": "c615",
+    "skills": {
+      "s234": 10
+    },
+    "freeAt": 0
+  },
+  "c308": {
+    "name": "c308",
+    "skills": {
+      "s739": 10
+    },
+    "freeAt": 0
+  },
+  "c728": {
+    "name": "c728",
+    "skills": {
+      "s692": 10
+    },
+    "freeAt": 0
+  },
+  "c356": {
+    "name": "c356",
+    "skills": {
+      "s98": 10
+    },
+    "freeAt": 0
+  },
+  "c442": {
+    "name": "c442",
+    "skills": {
+      "s723": 10
+    },
+    "freeAt": 0
+  },
+  "c237": {
+    "name": "c237",
+    "skills": {
+      "s691": 10
+    },
+    "freeAt": 0
+  },
+  "c154": {
+    "name": "c154",
+    "skills": {
+      "s731": 10
+    },
+    "freeAt": 0
+  },
+  "c51": {
+    "name": "c51",
+    "skills": {
+      "s415": 10
+    },
+    "freeAt": 0
+  },
+  "c37": {
+    "name": "c37",
+    "skills": {
+      "s513": 10
+    },
+    "freeAt": 0
+  },
+  "c78": {
+    "name": "c78",
+    "skills": {
+      "s327": 10
+    },
+    "freeAt": 0
+  },
+  "c733": {
+    "name": "c733",
+    "skills": {
+      "s133": 10
+    },
+    "freeAt": 0
+  },
+  "c734": {
+    "name": "c734",
+    "skills": {
+      "s686": 10
+    },
+    "freeAt": 0
+  },
+  "c578": {
+    "name": "c578",
+    "skills": {
+      "s635": 10
+    },
+    "freeAt": 0
+  },
+  "c182": {
+    "name": "c182",
+    "skills": {
+      "s735": 10
+    },
+    "freeAt": 0
+  },
+  "c637": {
+    "name": "c637",
+    "skills": {
+      "s122": 10
+    },
+    "freeAt": 0
+  },
+  "c599": {
+    "name": "c599",
+    "skills": {
+      "s308": 10
+    },
+    "freeAt": 0
+  },
+  "c731": {
+    "name": "c731",
+    "skills": {
+      "s712": 10
+    },
+    "freeAt": 0
+  },
+  "c113": {
+    "name": "c113",
+    "skills": {
+      "s654": 10
+    },
+    "freeAt": 0
+  },
+  "c665": {
+    "name": "c665",
+    "skills": {
+      "s372": 10
+    },
+    "freeAt": 0
+  },
+  "c327": {
+    "name": "c327",
+    "skills": {
+      "s479": 10
+    },
+    "freeAt": 0
+  },
+  "c107": {
+    "name": "c107",
+    "skills": {
+      "s338": 10
+    },
+    "freeAt": 0
+  },
+  "c241": {
+    "name": "c241",
+    "skills": {
+      "s659": 10
+    },
+    "freeAt": 0
+  },
+  "c697": {
+    "name": "c697",
+    "skills": {
+      "s579": 10
+    },
+    "freeAt": 0
+  },
+  "c590": {
+    "name": "c590",
+    "skills": {
+      "s765": 10
+    },
+    "freeAt": 0
+  },
+  "c112": {
+    "name": "c112",
+    "skills": {
+      "s416": 10
+    },
+    "freeAt": 0
+  },
+  "c220": {
+    "name": "c220",
+    "skills": {
+      "s533": 10
+    },
+    "freeAt": 0
+  },
+  "c64": {
+    "name": "c64",
+    "skills": {
+      "s43": 10
+    },
+    "freeAt": 0
+  },
+  "c536": {
+    "name": "c536",
+    "skills": {
+      "s766": 10
+    },
+    "freeAt": 0
+  },
+  "c276": {
+    "name": "c276",
+    "skills": {
+      "s108": 10
+    },
+    "freeAt": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Logging": {
+    "name": "Logging",
+    "days": 5,
+    "score": 10,
+    "bestBefore": 5,
+    "roles": [
+      {
+        "name": "C++",
+        "level": 3
+      }
+    ]
+  },
+  "WebServer": {
+    "name": "WebServer",
+    "days": 7,
+    "score": 10,
+    "bestBefore": 7,
+    "roles": [
+      {
+        "name": "HTML",
+        "level": 3
+      },
+      {
+        "name": "C++",
+        "level": 2
+      }
+    ]
+  },
+  "WebChat": {
+    "name": "WebChat",
+    "days": 10,
+    "score": 20,
+    "bestBefore": 20,
+    "roles": [
+      {
+        "name": "Python",
+        "level": 3
+      },
+      {
+        "name": "HTML",
+        "level": 3
+      }
+    ]
+  }
+}
